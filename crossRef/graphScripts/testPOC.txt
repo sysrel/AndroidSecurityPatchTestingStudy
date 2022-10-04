@@ -1,0 +1,10 @@
+CVE-2021-0640            POC in bug no longer led to the OOB write & crash
+CVE-2021-0327            PoC in bug
+CVE-2020-0238            PoC app
+CVE-2020-0238            make RunSettingsRoboTests -j ROBOTEST_FILTER=com.android.settings.accounts
+CVE-2020-0114            run poc, device didn't reboot
+CVE-2019-2121            POC test steps in b/131105245.
+CVE-2018-9522            Tested with provided POC app by external researcher.
+CVE-2017-13311           PoC app in the bug
+CVE-2020-0004            Write a custom app to set a 8000x800 bitmap as wallpaper.
+CVE-2021-0318            Run test code that attempts to enable a sensor after destroying the SensorEventConnection, and verify no system_server crash occurs.

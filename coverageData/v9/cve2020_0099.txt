@@ -1,0 +1,11 @@
+--------- beginning of system
+--------- beginning of crash
+--------- beginning of main
+05-16 08:19:08.525 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Entry
+05-16 08:19:08.525 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Exit
+05-16 08:19:16.725 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Entry
+05-16 08:19:16.725 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Exit
+05-16 08:19:19.305 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Entry
+05-16 08:19:19.305 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Exit
+05-16 08:19:21.197 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Entry
+05-16 08:19:21.197 13945 13945 I CVE-2020-0099: Presentation.java 1/1 Exit

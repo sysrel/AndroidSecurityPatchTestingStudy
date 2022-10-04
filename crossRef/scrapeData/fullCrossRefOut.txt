@@ -1,0 +1,15 @@
+CVE Reference       Cross Referenced File                   Test File Src Folder                                
+CVE-2019-2003       TextClassificationManagerTest.java      textclassifier/                                   
+CVE-2019-2123       ParcelTest.java                         os/                                               
+CVE-2019-2123       IParcelExceptionService.aidl            os/                                               
+CVE-2019-2192       SliceProvider.java                      slice/                                            
+CVE-2019-9254       ServiceTest.java                        app/                                              
+CVE-2019-9464       LocationAccessCheckTest.java            permission/                                       
+CVE-2020-0081       AssetManagerTest.java                   security/                                         
+CVE-2020-0418       Utils.java                              biometrics/                                       
+CVE-2020-0418       Utils.java                              pdf/                                              
+CVE-2020-0418       Utils.java                              common/                                           
+CVE-2020-0418       Utils.java                              graphics/                                         
+CVE-2020-0440       VirtualDisplayTest.java                 display/                                          
+CVE-2021-0307       RemovePermissionTest.java               permission/                                       
+CVE-2021-0322       SliceProvider.java                      slice/                                            

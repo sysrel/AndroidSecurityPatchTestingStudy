@@ -1,0 +1,22 @@
+Statistics for CVE-2021-39619
+
+CVE Reference, # of Patched Files, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+CVE-2021-39619, 3, 11, 11, 9, 8, 81.81818181818183%, 72.72727272727273%
+
+
+File Name, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+DevicePolicyManagerService.java, 1, 1, 1, 0, 100.0%, 0.0%
+UsageStatsService.java, 8, 8, 7, 7, 87.5%, 87.5%
+UserUsageStatsService.java, 2, 2, 1, 1, 50.0%, 50.0%
+
+
+Statistics for CVE-2021-39693
+
+CVE Reference, # of Patched Files, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+CVE-2021-39693, 1, 1, 1, 1, 1, 100.0%, 100.0%
+
+
+File Name, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+AppOpsService.java, 1, 1, 1, 1, 100.0%, 100.0%
+
+

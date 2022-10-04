@@ -1,0 +1,834 @@
+android10-security-release/wifi/java/android/net/wifi/aware/WifiAwareNetworkSpecifier.java:296:            throw new SecurityException("mismatched UIDs");
+android10-security-release/wifi/java/android/net/wifi/aware/WifiAwareAgentNetworkSpecifier.java:148:        throw new SecurityException(
+android10-security-release/wifi/java/android/net/wifi/WifiNetworkSpecifier.java:606:            throw new SecurityException("mismatched UIDs");
+android10-security-release/core/java/android/view/ViewRootImpl.java:8432:                        throw new SecurityException("Insufficient permissions to invoke"
+android10-security-release/core/java/android/view/autofill/AutofillManager.java:1953:                throw new SecurityException("caller is not user's Augmented Autofill Service");
+android10-security-release/core/java/android/view/inputmethod/InputConnectionWrapper.java:59:            throw new SecurityException("not mutable");
+android10-security-release/core/java/android/view/contentcapture/ContentCaptureManager.java:426:                throw new SecurityException(resultReceiver.getStringResult());
+android10-security-release/core/java/android/view/contentcapture/ContentCaptureManager.java:582:                throw new SecurityException(resultReceiver.getStringResult());
+android10-security-release/core/java/android/accounts/AbstractAccountAuthenticator.java:517:            throw new SecurityException("caller uid " + uid + " lacks " + perm);
+android10-security-release/core/java/android/widget/TextView.java:11250:                throw new SecurityException("INTERACT_ACROSS_USERS_FULL is required."
+android10-security-release/core/java/android/provider/SearchIndexablesProvider.java:102:            throw new SecurityException("Provider must be exported");
+android10-security-release/core/java/android/provider/SearchIndexablesProvider.java:105:            throw new SecurityException("Provider must grantUriPermissions");
+android10-security-release/core/java/android/provider/SearchIndexablesProvider.java:108:            throw new SecurityException("Provider must be protected by READ_SEARCH_INDEXABLES");
+android10-security-release/core/java/android/provider/DocumentsProvider.java:170:            throw new SecurityException("Provider must be exported");
+android10-security-release/core/java/android/provider/DocumentsProvider.java:173:            throw new SecurityException("Provider must grantUriPermissions");
+android10-security-release/core/java/android/provider/DocumentsProvider.java:177:            throw new SecurityException("Provider must be protected by MANAGE_DOCUMENTS");
+android10-security-release/core/java/android/provider/DocumentsProvider.java:229:                throw new SecurityException(
+android10-security-release/core/java/android/provider/DocumentsProvider.java:1097:            throw new SecurityException(
+android10-security-release/core/java/android/provider/DeviceConfig.java:784:                throw new SecurityException("Permission denial: reading from settings requires:"
+android10-security-release/core/java/android/provider/Settings.java:5279:                        throw new SecurityException("Settings.Secure." + name
+android10-security-release/core/java/android/provider/Settings.java:15373:        throw new SecurityException(exceptionMessage.toString());
+android10-security-release/core/java/android/app/Instrumentation.java:2054:                throw new SecurityException("Not allowed to start activity "
+android10-security-release/core/java/android/app/Instrumentation.java:2063:                throw new SecurityException(
+android10-security-release/core/java/android/app/ActivityThread.java:2212:                    throw new SecurityException(
+android10-security-release/core/java/android/app/ActivityThread.java:2249:                throw new SecurityException(msg);
+android10-security-release/core/java/android/app/admin/DevicePolicyManager.java:9168:                throw new SecurityException("The current user does not have a parent profile.");
+android10-security-release/core/java/android/app/admin/DevicePolicyManager.java:9297:            throw new SecurityException("The user " + uInfo.id
+android10-security-release/core/java/android/app/admin/DevicePolicyManager.java:9771:            throw new SecurityException(functionName + " cannot be called on the parent instance");
+android10-security-release/core/java/android/app/role/RoleControllerService.java:136:                    throw new SecurityException("Only the system process can call " + methodName
+android10-security-release/core/java/android/app/ContextImpl.java:1607:                    throw new SecurityException(
+android10-security-release/core/java/android/app/ContextImpl.java:1611:                    throw new SecurityException(
+android10-security-release/core/java/android/app/ContextImpl.java:1638:                throw new SecurityException(
+android10-security-release/core/java/android/app/ContextImpl.java:1740:                throw new SecurityException(
+android10-security-release/core/java/android/app/ContextImpl.java:1892:            throw new SecurityException(
+android10-security-release/core/java/android/app/ContextImpl.java:2060:            throw new SecurityException(
+android10-security-release/core/java/android/app/ContextImpl.java:2622:                throw new SecurityException("MODE_WORLD_READABLE no longer supported");
+android10-security-release/core/java/android/app/ContextImpl.java:2625:                throw new SecurityException("MODE_WORLD_WRITEABLE no longer supported");
+android10-security-release/core/java/android/app/AppOpsManager.java:5146:                throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+android10-security-release/core/java/android/app/AppOpsManager.java:5178:                throw new SecurityException(
+android10-security-release/core/java/android/app/AppOpsManager.java:5194:                throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+android10-security-release/core/java/android/app/AppOpsManager.java:5234:            throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+android10-security-release/core/java/android/app/AppOpsManager.java:5261:            throw new SecurityException("Proxy package " + mContext.getOpPackageName()
+android10-security-release/core/java/android/app/AppOpsManager.java:5381:            throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+android10-security-release/core/java/android/app/UiAutomationConnection.java:520:            throw new SecurityException("Calling from not trusted UID!");
+android10-security-release/core/java/android/app/slice/SliceManager.java:489:                throw new SecurityException("No pkg specified");
+android10-security-release/core/java/android/app/slice/SliceManager.java:494:                throw new SecurityException("User " + uid + " does not have slice permission for "
+android10-security-release/core/java/android/app/slice/SliceProvider.java:391:                throw new SecurityException("Only the system can pin/unpin slices");
+android10-security-release/core/java/android/app/slice/SliceProvider.java:398:                throw new SecurityException("Only the system can pin/unpin slices");
+android10-security-release/core/java/android/app/slice/SliceProvider.java:410:                throw new SecurityException("Only the system can get permissions");
+android10-security-release/core/java/android/app/DownloadManager.java:1276:            throw new SecurityException(displayName + " is not a valid filename");
+android10-security-release/core/java/android/app/DownloadManager.java:1635:                        throw new SecurityException(
+android10-security-release/core/java/android/app/UiAutomation.java:1041:            throw new SecurityException("Error granting runtime permission", e);
+android10-security-release/core/java/android/app/UiAutomation.java:1087:            throw new SecurityException("Error granting runtime permission", e);
+android10-security-release/core/java/android/permission/PermissionControllerManager.java:274:            throw new SecurityException(Manifest.permission.REVOKE_RUNTIME_PERMISSIONS
+android10-security-release/core/java/android/service/autofill/AutofillServiceInfo.java:102:                throw new SecurityException("Service does not require permission "
+android10-security-release/core/java/android/service/contentcapture/ContentCaptureServiceInfo.java:94:            throw new SecurityException("Service does not require permission "
+android10-security-release/core/java/android/os/storage/StorageManager.java:1654:                throw new SecurityException(
+android10-security-release/core/java/android/os/storage/StorageManager.java:1684:                    throw new SecurityException("Op " + AppOpsManager.opToName(op) + " "
+android10-security-release/core/java/android/os/storage/StorageManager.java:1716:                    throw new SecurityException("Op " + AppOpsManager.opToName(op) + " "
+android10-security-release/core/java/android/os/RecoverySystem.java:738:            throw new SecurityException("Wiping data is not allowed for this user.");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:187:            throw new SecurityException("Failed to read list of signers", e);
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:196:                throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:203:            throw new SecurityException("No signers found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:207:            throw new SecurityException("No content digests found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:243:                    throw new SecurityException("Signature record too short");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:256:                throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:263:                throw new SecurityException("No signatures found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:265:                throw new SecurityException("No supported signatures found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:288:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:292:            throw new SecurityException(jcaSignatureAlgorithm + " signature did not verify");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:320:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:327:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:343:                throw new SecurityException("Failed to decode certificate #" + certificateCount, e);
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:351:            throw new SecurityException("No certificates listed");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:356:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:387:                        throw new SecurityException("V2 signature indicates APK is signed using APK"
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:92:            throw new SecurityException("No digests provided");
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:112:                throw new SecurityException("Cannot get FD", e);
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:123:            throw new SecurityException("No known digest exists for integrity check");
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:169:            throw new SecurityException("Failed to compute digest(s) of contents", e);
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:176:                throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:313:            throw new SecurityException("Verity digest size is wrong: " + data.length);
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:322:            throw new SecurityException("APK content size did not verify");
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:343:                throw new SecurityException("APK verity digest of contents did not verify");
+android10-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:346:            throw new SecurityException("Error during verification", e);
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:183:            throw new SecurityException("Failed to read list of signers", e);
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:194:                throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:201:            throw new SecurityException("No signers found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:205:            throw new SecurityException("APK Signature Scheme V3 only supports one signer: "
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:210:            throw new SecurityException("No content digests found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:256:                    throw new SecurityException("Signature record too short");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:269:                throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:276:                throw new SecurityException("No signatures found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:278:                throw new SecurityException("No supported signatures found");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:301:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:305:            throw new SecurityException(jcaSignatureAlgorithm + " signature did not verify");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:333:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:340:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:356:                throw new SecurityException("Failed to decode certificate #" + certificateCount, e);
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:364:            throw new SecurityException("No certificates listed");
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:369:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:375:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:381:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:406:                        throw new SecurityException("Encountered multiple Proof-of-rotation records"
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:416:                            throw new SecurityException("Terminal certificate in Proof-of-rotation"
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:420:                        throw new SecurityException("Failed to encode certificate when comparing"
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:482:                        throw new SecurityException("Unable to verify signature of certificate #"
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:492:                    throw new SecurityException("Signing algorithm ID mismatch for certificate #"
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:501:                    throw new SecurityException("Encountered duplicate entries in "
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:513:            throw new SecurityException(
+android10-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:517:            throw new SecurityException("Failed to decode certificate #" + levelCount
+android10-security-release/core/java/android/util/jar/StrictJarVerifier.java:159:        throw new SecurityException(signatureFile + " has invalid digest for " + name +
+android10-security-release/core/java/android/util/jar/StrictJarVerifier.java:164:        throw new SecurityException(jarName + " failed verification of " + signatureFile);
+android10-security-release/core/java/android/util/jar/StrictJarVerifier.java:169:        throw new SecurityException(jarName + " failed verification of " + signatureFile, e);
+android10-security-release/core/java/android/util/jar/StrictJarVerifier.java:426:                    throw new SecurityException(signatureFile + " indicates " + jarName
+android10-security-release/core/java/android/util/jar/StrictJarVerifier.java:431:                    throw new SecurityException(signatureFile + " indicates " + jarName
+android10-security-release/core/java/android/util/jar/StrictJarFile.java:124:                        throw new SecurityException("File " + file + " in manifest does not exist");
+android10-security-release/core/java/android/hardware/location/GeofenceHardwareService.java:62:            throw new SecurityException("Insufficient permissions to access hardware geofence for"
+android10-security-release/core/java/android/hardware/camera2/CameraManager.java:793:                    throw new SecurityException(e.getMessage(), e);
+android10-security-release/core/java/android/content/ContentProvider.java:728:        throw new SecurityException("Permission Denial: reading "
+android10-security-release/core/java/android/content/ContentProvider.java:802:        throw new SecurityException("Permission Denial: writing "
+android10-security-release/core/java/android/content/ContentProvider.java:2209:            throw new SecurityException(message);
+android10-security-release/core/java/android/content/ContentProvider.java:2220:                throw new SecurityException("trying to query a ContentProvider in user "
+android10-security-release/core/java/android/content/pm/CrossProfileApps.java:174:            throw new SecurityException("Not allowed to access " + userHandle);
+android10-security-release/core/java/android/content/AutofillOptions.java:98:            throw new SecurityException("Thou shall not pass!");
+android10-security-release/core/java/android/content/ContentCaptureOptions.java:136:            throw new SecurityException("Thou shall not pass!");
+android10-security-release/core/java/android/net/NetworkStack.java:80:            throw new SecurityException("Requires one of the following permissions: "
+android10-security-release/core/java/com/android/internal/widget/LockPatternUtils.java:1743:            throw new SecurityException("Only available to system server itself");
+android10-security-release/core/java/com/android/internal/app/ConfirmUserCreationActivity.java:87:            throw new SecurityException(
+android10-security-release/core/java/com/android/internal/app/ConfirmUserCreationActivity.java:94:            throw new SecurityException(
+android10-security-release/core/tests/coretests/src/android/os/AidlTest.java:198:            throw new SecurityException("gotcha!");
+android10-security-release/core/tests/coretests/src/android/os/AidlTest.java:202:            throw new SecurityException("gotcha!");
+android10-security-release/core/tests/coretests/src/com/android/internal/app/ChooserWrapperActivity.java:112:            throw new SecurityException("Test exception handling");
+android10-security-release/services/core/java/com/android/server/TelephonyRegistry.java:1197:            throw new SecurityException("notifyCarrierNetworkChange without carrier privilege");
+android10-security-release/services/core/java/com/android/server/TelephonyRegistry.java:2239:                    throw new SecurityException("Unable to listen for events " + events + " due to "
+android10-security-release/services/core/java/com/android/server/IpSecService.java:464:                throw new SecurityException("Attempted access of unowned resources");
+android10-security-release/services/core/java/com/android/server/IpSecService.java:1568:                throw new SecurityException("Request to ignore AppOps for non-legacy API");
+android10-security-release/services/core/java/com/android/server/IpSecService.java:1696:            throw new SecurityException("Only the owner of an IpSec Transform may apply it!");
+android10-security-release/services/core/java/com/android/server/wm/ActivityStackSupervisor.java:1043:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/LockTaskController.java:415:                throw new SecurityException("Invalid uid, expected " + task.mLockTaskUid
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:1682:                    throw new SecurityException("Package " + packageName + " not in UID "
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:1754:            throw new SecurityException("Only system can call refreshScreenCaptureDisabled.");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2444:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2474:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2516:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2543:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2568:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2808:            throw new SecurityException("Requires FREEZE_SCREEN permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2830:            throw new SecurityException("Requires FREEZE_SCREEN permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2853:            throw new SecurityException("Requires DISABLE_KEYGUARD permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2870:            throw new SecurityException("Requires DISABLE_KEYGUARD permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2889:            throw new SecurityException("Requires DISABLE_KEYGUARD permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2922:            throw new SecurityException("Requires INTERACT_ACROSS_USERS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2943:            throw new SecurityException("Requires CONTROL_KEYGUARD permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2960:            throw new SecurityException("Requires INTERACT_ACROSS_USERS_FULL permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2989:            throw new SecurityException("Requires SET_ANIMATION_SCALE permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3007:            throw new SecurityException("Requires SET_ANIMATION_SCALE permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3550:            throw new SecurityException("Requires READ_FRAME_BUFFER permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3572:            throw new SecurityException("Requires READ_FRAME_BUFFER permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3647:            throw new SecurityException("Requires SET_ORIENTATION permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3684:            throw new SecurityException("Requires SET_ORIENTATION permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3921:            throw new SecurityException("Must hold permission " + WRITE_SECURE_SETTINGS);
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:4368:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5026:            throw new SecurityException("Must hold permission " + WRITE_SECURE_SETTINGS);
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5046:            throw new SecurityException("Must hold permission " + WRITE_SECURE_SETTINGS);
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5113:            throw new SecurityException("Must hold permission " + WRITE_SECURE_SETTINGS);
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5156:            throw new SecurityException("Must hold permission " + WRITE_SECURE_SETTINGS);
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5179:            throw new SecurityException("Must hold permission " + WRITE_SECURE_SETTINGS);
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5246:            throw new SecurityException("Must hold permission " + WRITE_SECURE_SETTINGS);
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5658:            throw new SecurityException("Caller does not hold permission "
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5681:            throw new SecurityException("Caller does not hold permission "
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5699:            throw new SecurityException("Caller does not hold permission "
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5711:            throw new SecurityException("Caller does not hold permission "
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5783:            throw new SecurityException("getCurrentImeTouchRegion is restricted to VR services");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5830:            throw new SecurityException("Requires FRAME_STATS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5849:            throw new SecurityException("Requires FRAME_STATS permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6653:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6762:            throw new SecurityException("The caller doesn't own the display.");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6854:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6871:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6908:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6925:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6945:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6963:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6984:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7004:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7015:                throw new SecurityException("Attempted to set system decors flag to an untrusted "
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7028:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7049:            throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7060:                throw new SecurityException("Attempted to set IME flag to an untrusted "
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7074:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7084:            throw new SecurityException("Requires USER_ACTIVITY permission");
+android10-security-release/services/core/java/com/android/server/wm/AppTaskImpl.java:52:            throw new SecurityException("Caller " + mCallingUid
+android10-security-release/services/core/java/com/android/server/wm/AppTaskImpl.java:104:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/SafeActivityOptions.java:203:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/SafeActivityOptions.java:217:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/SafeActivityOptions.java:228:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/SafeActivityOptions.java:240:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1265:            throw new SecurityException("Only the system process can request a permission token, "
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1303:                throw new SecurityException("Must be called from an activity");
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1318:                        throw new SecurityException("Called with expired permission token: "
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1321:                        throw new SecurityException("Called with invalid permission token: "
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1332:                throw new SecurityException("Called with bad activity token: " + sourceToken);
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1335:                throw new SecurityException("Called without a process attached to activity");
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1341:                throw new SecurityException("Must be called from an activity that is "
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1349:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1357:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1361:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:2363:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:3171:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:3298:            throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:4356:                throw new SecurityException("Only focused activity can call startVoiceInteraction");
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:4728:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:5097:            throw new SecurityException("Isolated process not allowed to call " + caller);
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:6877:                    throw new SecurityException("Only privileged app can call notifyLockedProfile");
+android10-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:6880:                throw new SecurityException("Fail to check is caller a privileged app", ex);
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2558:                throw new SecurityException("Only available for notification listeners");
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2725:            throw new SecurityException("Pkg " + callingPkg
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2746:                throw new SecurityException("Not allowed to delete channel " + channelId
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2899:            throw new SecurityException("Pkg " + callingPkg
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2962:                    throw new SecurityException("Not currently an assistant");
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3168:                                throw new SecurityException("Disallowed call from listener: "
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3236:                            throw new SecurityException("Disallowed call from listener: "
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3690:                throw new SecurityException("Notification policy access denied");
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3702:                throw new SecurityException("Notification policy access denied");
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:4150:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:4164:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:4197:                        throw new SecurityException(info + " does not have access");
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:4202:                throw new SecurityException(info + " does not have access");
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:5053:        throw new SecurityException("Caller " + callingPkg + ":" + callingUid
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:5080:                    throw new SecurityException("Instant app " + pkg
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7201:        throw new SecurityException("Disallowed call for uid " + Binder.getCallingUid());
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7260:                throw new SecurityException("Unknown uid " + callingUid);
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7267:                throw new SecurityException("Unknown package " + pkg);
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7271:            throw new SecurityException("Unknown uid " + callingUid, re);
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7284:                throw new SecurityException("Unknown package " + pkg);
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7287:                throw new SecurityException("Calling uid " + uid + " gave package "
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7291:            throw new SecurityException("Unknown package " + pkg + "\n" + re);
+android10-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7424:            throw new SecurityException("Could not talk to package manager service");
+android10-security-release/services/core/java/com/android/server/notification/ManagedServices.java:663:        throw new SecurityException("Disallowed call from unknown " + getCaption() + ": "
+android10-security-release/services/core/java/com/android/server/notification/ZenModeHelper.java:350:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/notification/ZenModeHelper.java:370:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/SystemUpdateManagerService.java:119:            throw new SecurityException("Can't read system update info. Requiring "
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:459:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:799:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:890:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:1299:                        throw new SecurityException("Instant app " + r.appInfo.packageName
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:1358:                        throw new SecurityException("Foreground not allowed as per app op");
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:1606:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:1648:            throw new SecurityException("Non-system caller (pid=" + Binder.getCallingPid()
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:1653:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:1659:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:2166:                            throw new SecurityException("BIND_EXTERNAL_SERVICE failed, "
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:2170:                            throw new SecurityException("BIND_EXTERNAL_SERVICE failed, "
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:2177:                            throw new SecurityException("BIND_EXTERNAL_SERVICE failed, " +
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:2190:                        throw new SecurityException("BIND_EXTERNAL_SERVICE required for " +
+android10-security-release/services/core/java/com/android/server/am/ActiveServices.java:2194:                    throw new SecurityException("BIND_EXTERNAL_SERVICE failed, " + name +
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:3133:            throw new SecurityException("Isolated process not allowed to call " + caller);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:3179:            throw new SecurityException("Only shell can call it");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:3568:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:3583:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4018:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4035:                    throw new SecurityException("PID " + pid + " does not have permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4145:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4185:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4220:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4242:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4336:            throw new SecurityException(callerUid + " cannot kill pkg: " +
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4504:            throw new SecurityException(callerUid + " cannot kill app process: " +
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5182:            throw new SecurityException("Invalid application interface");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5196:            throw new SecurityException();
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5415:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5427:            throw new SecurityException(e);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5922:        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5936:        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6159:                throw new SecurityException("Unable to find app for caller "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6191:                throw new SecurityException("Unable to find app for caller "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6378:            throw new SecurityException("updateDeviceOwner called from non-system process");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6729:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6786:                        throw new SecurityException("Content provider lookup "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6794:                        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6820:                    throw new SecurityException("Content provider lookup "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6828:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6925:                    throw new SecurityException("Content provider lookup " + name
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6931:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7239:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7246:            throw new SecurityException("Given calling package " + callingPackage
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7355:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7756:            throw new SecurityException("Only the OS may call backgroundWhitelistUid()");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7903:            throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7999:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8030:                    throw new SecurityException("Process not debuggable: " + app.packageName);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8043:                    throw new SecurityException("Process not debuggable, "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8066:                throw new SecurityException("Process not debuggable: " + app.packageName);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8103:                    throw new SecurityException("Unknown process: " + callingPid);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8107:                    throw new SecurityException("Only an instrumentation process "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8131:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8448:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8665:            throw new SecurityException("killPids only available to the system");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8732:            throw new SecurityException("killProcessesBelowForeground() only available to system");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8740:            throw new SecurityException("killProcessesBelowAdj() only available to system");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8765:            throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8804:            throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8840:            throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8915:            throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14010:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14419:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14427:                    throw new SecurityException("Given caller package " + callerPackage
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14878:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14902:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14943:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14955:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14966:                        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15006:                        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15229:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15237:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15626:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15753:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15973:        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:16968:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17286:            throw new SecurityException("Only SIGNAL_USR1 is allowed");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17292:                throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17343:                    throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17454:                    throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17470:                        throw new SecurityException("Process not debuggable: " + proc);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17500:                    throw new SecurityException("No process found for calling pid "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17505:                    throw new SecurityException("Not running a debuggable build");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17510:                    throw new SecurityException("Package " + reportPackage + " is not running in "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17618:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17632:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17691:                throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:17718:                    throw new SecurityException("Requires permission "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:18539:            throw new SecurityException("Requires permission " + FILTER_EVENTS);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:18565:            throw new SecurityException("Requires permission " + FILTER_EVENTS);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:18798:                        throw new SecurityException("Process not debuggable: " + proc);
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:18857:            throw new SecurityException("Only the shell can delegate its permissions");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:18876:                    throw new SecurityException("Shell can delegate permissions only "
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:18891:                    throw new SecurityException("Shell can delegate its permissions" +
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:18909:            throw new SecurityException("Only the shell can delegate its permissions");
+android10-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:19056:            throw new SecurityException("Only shell can call it");
+android10-security-release/services/core/java/com/android/server/am/PendingIntentController.java:225:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/PendingIntentController.java:228:                throw new SecurityException(e);
+android10-security-release/services/core/java/com/android/server/am/UserController.java:617:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/UserController.java:1022:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/UserController.java:1238:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/UserController.java:1647:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/UserController.java:1657:                throw new SecurityException("Shell does not have permission to access user "
+android10-security-release/services/core/java/com/android/server/am/UserController.java:1685:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/UserController.java:1856:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/am/UserController.java:1936:                throw new SecurityException("Shell does not have permission to access user "
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:1896:            throw new SecurityException("Geofence usage requires ACCESS_FINE_LOCATION permission");
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:1937:                    throw new SecurityException("\"" + providerName + "\" location provider " +
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:1940:                    throw new SecurityException("\"" + providerName + "\" location provider " +
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:1943:                    throw new SecurityException("Insufficient permission for \"" + providerName +
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:2480:            throw new SecurityException("invalid package name: " + null);
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:2485:            throw new SecurityException("invalid UID " + uid);
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:2490:        throw new SecurityException("invalid package name: " + packageName);
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:3117:                throw new SecurityException("Requires ACCESS_LOCATION_EXTRA_COMMANDS permission");
+android10-security-release/services/core/java/com/android/server/LocationManagerService.java:3137:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/NetworkScoreService.java:449:            throw new SecurityException("Caller with UID " + getCallingUid() +
+android10-security-release/services/core/java/com/android/server/NetworkScoreService.java:747:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/NetworkScoreService.java:756:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/DeviceIdleController.java:2378:                    throw new SecurityException("Calling app " + UserHandle.formatUid(callingUid)
+android10-security-release/services/core/java/com/android/server/rollback/RollbackManagerServiceImpl.java:1055:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/rollback/RollbackManagerServiceImpl.java:1135:            throw new SecurityException("notifyStagedSession may only be called by the system.");
+android10-security-release/services/core/java/com/android/server/rollback/RollbackManagerServiceImpl.java:1195:            throw new SecurityException("notifyStagedApkSession may only be called by the system.");
+android10-security-release/services/core/java/com/android/server/rollback/RollbackManagerServiceImpl.java:1520:            throw new SecurityException(message + " requires "
+android10-security-release/services/core/java/com/android/server/NetworkManagementService.java:1933:            throw new SecurityException("Only available to AID_SYSTEM");
+android10-security-release/services/core/java/com/android/server/incident/IncidentCompanionService.java:364:                    throw new SecurityException("Unknown package " + pkg);
+android10-security-release/services/core/java/com/android/server/incident/IncidentCompanionService.java:367:                    throw new SecurityException("Calling uid " + uid + " gave package "
+android10-security-release/services/core/java/com/android/server/incident/IncidentCompanionService.java:371:                throw new SecurityException("Unknown package " + pkg + "\n" + re);
+android10-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:939:                throw new SecurityException("uid=" + callingUid
+android10-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:949:                throw new SecurityException("uid=" + callingUid
+android10-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:2132:            throw new SecurityException("Caller must be shell");
+android10-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:2784:                    throw new SecurityException("Escrow token is disabled on the current user");
+android10-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:2843:                throw new SecurityException("Escrow token is disabled on the current user");
+android10-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:2898:                throw new SecurityException("Escrow token is disabled on the current user");
+android10-security-release/services/core/java/com/android/server/ConsumerIrService.java:74:            throw new SecurityException("Requires TRANSMIT_IR permission");
+android10-security-release/services/core/java/com/android/server/ConsumerIrService.java:106:            throw new SecurityException("Requires TRANSMIT_IR permission");
+android10-security-release/services/core/java/com/android/server/security/VerityUtils.java:106:            throw new SecurityException("fs-verity measurement mismatch: "
+android10-security-release/services/core/java/com/android/server/security/VerityUtils.java:297:            throw new SecurityException("verity hash mismatch: "
+android10-security-release/services/core/java/com/android/server/security/VerityUtils.java:307:            throw new SecurityException("Failed to set up shared memory correctly");
+android10-security-release/services/core/java/com/android/server/security/VerityUtils.java:381:                    throw new SecurityException("Failed to set protection");
+android10-security-release/services/core/java/com/android/server/security/VerityUtils.java:386:                throw new SecurityException("Failed to set protection", e);
+android10-security-release/services/core/java/com/android/server/security/KeyAttestationApplicationIdProviderService.java:50:            throw new SecurityException("This service can only be used by Keystore");
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:533:            throw new SecurityException("Illegal access to the session with token " + sessionToken
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:940:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:960:                throw new SecurityException("The caller: " + getCallingPackageName()
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1152:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1241:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1768:                throw new SecurityException("Requires DVB_DEVICE permission");
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1823:                throw new SecurityException("Requires DVB_DEVICE permission");
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1976:                throw new SecurityException("Requires CAPTURE_TV_INPUT permission");
+android10-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:2372:                throw new SecurityException("The caller does not have hardware permission");
+android10-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2615:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2656:                        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2672:                        throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2782:            throw new SecurityException("Access denied to process: " + Binder.getCallingPid()
+android10-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2816:            throw new SecurityException("Only the system may call isWallpaperBackupEligible");
+android10-security-release/services/core/java/com/android/server/trust/TrustAgentWrapper.java:320:                throw new SecurityException("Escrow token API is not allowed.");
+android10-security-release/services/core/java/com/android/server/trust/TrustAgentWrapper.java:334:                throw new SecurityException("Escrow token API is not allowed.");
+android10-security-release/services/core/java/com/android/server/trust/TrustAgentWrapper.java:348:                throw new SecurityException("Escrow token API is not allowed.");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:1490:            throw new SecurityException("Only admin users can adopt sd cards");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:1801:            throw new SecurityException("Mounting " + volId + " restricted by policy");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:2529:            throw new SecurityException("no permission to access the crypt keeper");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:2642:            throw new SecurityException("no permission to check filesystem checkpoint support");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:2659:            throw new SecurityException("no permission to start filesystem checkpoint");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:2672:            throw new SecurityException("no permission to commit checkpoint changes");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:2694:            throw new SecurityException("no permission to commit checkpoint changes");
+android10-security-release/services/core/java/com/android/server/StorageManagerService.java:3009:        throw new SecurityException("Invalid mkdirs path: " + appFile);
+android10-security-release/services/core/java/com/android/server/VibratorService.java:558:                throw new SecurityException("Requires VIBRATE permission");
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:198:                    throw new SecurityException("nice try");
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:226:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:230:            throw new SecurityException("Failed to verify package name ownership");
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:327:                throw new SecurityException("No persistable permission grants found for UID "
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:386:                throw new SecurityException("No permission grants found for UID " + uid
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:989:            throw new SecurityException("Isolated process not allowed to call " + caller);
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:1145:                throw new SecurityException("Provider " + pi.packageName
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:1161:                    throw new SecurityException("Provider " + pi.packageName
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:1174:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/uri/UriGrantsManagerService.java:1179:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/vr/VrManagerService.java:698:        throw new SecurityException("Caller does not hold at least one of the permissions: "
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:471:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:500:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:555:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:604:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:769:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1462:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1543:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1572:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1624:            throw new SecurityException("Calling copyAccountToUser requires "
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1694:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1976:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2131:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2150:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2215:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2503:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2536:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2562:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2628:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2656:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2740:            throw new SecurityException("can only call from system");
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2848:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3222:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3508:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3665:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3903:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3930:            throw new SecurityException("Can be called only by system UID");
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4005:            throw new SecurityException("Can be called only by system UID");
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4072:            throw new SecurityException("Only system can check for accounts across users");
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4300:            throw new SecurityException("User " + UserHandle.getCallingUserId()
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4453:            throw new SecurityException("getAccountsForPackage() called from unauthorized uid "
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5600:            throw new SecurityException("You need MANAGE_USERS permission to: " + message);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5609:            throw new SecurityException("You need MANAGE_USERS or CREATE_USERS permission to: "
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5686:            throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5734:            throw new SecurityException();
+android10-security-release/services/core/java/com/android/server/broadcastradio/BroadcastRadioService.java:71:                throw new SecurityException("ACCESS_BROADCAST_RADIO permission not granted");
+android10-security-release/services/core/java/com/android/server/dreams/DreamManagerService.java:426:            throw new SecurityException("Access denied to process: " + Binder.getCallingPid()
+android10-security-release/services/core/java/com/android/server/oemlock/VendorLock.java:99:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:168:                    throw new SecurityException("Admin does not allow OEM unlock");
+android10-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:172:                    throw new SecurityException("Carrier does not allow OEM unlock");
+android10-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:264:            throw new SecurityException("Can't access OEM unlock state. Requires "
+android10-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:274:                throw new SecurityException("Must be an admin user");
+android10-security-release/services/core/java/com/android/server/HardwarePropertiesManagerService.java:171:            throw new SecurityException("The caller is neither a device owner"
+android10-security-release/services/core/java/com/android/server/SensorPrivacyService.java:130:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/DynamicSystemService.java:109:            throw new SecurityException("Requires MANAGE_DYNAMIC_SYSTEM permission");
+android10-security-release/services/core/java/com/android/server/ConnectivityService.java:1923:            throw new SecurityException("Requires one of the following permissions: "
+android10-security-release/services/core/java/com/android/server/ConnectivityService.java:3554:            throw new SecurityException("avoidBadWifi requires NETWORK_STACK permission");
+android10-security-release/services/core/java/com/android/server/ConnectivityService.java:5050:            throw new SecurityException("Insufficient permissions to request a specific SSID");
+android10-security-release/services/core/java/com/android/server/ConnectivityService.java:5055:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/ConnectivityService.java:7103:        throw new SecurityException("App must either be an active VPN or have the NETWORK_STACK "
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:583:            throw new SecurityException(cookie + " not allowed after sealing");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:591:            throw new SecurityException(cookie + " not allowed after commit");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:601:            throw new SecurityException(cookie + " not allowed after destruction");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:782:                        throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:864:            throw new SecurityException("Session does not belong to uid " + callingUid);
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:876:                throw new SecurityException("Files still open");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:881:                throw new SecurityException("Files still open");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:1236:            throw new SecurityException("Destination package " + packageName + " does not have "
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:1243:            throw new SecurityException("Can only transfer sessions that use public options");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:1265:                throw new SecurityException("Can only transfer sessions that update the original "
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:2023:            throw new SecurityException("Must be sealed to accept permissions");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:2136:            throw new SecurityException("Session does not belong to uid " + callingUid);
+android10-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:334:                throw new SecurityException("Calling package name mismatch");
+android10-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:641:                throw new SecurityException("Caller is not the recents app");
+android10-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:657:                throw new SecurityException("Caller can't access shortcut information");
+android10-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:859:                            throw new SecurityException("Cannot launch non-exported components "
+android10-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:872:                    throw new SecurityException("Attempt to launch activity without "
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:524:            throw new SecurityException("User restriction prevents installing");
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:581:                throw new SecurityException("You need the "
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:689:                throw new SecurityException("Caller has no access to session " + sessionId);
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:715:                throw new SecurityException("Caller has no access to session " + sessionId);
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:727:                throw new SecurityException("Caller has no access to session " + sessionId);
+android10-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:746:                throw new SecurityException("Caller has no access to session " + sessionId);
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:891:            throw new SecurityException("MANAGE_USERS permission is required to start intent "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:910:        throw new SecurityException("Can't modify quiet mode, caller is neither foreground "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1149:            throw new SecurityException("You need MANAGE_USERS or GET_ACCOUNTS_PRIVILEGED "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1190:            throw new SecurityException("You need INTERACT_ACROSS_USERS or MANAGE_USERS permission "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1199:            throw new SecurityException("You need MANAGE_USERS permission to query if u=" + userId
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1346:            throw new SecurityException("You need MANAGE_USERS or GET_ACCOUNTS_PRIVILEGED "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1892:        throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1913:            throw new SecurityException("You need MANAGE_USERS permission to: " + message);
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1929:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1943:                throw new SecurityException("You either need MANAGE_USERS or CREATE_USERS "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1947:            throw new SecurityException("You need MANAGE_USERS permission to create an user "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1994:            throw new SecurityException("Only system may: " + message);
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:3415:            throw new SecurityException("userHandle can only be the calling user or a managed "
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:4059:                        throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:4079:                        throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/UserManagerService.java:4209:            throw new SecurityException("Specified package " + callingPackage
+android10-security-release/services/core/java/com/android/server/pm/CrossProfileAppsServiceImpl.java:106:            throw new SecurityException(callingPackage + " cannot access unrelated user " + userId);
+android10-security-release/services/core/java/com/android/server/pm/CrossProfileAppsServiceImpl.java:111:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/CrossProfileAppsServiceImpl.java:136:                    throw new SecurityException("Attempt to launch activity without required "
+android10-security-release/services/core/java/com/android/server/pm/CrossProfileAppsServiceImpl.java:217:            throw new SecurityException("Attempt to launch activity without "
+android10-security-release/services/core/java/com/android/server/pm/Settings.java:4284:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:933:            throw new SecurityException("Instant apps can't add permissions");
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:936:            throw new SecurityException("Label must be specified in permission");
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:950:                throw new SecurityException("Not allowed to modify non-dynamic permission "
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:967:            throw new SecurityException("Instant applications don't have access to this method");
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:2298:            throw new SecurityException("Cannot grant non-ephemeral permission"
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:2399:            throw new SecurityException("Non-System UID cannot revoke system fixed permission "
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:2403:            throw new SecurityException("Cannot revoke policy fixed permission "
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:2928:            throw new SecurityException("updatePermissionFlags requires "
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:3021:            throw new SecurityException(message + " requires "
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:3034:            throw new SecurityException(message + " requires "
+android10-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:3090:                throw new SecurityException("Permission tree size cap exceeded");
+android10-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:431:                throw new SecurityException("Calling uid " + callingUid
+android10-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:436:        throw new SecurityException("No permission tree found for " + permName);
+android10-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:444:            throw new SecurityException("Package " + pkg.packageName
+android10-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:448:            throw new SecurityException("Permission " + name
+android10-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1522:            throw new SecurityException("Caller must be system or shell");
+android10-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1528:            throw new SecurityException("Caller must be shell");
+android10-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1534:            throw new SecurityException("Caller must be system");
+android10-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1575:            throw new SecurityException("Invalid user-ID");
+android10-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1578:            throw new SecurityException("Calling package name mismatch");
+android10-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1590:            throw new SecurityException("Shortcut package name mismatch");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4141:            throw new SecurityException("Instant applications don't have access to this method");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4147:                throw new SecurityException("Package " + packageName + " was not found!");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4151:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4156:                throw new SecurityException("Package " + packageName + " not a system app!");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4160:                throw new SecurityException("Package " + packageName + " is currently frozen!");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4164:                throw new SecurityException("Package " + packageName + " is not encryption aware!");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:5882:                throw new SecurityException("Querying system whitelist requires "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:5889:                    throw new SecurityException("Querying upgrade or installer whitelist"
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:5946:                throw new SecurityException("Cannot modify whitelisting of an immutably "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:6011:                throw new SecurityException("Modifying system whitelist requires "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:6017:                    throw new SecurityException("Modifying upgrade whitelist requires"
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:6034:                            throw new SecurityException("Adding to upgrade whitelist requires"
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:6043:                    throw new SecurityException("Modifying installer whitelist requires"
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:6121:            throw new SecurityException("Instant applications don't have access to this method");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:6610:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:9568:            throw new SecurityException(message);
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:9582:            throw new SecurityException(message);
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:10242:            throw new SecurityException("dumpProfiles");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:13521:            throw new SecurityException("Neither user " + callingUid + " nor current process has "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:13660:            throw new SecurityException("Calling uid " + callingUid + " cannot call for user "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:13734:            throw new SecurityException("Calling package " + callingPackage + " in user "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:13804:            throw new SecurityException("Calling package " + packageName
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:13935:            throw new SecurityException("Calling uid " + callingUid
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14531:                    throw new SecurityException("Bad object " + obj + " for uid " + callingUid);
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14534:                throw new SecurityException("Unknown calling UID: " + callingUid);
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14543:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14560:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14572:                    throw new SecurityException("Neither user " + callingUid
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14593:            throw new SecurityException("Instant applications don't have access to this method");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:18591:            throw new SecurityException(android.Manifest.permission.MANAGE_USERS
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:19784:            throw new SecurityException("Cannot clear data for a protected package: "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20581:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20606:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20691:            throw new SecurityException("Only the system may call getPreferredActivityBackup()");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20721:            throw new SecurityException("Only the system may call restorePreferredActivities()");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20749:            throw new SecurityException("Only the system may call getDefaultAppsBackup()");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20779:            throw new SecurityException("Only the system may call restoreDefaultApps()");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20810:            throw new SecurityException("Only the system may call getIntentFilterVerificationBackup()");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20840:            throw new SecurityException("Only the system may call restorePreferredActivities()");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20928:            throw new SecurityException("Calling uid " + callingUid
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:21359:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:21375:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:21385:                throw new SecurityException("Cannot disable a protected package: " + packageName);
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:21392:            throw new SecurityException("Cannot disable a system-generated component");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:21412:                    throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:23954:                throw new SecurityException("May not access signing KeySet of other apps.");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:25080:                throw new SecurityException("Not allowed to uninstall apexes");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:25310:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:25401:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:25418:                throw new SecurityException("Need to declare " + appOpPermission
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:25545:            throw new SecurityException("Caller must have the "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:25566:            throw new SecurityException("Caller must have the "
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:25585:            throw new SecurityException("Caller must have the "
+android10-security-release/services/core/java/com/android/server/pm/ShortcutRequestPinProcessor.java:110:                throw new SecurityException("Calling uid mismatch");
+android10-security-release/services/core/java/com/android/server/pm/PackageManagerServiceUtils.java:382:                throw new SecurityException("Shell does not have permission to access user "
+android10-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:606:                throw new SecurityException("The calling process has already "
+android10-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1940:                throw new SecurityException("packageName must match the calling uid");
+android10-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1972:                        throw new SecurityException("Invalid media projection");
+android10-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1976:                    throw new SecurityException("unable to validate media projection or flags");
+android10-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1983:                    throw new SecurityException("Requires CAPTURE_VIDEO_OUTPUT or "
+android10-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1991:                    throw new SecurityException("Requires CAPTURE_SECURE_VIDEO_OUTPUT "
+android10-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:2005:                    throw new SecurityException("Requires INTERNAL_SYSTEM_WINDOW permission");
+android10-security-release/services/core/java/com/android/server/display/color/ColorDisplayService.java:1393:                throw new SecurityException("Permission required to set display saturation level");
+android10-security-release/services/core/java/com/android/server/webkit/WebViewUpdateService.java:210:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/webkit/WebViewUpdateService.java:258:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/audio/AudioService.java:2066:            throw new SecurityException("Missing MODIFY_AUDIO_ROUTING permission");
+android10-security-release/services/core/java/com/android/server/audio/AudioService.java:2303:            throw new SecurityException("Not allowed to change Do Not Disturb state");
+android10-security-release/services/core/java/com/android/server/audio/AudioService.java:2903:            throw new SecurityException("Not allowed to change Do Not Disturb state");
+android10-security-release/services/core/java/com/android/server/audio/AudioService.java:3983:            throw new SecurityException("Not allowed to change Do Not Disturb state");
+android10-security-release/services/core/java/com/android/server/audio/AudioService.java:7524:            throw new SecurityException("Not allowed to monitor audioserver state");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:516:            throw new SecurityException("Requires MONITOR_INPUT permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:641:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:685:            throw new SecurityException("Requires DISABLE_INPUT_DEVICE permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:695:            throw new SecurityException("Requires DISABLE_INPUT_DEVICE permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:735:                throw new SecurityException("The calling process has already "
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:939:            throw new SecurityException("Requires SET_INPUT_CALIBRATION permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:967:            throw new SecurityException("Requires TABLET_MODE permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:976:            throw new SecurityException("Requires TABLET_MODE_LISTENER permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:1351:            throw new SecurityException("Requires SET_KEYBOARD_LAYOUT permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:1390:            throw new SecurityException("Requires SET_KEYBOARD_LAYOUT permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:1419:            throw new SecurityException("Requires SET_KEYBOARD_LAYOUT permission");
+android10-security-release/services/core/java/com/android/server/input/InputManagerService.java:1540:            throw new SecurityException("Requires SET_POINTER_SPEED permission");
+android10-security-release/services/core/java/com/android/server/TestNetworkService.java:344:            throw new SecurityException("Attempted to modify other user's test networks");
+android10-security-release/services/core/java/com/android/server/job/JobSchedulerShellCommand.java:89:            throw new SecurityException("Uid " + uid
+android10-security-release/services/core/java/com/android/server/job/JobSchedulerService.java:2709:                    throw new SecurityException("Job has invalid flags");
+android10-security-release/services/core/java/com/android/server/job/JobSchedulerService.java:2791:                throw new SecurityException("Caller uid " + callerUid
+android10-security-release/services/core/java/com/android/server/job/JobSchedulerService.java:2922:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/job/JobSchedulerService.java:2951:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/job/JobServiceContext.java:493:            throw new SecurityException(sb.toString());
+android10-security-release/services/core/java/com/android/server/infra/AbstractMasterSystemService.java:665:        throw new SecurityException("UID " + uid + " does not own " + packageName);
+android10-security-release/services/core/java/com/android/server/inputmethod/InputMethodManagerService.java:1897:                    throw new SecurityException("uid=" + callerUid + "/pid=" + callerPid
+android10-security-release/services/core/java/com/android/server/inputmethod/InputMethodManagerService.java:3213:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/inputmethod/InputMethodManagerService.java:3480:            throw new SecurityException("The caller doesn't own the display.");
+android10-security-release/services/core/java/com/android/server/inputmethod/InputMethodManagerService.java:3496:                    throw new SecurityException("Only the owner client can clear"
+android10-security-release/services/core/java/com/android/server/inputmethod/InputMethodManagerService.java:3510:                    throw new SecurityException(cs + " cannot access to display #"
+android10-security-release/services/core/java/com/android/server/inputmethod/InputMethodManagerService.java:3603:                throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/inputmethod/InputMethodManagerService.java:4669:            throw new SecurityException(errorMsg);
+android10-security-release/services/core/java/com/android/server/os/BugreportManagerServiceImpl.java:93:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/biometrics/BiometricService.java:833:            throw new SecurityException("Permission denied");
+android10-security-release/services/core/java/com/android/server/appop/AppOpsService.java:1919:            throw new SecurityException("Could not talk to package manager service");
+android10-security-release/services/core/java/com/android/server/appop/AppOpsService.java:4312:                throw new SecurityException("Need INTERACT_ACROSS_USERS_FULL or"
+android10-security-release/services/core/java/com/android/server/appop/AppOpsService.java:4451:            throw new SecurityException(function + " must by called by the system");
+android10-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:288:            throw new SecurityException("Caller must be system");
+android10-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:313:            throw new SecurityException("Caller must be system");
+android10-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:343:            throw new SecurityException("Caller must own " + uri);
+android10-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:422:                throw new SecurityException("Access to slice " + uri + " is required");
+android10-security-release/services/core/java/com/android/server/connectivity/IpConnectivityMetrics.java:317:                throw new SecurityException(String.format("Uid %d has no permission to listen for"
+android10-security-release/services/core/java/com/android/server/connectivity/KeepaliveTracker.java:182:                        throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1049:                throw new SecurityException("Restricted users cannot establish VPNs");
+android10-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1055:                throw new SecurityException("Cannot find " + config.user);
+android10-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1058:                throw new SecurityException(config.user + " does not require " + BIND_VPN_SERVICE);
+android10-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1061:            throw new SecurityException("Cannot find " + config.user);
+android10-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1738:            throw new SecurityException("Restricted users cannot establish VPNs");
+android10-security-release/services/core/java/com/android/server/BluetoothManagerService.java:886:            throw new SecurityException("no permission to enable Bluetooth quietly");
+android10-security-release/services/core/java/com/android/server/BluetoothManagerService.java:994:                throw new SecurityException("Package " + packageName
+android10-security-release/services/core/java/com/android/server/BluetoothManagerService.java:1034:            throw new SecurityException(e.getMessage());
+android10-security-release/services/core/java/com/android/server/content/ContentService.java:344:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/content/ContentService.java:411:                throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/content/ContentService.java:1268:                    throw new SecurityException("No access to " + uri + ": neither user " + uid
+android10-security-release/services/core/java/com/android/server/content/ContentService.java:1311:                    throw new SecurityException(msg);
+android10-security-release/services/core/java/com/android/server/content/ContentService.java:1641:            throw new SecurityException("Non-shell user attempted to call " + method);
+android10-security-release/services/core/java/com/android/server/net/watchlist/NetworkWatchlistService.java:247:            throw new SecurityException(String.format("Uid %d has no permission to change watchlist"
+android10-security-release/services/core/java/com/android/server/net/NetworkStatsService.java:678:                    throw new SecurityException("Calling package " + mCallingPackage
+android10-security-release/services/core/java/com/android/server/net/NetworkStatsCollection.java:246:            throw new SecurityException("Network stats history of uid " + uid
+android10-security-release/services/core/java/com/android/server/net/NetworkPolicyManagerService.java:3274:            throw new SecurityException();
+android10-security-release/services/core/java/com/android/server/media/MediaRouterService.java:230:            throw new SecurityException("packageName must match the calling uid");
+android10-security-release/services/core/java/com/android/server/media/MediaSessionService.java:368:            throw new SecurityException("Must hold the MODIFY_PHONE_STATE permission.");
+android10-security-release/services/core/java/com/android/server/media/MediaSessionService.java:507:            throw new SecurityException("Missing permission to control media.");
+android10-security-release/services/core/java/com/android/server/media/MediaSessionService.java:518:            throw new SecurityException("Only System UI and Settings may " + action);
+android10-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1031:                    throw new SecurityException("Unexpected Session2Token's UID, expected=" + uid
+android10-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1314:                    throw new SecurityException("Only Bluetooth service processes can set"
+android10-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1362:                    throw new SecurityException("Must hold the SET_VOLUME_KEY_LONG_PRESS_LISTENER"
+android10-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1422:                    throw new SecurityException("Must hold the SET_MEDIA_KEY_LISTENER permission.");
+android10-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:278:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to grant "
+android10-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:319:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to add "
+android10-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:334:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to add "
+android10-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:352:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to add "
+android10-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:367:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to remove "
+android10-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:476:                    throw new SecurityException("Media projections require a foreground service"
+android10-security-release/services/core/java/com/android/server/clipboard/ClipboardService.java:688:                throw new SecurityException("Calling uid " + uid
+android10-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:207:            throw new SecurityException("Can't access OEM unlock state. Requires "
+android10-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:220:            throw new SecurityException("uid " + callingUid + " not allowed to access PST");
+android10-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:228:            throw new SecurityException(
+android10-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:235:            throw new SecurityException(
+android10-security-release/services/contentsuggestions/java/com/android/server/contentsuggestions/ContentSuggestionsManagerService.java:110:        throw new SecurityException(msg);
+android10-security-release/services/contentsuggestions/java/com/android/server/contentsuggestions/ContentSuggestionsPerUserService.java:82:            throw new SecurityException("Service does not require permission "
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:979:                throw new SecurityException("Calling uid " + callingUid + " cannot query events"
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1197:                    throw new SecurityException(
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1272:                throw new SecurityException(
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1376:                throw new SecurityException("Caller doesn't have OBSERVE_APP_USAGE permission");
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1399:                throw new SecurityException("Caller doesn't have OBSERVE_APP_USAGE permission");
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1418:                throw new SecurityException("Caller doesn't have OBSERVE_APP_USAGE permission");
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1442:                throw new SecurityException("Caller doesn't have OBSERVE_APP_USAGE permission");
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1462:                throw new SecurityException("Caller doesn't have both SUSPEND_APPS and "
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1487:                throw new SecurityException("Caller doesn't have both SUSPEND_APPS and "
+android10-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1569:                throw new SecurityException("Caller doesn't have OBSERVE_APP_USAGE permission");
+android10-security-release/services/usage/java/com/android/server/usage/StorageStatsService.java:153:                throw new SecurityException("Package " + callingPackage + " from UID " + callingUid
+android10-security-release/services/midi/java/com/android/server/midi/MidiService.java:664:                throw new SecurityException("Attempt to open private device with wrong UID");
+android10-security-release/services/midi/java/com/android/server/midi/MidiService.java:715:            throw new SecurityException("only system can create USB devices");
+android10-security-release/services/midi/java/com/android/server/midi/MidiService.java:717:            throw new SecurityException("only MidiBluetoothService can create Bluetooth devices");
+android10-security-release/services/midi/java/com/android/server/midi/MidiService.java:765:                throw new SecurityException("setDeviceStatus() caller UID " + Binder.getCallingUid()
+android10-security-release/services/usb/java/com/android/server/usb/UsbHostManager.java:492:                throw new SecurityException("USB device is on a restricted bus");
+android10-security-release/services/usb/java/com/android/server/usb/UsbUserSettingsManager.java:176:            throw new SecurityException("User has not given " + uid + "/" + packageName
+android10-security-release/services/usb/java/com/android/server/usb/UsbUserSettingsManager.java:183:            throw new SecurityException("User has not given " + uid + " permission to accessory "
+android10-security-release/services/companion/java/com/android/server/companion/CompanionDeviceManagerService.java:303:                throw new SecurityException(pkg + " doesn't belong to uid " + callingUid);
+android10-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerServiceImpl.java:349:            throw new SecurityException("Calling uid " + callingUid
+android10-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerServiceImpl.java:358:            throw new SecurityException("Calling uid " + callingUid
+android10-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerServiceImpl.java:367:            throw new SecurityException("Calling uid " + callingUid
+android10-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:634:                    throw new SecurityException(
+android10-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:1260:                throw new SecurityException("Caller does not hold the permission " + permission);
+android10-security-release/services/voiceinteraction/java/com/android/server/soundtrigger/SoundTriggerService.java:1287:            throw new SecurityException("Caller does not hold the permission " + permission);
+android10-security-release/services/autofill/java/com/android/server/autofill/AutofillManagerServiceImpl.java:513:            throw new SecurityException("Could not verify UID for " + componentName);
+android10-security-release/services/autofill/java/com/android/server/autofill/AutofillManagerServiceImpl.java:533:            throw new SecurityException("Invalid component: " + componentName);
+android10-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:1287:                throw new SecurityException("The taget service not in the same package"
+android10-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:2916:            throw new SecurityException("Only the system process can call this");
+android10-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:3672:                    throw new SecurityException("Service " + componentName
+android10-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:3676:                    throw new SecurityException("Service " + componentName
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2735:                throw new SecurityException("Admin " + admin.info.getComponent()
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2739:                throw new SecurityException("Admin " + admin.info.getComponent()
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2743:                throw new SecurityException("Admin " + admin.info.getComponent()
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2747:            throw new SecurityException("Admin " + admin.info.getComponent()
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2751:            throw new SecurityException("No active admin owned by uid "
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2795:            throw new SecurityException("No active admin " + who + " for UID " + uid);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2798:            throw new SecurityException("Admin " + who + " is not owned by uid " + uid);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2822:                throw new SecurityException("No active admin " + who);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2825:                throw new SecurityException("Admin " + who + " is not owned by uid " + uid);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:3960:                throw new SecurityException("No active admin " + adminReceiver);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:4017:                    throw new SecurityException("Attempt to remove non-test admin "
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:4084:            throw new SecurityException("Non-shell user attempted to call " + method);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:4123:            throw new SecurityException("Caller must be system");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5032:                    throw new SecurityException("resetPassword() is deprecated for DPC targeting O"
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5053:                        throw new SecurityException("Cannot call with null password");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5062:                        throw new SecurityException("Cannot change current password");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5469:                            throw new SecurityException("Only profile owner admins can set "
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5761:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:6168:                    throw new SecurityException("Caller with uid " + callingUid + " is not "
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:6340:                throw new SecurityException("Caller with uid " + mInjector.binderGetCallingUid()
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:6574:                throw new SecurityException("Cannot wipe data. " + restriction
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:6580:                    throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7113:            throw new SecurityException(e);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7352:                throw new SecurityException("Not all users are affiliated.");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7991:                throw new SecurityException("Invalid packageName");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7994:            throw new SecurityException(e);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8002:                throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8468:            throw new SecurityException(message);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8485:                throw new SecurityException(message);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8708:            throw new SecurityException("You can not " + message + " outside a managed profile.");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8714:            throw new SecurityException("You can not " + message + " for a managed profile.");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8782:            throw new SecurityException("User " + userId + " is not allowed to use lock task");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9103:                throw new SecurityException("Only the system can query the permission provider");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9370:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9533:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9593:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9642:            throw new SecurityException("createAndManageUser was called from non-system user");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9883:                throw new SecurityException("Admin " + who +
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10054:                    throw new SecurityException("Device owner cannot set user restriction " + key);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10058:                    throw new SecurityException("Profile owner cannot set user restriction " + key);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10330:                throw new SecurityException("Admin " + who +
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10762:            throw new SecurityException("notifyLockTaskModeChanged can only be called by system");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10812:                throw new SecurityException(String.format(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10843:                throw new SecurityException(String.format(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10890:                    throw new SecurityException(String.format(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10894:                throw new SecurityException(String.format(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11006:                throw new SecurityException("Admin " + who +
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11011:            throw new SecurityException("Managed profile cannot disable keyguard");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11045:                throw new SecurityException("Admin " + who +
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11049:                throw new SecurityException("Managed profile cannot disable status bar");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12240:            throw new SecurityException("Only the system can query support message for user");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12258:            throw new SecurityException("Only the system can query support message for user");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12467:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12498:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12503:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12782:            throw new SecurityException("Caller has to be in user 0");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:13035:            throw new SecurityException("Not allowed to bind to target user id");
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:13449:            throw new SecurityException("Only allow to bind service in " + expectedPackageName);
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:13453:            throw new SecurityException(
+android10-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:14404:            throw new SecurityException("Input package name doesn't align with actual "
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:925:            throw new SecurityException("Caller does not hold permission "
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:944:            throw new SecurityException("Caller does not hold permission "
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:2386:            throw new SecurityException(
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:2426:            throw new SecurityException(
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:2489:                throw new SecurityException("Only SYSTEM can call sendFingerprintGesture");
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:2510:                throw new SecurityException("Only SYSTEM can call getAccessibilityWindowId");
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:3723:                throw new SecurityException("Call from user " + callingUserId + " as user "
+android10-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:3819:                throw new SecurityException("You do not have " + permission
+android10-security-release/services/tests/servicestests/src/com/android/server/devicepolicy/DpmMockContext.java:250:            throw new SecurityException("Caller doesn't have " + permission + " : " + message);
+android10-security-release/services/tests/servicestests/src/com/android/server/pm/BaseShortcutManagerTest.java:456:                throw new SecurityException("Missing permission: " + permission);
+android10-security-release/services/tests/servicestests/src/com/android/server/pm/BaseShortcutManagerTest.java:849:                    throw new SecurityException(inv.getArguments()[2] + " for unrelated profile "
+android10-security-release/services/tests/servicestests/src/com/android/server/pm/CrossProfileAppsServiceImplTest.java:141:            throw new SecurityException("Not matching");
+android10-security-release/services/tests/wmtests/src/com/android/server/wm/RecentTasksTest.java:1262:                        throw new SecurityException();
+android10-security-release/services/restrictions/java/com/android/server/restrictions/RestrictionsManagerService.java:170:                        throw new SecurityException("No restrictions provider registered for user");
+android10-security-release/services/restrictions/java/com/android/server/restrictions/RestrictionsManagerService.java:193:                        throw new SecurityException(message + callingUid);
+android10-security-release/services/print/java/com/android/server/print/PrintManagerService.java:345:                    throw new SecurityException("Only system and print spooler can call this");
+android10-security-release/services/print/java/com/android/server/print/PrintManagerService.java:738:                throw new SecurityException("Can only be called by uid " + SHELL_UID
+android10-security-release/services/print/java/com/android/server/print/PrintManagerService.java:758:                throw new SecurityException("Can only be called by uid " + SHELL_UID
+android10-security-release/services/print/java/com/android/server/print/PrintManagerService.java:1052:                throw new SecurityException("Call from app " + callingAppId + " as app "
+android10-security-release/services/backup/java/com/android/server/backup/UserBackupManagerService.java:2992:                throw new SecurityException("Only the transport can change its description");
+android10-security-release/services/backup/java/com/android/server/backup/UserBackupManagerService.java:2995:            throw new SecurityException("Transport package not found", e);
+android10-security-release/services/backup/java/com/android/server/backup/restore/ActiveRestoreSession.java:330:            throw new SecurityException("No permission to restore other packages");
+android10-security-release/services/backup/java/com/android/server/backup/Trampoline.java:309:                throw new SecurityException("No permission to configure backup activity");
+android10-security-release/services/contentcapture/java/com/android/server/contentcapture/ContentCapturePerUserService.java:400:            throw new SecurityException("Could not verify UID for " + packageName);
+android10-security-release/services/contentcapture/java/com/android/server/contentcapture/ContentCapturePerUserService.java:409:            throw new SecurityException("Invalid package: " + packageName);
+android10-security-release/services/contentcapture/java/com/android/server/contentcapture/ContentCaptureManagerService.java:459:            throw new SecurityException("caller is not user's ContentCapture service");
+android10-security-release/services/appprediction/java/com/android/server/appprediction/AppPredictionManagerService.java:166:                throw new SecurityException(msg);
+android10-security-release/services/net/java/android/net/NetworkStackClient.java:320:            throw new SecurityException("Invalid network stack UID: " + uid);
+android10-security-release/services/net/java/android/net/NetworkStackClient.java:335:            throw new SecurityException(
+android10-security-release/services/net/java/android/net/NetworkStackClient.java:492:            throw new SecurityException(
+android10-security-release/packages/ExternalStorageProvider/src/com/android/externalstorage/ExternalStorageProvider.java:125:            throw new SecurityException(
+android10-security-release/packages/ExternalStorageProvider/src/com/android/externalstorage/ExternalStorageProvider.java:541:        throw new SecurityException("The app is not given any access to the document under path " +
+android10-security-release/packages/services/PacProcessor/src/com/android/pacprocessor/PacService.java:98:                throw new SecurityException();
+android10-security-release/packages/services/PacProcessor/src/com/android/pacprocessor/PacService.java:107:                throw new SecurityException();
+android10-security-release/packages/services/PacProcessor/src/com/android/pacprocessor/PacService.java:116:                throw new SecurityException();
+android10-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:2014:            throw new SecurityException("Permission denial: writing to settings requires:"
+android10-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:2165:                    throw new SecurityException("Only system, shell/root on a "
+android10-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:2172:                    throw new SecurityException("Only system, shell/root on a "
+android10-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:2179:                    throw new SecurityException("Only system, shell/root on a "
+android10-security-release/packages/PackageInstaller/src/com/android/packageinstaller/wear/WearPackageIconProvider.java:166:        throw new SecurityException("Permission Denial: reading "
+android10-security-release/packages/SystemUI/src/com/android/systemui/keyguard/KeyguardService.java:69:            throw new SecurityException("Access denied to process: " + Binder.getCallingPid()
+android10-security-release/packages/SystemUI/src/com/android/systemui/qs/external/TileServices.java:152:                throw new SecurityException("Component outside caller's uid");
+android10-security-release/packages/SystemUI/src/com/android/systemui/qs/external/TileServices.java:155:            throw new SecurityException(e);
+android10-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:178:                throw new SecurityException("Async playback only available from system UID.");
+android10-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:190:                throw new SecurityException("Async playback only available from system UID.");
+android10-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:221:                                throw new SecurityException(e);
+android10-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:227:            throw new SecurityException("Uri is not ringtone, alarm, or notification: " + uri);
+android10-security-release/telephony/java/android/telephony/mbms/MbmsTempFileProvider.java:96:            throw new SecurityException("Provider must not be exported");
+android10-security-release/telephony/java/android/telephony/mbms/MbmsTempFileProvider.java:99:            throw new SecurityException("Provider must grant uri permissions");
+android10-security-release/telephony/java/android/telephony/mbms/MbmsTempFileProvider.java:167:            throw new SecurityException("Resolved path jumped beyond configured root");
+android10-security-release/telephony/java/com/android/internal/telephony/TelephonyPermissions.java:417:        throw new SecurityException(message + ": The user " + uid
+android10-security-release/telephony/java/com/android/internal/telephony/TelephonyPermissions.java:513:        throw new SecurityException(message + ": Neither user " + uid +
+android10-security-release/telephony/java/com/android/internal/telephony/TelephonyPermissions.java:599:            throw new SecurityException(message);
+android10-security-release/telephony/java/com/android/internal/telephony/TelephonyPermissions.java:647:        throw new SecurityException(message + ": Only shell user can call it");
+android10-security-release/tests/testables/src/android/testing/TestablePermissions.java:71:            throw new SecurityException();
+android10-security-release/tests/testables/src/android/testing/TestablePermissions.java:77:            throw new SecurityException();
+android10-security-release/tests/net/java/com/android/server/IpSecServiceParameterizedTest.java:133:            throw new SecurityException("Unavailable permission requested");
+android10-security-release/tests/net/java/com/android/server/ConnectivityServiceTest.java:3204:                throw new SecurityException("failure");
+android10-security-release/media/java/android/media/midi/MidiDeviceServer.java:190:                    throw new SecurityException("Can't access private device from different UID");
+android10-security-release/media/java/android/media/midi/MidiDeviceServer.java:228:                    throw new SecurityException("Can't access private device from different UID");
+android10-security-release/media/java/android/media/midi/MidiDeviceServer.java:325:                throw new SecurityException("setDeviceInfo should only be called by MidiService");

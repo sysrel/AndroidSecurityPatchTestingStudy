@@ -1,0 +1,17 @@
+--------- beginning of kernel
+--------- beginning of main
+--------- beginning of system
+05-14 17:21:04.678   480   506 I CVE-2021-39619: UsageStatsService.java 1/8 Entry
+05-14 17:21:04.679   480   506 I CVE-2021-39619: UsageStatsService.java 6/8 Entry
+05-14 17:21:04.679   480   506 I CVE-2021-39619: UsageStatsService.java 6/8 Exit
+05-14 17:21:04.679   480   506 I CVE-2021-39619: DevicePolicyManagerService.java 1/1 Entry
+05-14 17:21:04.679   480   506 I CVE-2021-39619: UsageStatsService.java 1/8 Exit
+05-14 17:21:04.690   480   506 I CVE-2021-39619: UsageStatsService.java 2/8 Entry
+05-14 17:21:04.690   480   506 I CVE-2021-39619: UsageStatsService.java 3/8 Entry
+05-14 17:21:04.690   480   506 I CVE-2021-39619: UsageStatsService.java 4/8 Entry
+05-14 17:21:04.690   480   506 I CVE-2021-39619: UserUsageStatsService.java 1/2 Entry
+05-14 17:21:04.721   480   506 I CVE-2021-39619: UserUsageStatsService.java 1/2 Exit
+05-14 17:21:04.998   480   506 I CVE-2021-39619: UsageStatsService.java 4/8 Exit
+05-14 17:21:04.998   480   506 I CVE-2021-39619: UsageStatsService.java 3/8 Exit
+05-14 17:21:04.998   480   506 I CVE-2021-39619: UsageStatsService.java 2/8 Exit
+--------- beginning of crash

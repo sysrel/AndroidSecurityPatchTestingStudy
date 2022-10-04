@@ -1,0 +1,16 @@
+CVE Reference            Commit Description                                
+CVE-2020-13871           Fix CVE-2020-15358 and CVE-2020-13871
+
+Test: atest SQLiteSecurityTest
+Bug: 192605364
+Bug: 192606047
+Change-Id: If729ab11c364eea165eed1dfc21518bf60d694e2
+
+CVE-2020-15358           DO NOT MERGE Fix CVE-2020-15358 and CVE-2020-13871
+
+Test: atest SQLiteSecurityTest
+Bug: 192605364
+Bug: 192606047
+Change-Id: If729ab11c364eea165eed1dfc21518bf60d694e2
+(cherry picked from commit 201685e7989c5a890c806c408d2ffc6a003cd8d4)
+

@@ -1,0 +1,11 @@
+--------- beginning of kernel
+--------- beginning of system
+--------- beginning of main
+05-14 02:33:56.124   479   522 I CVE-2021-0317: BasePermission.java 1/2 Entry
+05-14 02:33:56.124   479   522 I CVE-2021-0317: BasePermission.java 1/2 Exit
+05-14 02:33:56.125   479   522 I CVE-2021-0317: BasePermission.java 1/2 Entry
+05-14 02:33:56.125   479   522 I CVE-2021-0317: BasePermission.java 1/2 Exit
+05-14 02:33:56.303   479   522 I CVE-2021-0317: BasePermission.java 1/2 Entry
+05-14 02:33:56.303   479   522 I CVE-2021-0317: BasePermission.java 1/2 Exit
+05-14 02:33:56.303   479   522 I CVE-2021-0317: BasePermission.java 1/2 Entry
+05-14 02:33:56.303   479   522 I CVE-2021-0317: BasePermission.java 1/2 Exit

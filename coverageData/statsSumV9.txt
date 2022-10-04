@@ -1,0 +1,112 @@
+Statistics for CVE-2018-9582
+
+CVE Reference, # of Patched Files, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+CVE-2018-9582, 0, 0, 0, 0, 0, 0.0%, 0.0%
+
+
+File Name, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+
+
+Statistics for CVE-2021-0687
+
+CVE Reference, # of Patched Files, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+CVE-2021-0687, 1, 1, 1, 0, 0, 0.0%, 0.0%
+
+
+File Name, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+Layout.java, 1, 1, 0, 0, 0.0%, 0.0%
+
+
+Statistics for CVE-2018-9492
+
+CVE Reference, # of Patched Files, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+CVE-2018-9492, 1, 3, 3, 2, 2, 66.66666666666666%, 66.66666666666666%
+
+
+File Name, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+ActivityManagerService.java, 3, 3, 2, 2, 66.66666666666666%, 66.66666666666666%
+
+
+Statistics for CVE-2020-0099
+
+CVE Reference, # of Patched Files, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+CVE-2020-0099, 2, 2, 2, 1, 1, 50.0%, 50.0%
+
+
+File Name, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+Presentation.java, 1, 1, 1, 1, 100.0%, 100.0%
+WindowManagerService.java, 1, 1, 0, 0, 0.0%, 0.0%
+
+
+Statistics for CVE-2019-2122
+
+CVE Reference, # of Patched Files, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+CVE-2019-2122, 1, 2, 3, 2, 2, 100.0%, 66.66666666666666%
+
+
+File Name, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+LockTaskController.java, 2, 3, 2, 2, 100.0%, 66.66666666666666%
+
+
+Statistics for CVE-2020-0098
+
+CVE Reference, # of Patched Files, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+CVE-2020-0098, 1, 1, 1, 0, 0, 0.0%, 0.0%
+
+
+File Name, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+ActivityManagerService.java, 1, 1, 0, 0, 0.0%, 0.0%
+
+
+Statistics for CVE-2020-0439
+
+CVE Reference, # of Patched Files, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+CVE-2020-0439, 1, 6, 6, 3, 3, 50.0%, 50.0%
+
+
+File Name, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+PackageManagerService.java, 6, 6, 3, 3, 50.0%, 50.0%
+
+
+Statistics for CVE-2021-0472
+
+CVE Reference, # of Patched Files, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+CVE-2021-0472, 1, 3, 4, 3, 3, 100.0%, 75.0%
+
+
+File Name, Total # of Patch BBs, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Covered
+LockTaskController.java, 3, 4, 3, 3, 100.0%, 75.0%
+
+
+Statistics for CVE-2019-2003
+
+CVE Reference, # of Patched Files, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+CVE-2019-2003, 2, 7, 7, 0, 0, 0.0%, 0.0%
+
+
+File Name, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+Linkify.java, 6, 6, 0, 0, 0.0%, 0.0%
+TextLinksParams.java, 1, 1, 0, 0, 0.0%, 0.0%
+
+
+Statistics for CVE-2021-0317
+
+CVE Reference, # of Patched Files, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+CVE-2021-0317, 1, 2, 2, 0, 0, 0.0%, 0.0%
+
+
+File Name, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+BasePermission.java, 2, 2, 0, 0, 0.0%, 0.0%
+
+
+Statistics for CVE-2021-0337
+
+CVE Reference, # of Patched Files, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+CVE-2021-0337, 2, 5, 5, 0, 0, 0.0%, 0.0%
+
+
+File Name, Total # of Patch BB Entrances, Total # of Patch BB Exits, # of Covered Patch BBs Entered, # of Covered Patch BBs Exited, % of Patch BBs Entered, % of Patch BBs Exited
+FileSystemProvider.java, 4, 4, 0, 0, 0.0%, 0.0%
+ExternalStorageProvider.java, 1, 1, 0, 0, 0.0%, 0.0%
+
+

@@ -1,0 +1,30 @@
+--------- beginning of system
+--------- beginning of main
+05-16 08:34:35.936 17804 17848 I CVE-2021-0472: LockTaskController.java 1/3 Entry
+05-16 08:34:35.936 17804 17848 I CVE-2021-0472: LockTaskController.java 3/3 Entry
+05-16 08:34:35.936 17804 17848 I CVE-2021-0472: LockTaskController.java 3/3 Exit A
+05-16 08:34:35.936 17804 17848 I CVE-2021-0472: LockTaskController.java 2/3 Entry
+05-16 08:34:35.937 17804 17848 I CVE-2021-0472: LockTaskController.java 2/3 Exit
+05-16 08:34:35.937 17804 17848 I CVE-2021-0472: LockTaskController.java 1/3 Exit
+05-16 08:34:35.961 17804 17852 I CVE-2021-0472: LockTaskController.java 1/3 Entry
+05-16 08:34:35.961 17804 17852 I CVE-2021-0472: LockTaskController.java 3/3 Entry
+05-16 08:34:35.961 17804 17852 I CVE-2021-0472: LockTaskController.java 3/3 Exit A
+05-16 08:34:35.963 17804 17852 I CVE-2021-0472: LockTaskController.java 3/3 Exit B
+05-16 08:34:35.963 17804 17852 I CVE-2021-0472: LockTaskController.java 1/3 Exit
+05-16 08:34:36.031 17804 17863 I CVE-2021-0472: LockTaskController.java 1/3 Entry
+05-16 08:34:36.031 17804 17863 I CVE-2021-0472: LockTaskController.java 3/3 Entry
+05-16 08:34:36.031 17804 17863 I CVE-2021-0472: LockTaskController.java 3/3 Exit A
+05-16 08:34:36.032 17804 17863 I CVE-2021-0472: LockTaskController.java 1/3 Exit
+05-16 08:34:36.044 17804 17865 I CVE-2021-0472: LockTaskController.java 1/3 Entry
+05-16 08:34:36.044 17804 17865 I CVE-2021-0472: LockTaskController.java 3/3 Entry
+05-16 08:34:36.044 17804 17865 I CVE-2021-0472: LockTaskController.java 3/3 Exit A
+05-16 08:34:36.045 17804 17865 I CVE-2021-0472: LockTaskController.java 3/3 Exit B
+05-16 08:34:36.046 17804 17865 I CVE-2021-0472: LockTaskController.java 2/3 Entry
+05-16 08:34:36.047 17804 17865 I CVE-2021-0472: LockTaskController.java 2/3 Exit
+05-16 08:34:36.047 17804 17865 I CVE-2021-0472: LockTaskController.java 1/3 Exit
+05-16 08:34:36.052 17804 17866 I CVE-2021-0472: LockTaskController.java 1/3 Entry
+05-16 08:34:36.052 17804 17866 I CVE-2021-0472: LockTaskController.java 3/3 Entry
+05-16 08:34:36.052 17804 17866 I CVE-2021-0472: LockTaskController.java 3/3 Exit A
+05-16 08:34:36.052 17804 17866 I CVE-2021-0472: LockTaskController.java 2/3 Entry
+05-16 08:34:36.052 17804 17866 I CVE-2021-0472: LockTaskController.java 2/3 Exit
+05-16 08:34:36.052 17804 17866 I CVE-2021-0472: LockTaskController.java 1/3 Exit

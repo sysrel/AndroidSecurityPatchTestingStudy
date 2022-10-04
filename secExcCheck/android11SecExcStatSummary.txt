@@ -1,0 +1,22 @@
+Total Number of Unique Java Files that throw Security Exceptions: 161
+Total Number of Unique Java Files that catch Security Exceptions: 101
+Total Number of Unique Java Files that both throw and catch Security Exceptions: 31
+
+
+Total Number of Unique Java Files Updated: 200
+Total Number of Unique Java Files with any Security Exception functions: 293
+Total Number of Unique Java Files Upated that contain any Security Exception functions: 40
+Total Number of Unique Java Files Updated that throw Security Exceptions: 26
+Total Number of Unique Java Files Updated that catch Security Exceptions: 5
+Total Number of Unique Java Files Updated that throw and catch Security Exceptions: 9
+
+
+Percentage of updated security exception files that throw: 8.873720136518772%
+Percentage of non-updated security exception files that throw: 46.075085324232084%
+Percentage of updated security exception files that catch: 1.7064846416382253%
+Percentage of non-updated security exception files that catch: 32.76450511945392%
+Percentage of updated security exception files that both throw and catch: 3.0716723549488054%
+Percentage of non-updated security exception files that throw and catch: 7.508532423208192%
+Percentage total check: 100.0%
+
+

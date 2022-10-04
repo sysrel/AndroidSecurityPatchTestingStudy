@@ -1,0 +1,718 @@
+pie-security-release/wifi/java/android/net/wifi/aware/WifiAwareNetworkSpecifier.java:268:            throw new SecurityException("mismatched UIDs");
+pie-security-release/wifi/java/android/net/wifi/aware/WifiAwareAgentNetworkSpecifier.java:148:        throw new SecurityException(
+pie-security-release/core/java/android/view/ViewRootImpl.java:7976:                        throw new SecurityException("Insufficient permissions to invoke"
+pie-security-release/core/java/android/view/inputmethod/InputConnectionWrapper.java:59:            throw new SecurityException("not mutable");
+pie-security-release/core/java/android/accounts/AbstractAccountAuthenticator.java:518:            throw new SecurityException("caller uid " + uid + " lacks " + perm);
+pie-security-release/core/java/android/provider/SearchIndexablesProvider.java:96:            throw new SecurityException("Provider must be exported");
+pie-security-release/core/java/android/provider/SearchIndexablesProvider.java:99:            throw new SecurityException("Provider must grantUriPermissions");
+pie-security-release/core/java/android/provider/SearchIndexablesProvider.java:102:            throw new SecurityException("Provider must be protected by READ_SEARCH_INDEXABLES");
+pie-security-release/core/java/android/provider/DocumentsProvider.java:167:            throw new SecurityException("Provider must be exported");
+pie-security-release/core/java/android/provider/DocumentsProvider.java:170:            throw new SecurityException("Provider must grantUriPermissions");
+pie-security-release/core/java/android/provider/DocumentsProvider.java:174:            throw new SecurityException("Provider must be protected by MANAGE_DOCUMENTS");
+pie-security-release/core/java/android/provider/DocumentsProvider.java:226:                throw new SecurityException(
+pie-security-release/core/java/android/provider/DocumentsProvider.java:981:            throw new SecurityException(
+pie-security-release/core/java/android/provider/Settings.java:4891:                        throw new SecurityException("Settings.Secure." + name
+pie-security-release/core/java/android/provider/Settings.java:13341:        throw new SecurityException(exceptionMessage.toString());
+pie-security-release/core/java/android/app/Instrumentation.java:2010:                throw new SecurityException("Not allowed to start activity "
+pie-security-release/core/java/android/app/Instrumentation.java:2019:                throw new SecurityException(
+pie-security-release/core/java/android/app/ActivityThread.java:1975:                    throw new SecurityException(
+pie-security-release/core/java/android/app/ActivityThread.java:2021:                throw new SecurityException(msg);
+pie-security-release/core/java/android/app/admin/DevicePolicyManager.java:8215:                throw new SecurityException("The current user does not have a parent profile.");
+pie-security-release/core/java/android/app/admin/DevicePolicyManager.java:8328:            throw new SecurityException("The user " + uInfo.id
+pie-security-release/core/java/android/app/admin/DevicePolicyManager.java:8801:            throw new SecurityException(functionName + " cannot be called on the parent instance");
+pie-security-release/core/java/android/app/ContextImpl.java:1568:                    throw new SecurityException(
+pie-security-release/core/java/android/app/ContextImpl.java:1572:                    throw new SecurityException(
+pie-security-release/core/java/android/app/ContextImpl.java:1599:                throw new SecurityException(
+pie-security-release/core/java/android/app/ContextImpl.java:1677:                throw new SecurityException(
+pie-security-release/core/java/android/app/ContextImpl.java:1808:            throw new SecurityException(
+pie-security-release/core/java/android/app/ContextImpl.java:1976:            throw new SecurityException(
+pie-security-release/core/java/android/app/ContextImpl.java:2495:                throw new SecurityException("MODE_WORLD_READABLE no longer supported");
+pie-security-release/core/java/android/app/ContextImpl.java:2498:                throw new SecurityException("MODE_WORLD_WRITEABLE no longer supported");
+pie-security-release/core/java/android/app/AppOpsManager.java:2274:                throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+pie-security-release/core/java/android/app/AppOpsManager.java:2305:                throw new SecurityException(
+pie-security-release/core/java/android/app/AppOpsManager.java:2321:                throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+pie-security-release/core/java/android/app/AppOpsManager.java:2360:            throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+pie-security-release/core/java/android/app/AppOpsManager.java:2386:            throw new SecurityException("Proxy package " + mContext.getOpPackageName()
+pie-security-release/core/java/android/app/AppOpsManager.java:2490:            throw new SecurityException(buildSecurityExceptionMsg(op, uid, packageName));
+pie-security-release/core/java/android/app/UiAutomationConnection.java:468:            throw new SecurityException("Calling from not trusted UID!");
+pie-security-release/core/java/android/app/slice/SliceManager.java:488:                throw new SecurityException("No pkg specified");
+pie-security-release/core/java/android/app/slice/SliceManager.java:492:                throw new SecurityException("User " + uid + " does not have slice permission for "
+pie-security-release/core/java/android/app/slice/SliceProvider.java:391:                throw new SecurityException("Only the system can pin/unpin slices");
+pie-security-release/core/java/android/app/slice/SliceProvider.java:398:                throw new SecurityException("Only the system can pin/unpin slices");
+pie-security-release/core/java/android/app/slice/SliceProvider.java:410:                throw new SecurityException("Only the system can get permissions");
+pie-security-release/core/java/android/app/DownloadManager.java:1213:            throw new SecurityException(displayName + " is not a valid filename");
+pie-security-release/core/java/android/app/DownloadManager.java:1519:                        throw new SecurityException(
+pie-security-release/core/java/android/app/UiAutomation.java:941:            throw new SecurityException("Error granting runtime permission", e);
+pie-security-release/core/java/android/app/UiAutomation.java:987:            throw new SecurityException("Error granting runtime permission", e);
+pie-security-release/core/java/android/service/autofill/AutofillServiceInfo.java:102:                throw new SecurityException("Service does not require permission "
+pie-security-release/core/java/android/os/RecoverySystem.java:739:            throw new SecurityException("Wiping data is not allowed for this user.");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:187:            throw new SecurityException("Failed to read list of signers", e);
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:196:                throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:203:            throw new SecurityException("No signers found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:207:            throw new SecurityException("No content digests found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:243:                    throw new SecurityException("Signature record too short");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:256:                throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:263:                throw new SecurityException("No signatures found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:265:                throw new SecurityException("No supported signatures found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:288:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:292:            throw new SecurityException(jcaSignatureAlgorithm + " signature did not verify");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:320:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:327:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:343:                throw new SecurityException("Failed to decode certificate #" + certificateCount, e);
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:351:            throw new SecurityException("No certificates listed");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:356:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV2Verifier.java:387:                        throw new SecurityException("V2 signature indicates APK is signed using APK"
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:92:            throw new SecurityException("No digests provided");
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:112:                throw new SecurityException("Cannot get FD", e);
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:123:            throw new SecurityException("No known digest exists for integrity check");
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:169:            throw new SecurityException("Failed to compute digest(s) of contents", e);
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:176:                throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:313:            throw new SecurityException("Verity digest size is wrong: " + data.length);
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:322:            throw new SecurityException("APK content size did not verify");
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:343:                throw new SecurityException("APK verity digest of contents did not verify");
+pie-security-release/core/java/android/util/apk/ApkSigningBlockUtils.java:346:            throw new SecurityException("Error during verification", e);
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:183:            throw new SecurityException("Failed to read list of signers", e);
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:194:                throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:201:            throw new SecurityException("No signers found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:205:            throw new SecurityException("APK Signature Scheme V3 only supports one signer: "
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:210:            throw new SecurityException("No content digests found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:256:                    throw new SecurityException("Signature record too short");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:269:                throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:276:                throw new SecurityException("No signatures found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:278:                throw new SecurityException("No supported signatures found");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:301:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:305:            throw new SecurityException(jcaSignatureAlgorithm + " signature did not verify");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:333:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:340:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:356:                throw new SecurityException("Failed to decode certificate #" + certificateCount, e);
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:364:            throw new SecurityException("No certificates listed");
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:369:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:375:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:381:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:406:                        throw new SecurityException("Encountered multiple Proof-of-rotation records"
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:416:                            throw new SecurityException("Terminal certificate in Proof-of-rotation"
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:420:                        throw new SecurityException("Failed to encode certificate when comparing"
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:482:                        throw new SecurityException("Unable to verify signature of certificate #"
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:492:                    throw new SecurityException("Signing algorithm ID mismatch for certificate #"
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:501:                    throw new SecurityException("Encountered duplicate entries in "
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:513:            throw new SecurityException(
+pie-security-release/core/java/android/util/apk/ApkSignatureSchemeV3Verifier.java:517:            throw new SecurityException("Failed to decode certificate #" + levelCount
+pie-security-release/core/java/android/util/jar/StrictJarVerifier.java:159:        throw new SecurityException(signatureFile + " has invalid digest for " + name +
+pie-security-release/core/java/android/util/jar/StrictJarVerifier.java:164:        throw new SecurityException(jarName + " failed verification of " + signatureFile);
+pie-security-release/core/java/android/util/jar/StrictJarVerifier.java:169:        throw new SecurityException(jarName + " failed verification of " + signatureFile, e);
+pie-security-release/core/java/android/util/jar/StrictJarVerifier.java:426:                    throw new SecurityException(signatureFile + " indicates " + jarName
+pie-security-release/core/java/android/util/jar/StrictJarVerifier.java:431:                    throw new SecurityException(signatureFile + " indicates " + jarName
+pie-security-release/core/java/android/util/jar/StrictJarFile.java:124:                        throw new SecurityException("File " + file + " in manifest does not exist");
+pie-security-release/core/java/android/hardware/location/GeofenceHardwareService.java:62:            throw new SecurityException("Insufficient permissions to access hardware geofence for"
+pie-security-release/core/java/android/hardware/camera2/CameraManager.java:722:                    throw new SecurityException(e.getMessage(), e);
+pie-security-release/core/java/android/content/ContentProvider.java:633:        throw new SecurityException("Permission Denial: reading "
+pie-security-release/core/java/android/content/ContentProvider.java:707:        throw new SecurityException("Permission Denial: writing "
+pie-security-release/core/java/android/content/ContentProvider.java:2020:                throw new SecurityException("trying to query a ContentProvider in user "
+pie-security-release/core/java/android/content/ContentProvider.java:2032:            throw new SecurityException(message);
+pie-security-release/core/java/android/content/pm/CrossProfileApps.java:149:            throw new SecurityException("Not allowed to access " + userHandle);
+pie-security-release/core/java/com/android/internal/widget/LockPatternUtils.java:1557:            throw new SecurityException("Only available to system server itself");
+pie-security-release/core/java/com/android/internal/app/ConfirmUserCreationActivity.java:87:            throw new SecurityException(
+pie-security-release/core/java/com/android/internal/app/ConfirmUserCreationActivity.java:94:            throw new SecurityException(
+pie-security-release/core/tests/coretests/src/android/os/AidlTest.java:199:            throw new SecurityException("gotcha!");
+pie-security-release/core/tests/coretests/src/android/os/AidlTest.java:203:            throw new SecurityException("gotcha!");
+pie-security-release/services/core/java/com/android/server/IpSecService.java:459:                throw new SecurityException("Attempted access of unowned resources");
+pie-security-release/services/core/java/com/android/server/IpSecService.java:1496:                throw new SecurityException("Request to ignore AppOps for non-legacy API");
+pie-security-release/services/core/java/com/android/server/IpSecService.java:1622:            throw new SecurityException("Only the owner of an IpSec Transform may apply it!");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:1575:                    throw new SecurityException("Package " + packageName + " not in UID "
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:1643:            throw new SecurityException("Only system can call refreshScreenCaptureDisabled.");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2334:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2358:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2395:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2515:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2546:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2596:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2698:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2714:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2953:            throw new SecurityException("Requires FREEZE_SCREEN permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2975:            throw new SecurityException("Requires FREEZE_SCREEN permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:2996:            throw new SecurityException("Requires DISABLE_KEYGUARD permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3023:            throw new SecurityException("Requires DISABLE_KEYGUARD permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3041:            throw new SecurityException("Requires DISABLE_KEYGUARD permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3089:            throw new SecurityException("Requires CONTROL_KEYGUARD permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3106:            throw new SecurityException("Requires INTERACT_ACROSS_USERS_FULL permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3135:            throw new SecurityException("Requires SET_ANIMATION_SCALE permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3153:            throw new SecurityException("Requires SET_ANIMATION_SCALE permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3704:            throw new SecurityException("Requires READ_FRAME_BUFFER permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3724:            throw new SecurityException("Requires READ_FRAME_BUFFER permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3781:            throw new SecurityException("Requires SET_ORIENTATION permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:3811:            throw new SecurityException("Requires SET_ORIENTATION permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:4460:            throw new SecurityException("Requires MANAGE_APP_TOKENS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5169:            throw new SecurityException("Must hold permission " +
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5204:            throw new SecurityException("Must hold permission " +
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5286:            throw new SecurityException("Must hold permission " +
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5335:            throw new SecurityException("Must hold permission " +
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5366:            throw new SecurityException("Must hold permission " +
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:5464:            throw new SecurityException("Must hold permission " +
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6000:            throw new SecurityException("Caller does not hold permission "
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6023:            throw new SecurityException("Caller does not hold permission "
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6037:            throw new SecurityException("Caller does not hold permission "
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6118:            throw new SecurityException("getCurrentImeTouchRegion is restricted to VR services");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6152:            throw new SecurityException("Requires FRAME_STATS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:6171:            throw new SecurityException("Requires FRAME_STATS permission");
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7124:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/wm/WindowManagerService.java:7134:            throw new SecurityException("Requires USER_ACTIVITY permission");
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2303:                throw new SecurityException("Not allowed to delete channel " + channelId
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2658:                                throw new SecurityException("Disallowed call from listener: "
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2723:                                throw new SecurityException("Disallowed call from listener: "
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3137:                throw new SecurityException("Notification policy access denied");
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3149:                throw new SecurityException("Notification policy access denied");
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3572:                throw new SecurityException(info + " does not have access");
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3575:                throw new SecurityException(info + " does not have access");
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:4214:                    throw new SecurityException("Instant app " + pkg
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:6179:        throw new SecurityException("Disallowed call for uid " + Binder.getCallingUid());
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:6201:                throw new SecurityException("Unknown package " + pkg);
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:6205:            throw new SecurityException("Unknown package " + pkg, re);
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:6216:                throw new SecurityException("Unknown package " + pkg);
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:6219:                throw new SecurityException("Calling uid " + uid + " gave package "
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:6223:            throw new SecurityException("Unknown package " + pkg + "\n" + re);
+pie-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:6353:            throw new SecurityException("Could not talk to package manager service");
+pie-security-release/services/core/java/com/android/server/notification/ManagedServices.java:596:        throw new SecurityException("Disallowed call from unknown " + getCaption() + ": "
+pie-security-release/services/core/java/com/android/server/notification/ZenModeHelper.java:339:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/notification/ZenModeHelper.java:360:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/SystemUpdateManagerService.java:119:            throw new SecurityException("Can't read system update info. Requiring "
+pie-security-release/services/core/java/com/android/server/am/ActivityStackSupervisor.java:1762:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/LockTaskController.java:402:                throw new SecurityException("Invalid uid, expected " + task.mLockTaskUid
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:439:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:764:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:848:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1230:                        throw new SecurityException("Instant app " + r.appInfo.packageName
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1270:                        throw new SecurityException("Foreground not allowed as per app op");
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1485:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1527:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1533:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1963:                            throw new SecurityException("BIND_EXTERNAL_SERVICE failed, " + name +
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1967:                            throw new SecurityException("BIND_EXTERNAL_SERVICE failed, " + name +
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1974:                            throw new SecurityException("BIND_EXTERNAL_SERVICE failed, " +
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1984:                        throw new SecurityException("BIND_EXTERNAL_SERVICE required for " +
+pie-security-release/services/core/java/com/android/server/am/ActiveServices.java:1988:                    throw new SecurityException("BIND_EXTERNAL_SERVICE failed, " + name +
+pie-security-release/services/core/java/com/android/server/am/AppTaskImpl.java:51:            throw new SecurityException("Caller " + mCallingUid
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4734:            throw new SecurityException("Isolated process not allowed to call " + caller);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:4831:            throw new SecurityException("Only shell can call it");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5159:                throw new SecurityException("Must be called from an activity");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5163:                throw new SecurityException("Called with bad activity token: " + resultTo);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5166:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5170:                throw new SecurityException("Called without a process attached to activity");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5176:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5184:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5188:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5397:                throw new SecurityException("Only focused activity can call startVoiceInteraction");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5749:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:5783:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6570:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6587:                    throw new SecurityException("PID " + pid + " does not have permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6698:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6738:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6795:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6837:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:6931:            throw new SecurityException(callerUid + " cannot kill pkg: " +
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7067:            throw new SecurityException(callerUid + " cannot kill app process: " +
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:7977:            throw new SecurityException("Invalid application interface");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8025:            throw new SecurityException();
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8396:                        throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8404:                throw new SecurityException(e);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8538:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8541:                throw new SecurityException(e);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:9218:        throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:9232:        throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:9746:                throw new SecurityException("Provider " + pi.packageName
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:9762:                    throw new SecurityException("Provider " + pi.packageName
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:9776:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:9781:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10008:                throw new SecurityException("Unable to find app for caller "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10142:                throw new SecurityException("Unable to find app for caller "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10275:                    throw new SecurityException("nice try");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10477:                throw new SecurityException("No persistable permission grants found for UID "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10527:                throw new SecurityException("No permission grants found for UID " + uid
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10595:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10599:            throw new SecurityException("Failed to verify package name ownership");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:10842:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:11690:            throw new SecurityException("updateDeviceOwner called from non-system process");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:12200:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:12238:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:12354:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:12632:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:12732:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13184:            throw new SecurityException("Only the OS may call backgroundWhitelistUid()");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13424:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13488:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13514:                throw new SecurityException("Only privileged app can call notifyLockedProfile");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13517:            throw new SecurityException("Fail to check is caller a privileged app", ex);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13684:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13715:                    throw new SecurityException("Process not debuggable: " + app.packageName);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13728:                    throw new SecurityException("Process not debuggable: " + app.packageName);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13750:                throw new SecurityException("Process not debuggable: " + app.packageName);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13793:                    throw new SecurityException("Unknown process: " + callingPid);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13796:                    throw new SecurityException("Only an instrumentation process "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13934:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:13962:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14437:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14642:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14828:            throw new SecurityException("killPids only available to the system");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14894:            throw new SecurityException("killProcessesBelowForeground() only available to system");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14902:            throw new SecurityException("killProcessesBelowAdj() only available to system");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14927:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:14966:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15002:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:15067:            throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:20513:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:20870:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:20878:                    throw new SecurityException("Given caller package " + callerPackage
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:21322:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:21367:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:21379:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:21390:                        throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:21428:                        throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:21651:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:21659:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:22044:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:22163:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:22470:        throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:25498:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:25876:            throw new SecurityException("Only SIGNAL_USR1 is allowed");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:25882:                throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:25932:                    throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26042:                    throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26058:                        throw new SecurityException("Process not debuggable: " + proc);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26088:                    throw new SecurityException("No process found for calling pid "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26093:                    throw new SecurityException("Not running a debuggable build");
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26098:                    throw new SecurityException("Package " + reportPackage + " is not running in "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26206:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26220:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26279:                throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:26306:                    throw new SecurityException("Requires permission "
+pie-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:27137:                        throw new SecurityException("Process not debuggable: " + proc);
+pie-security-release/services/core/java/com/android/server/am/SafeActivityOptions.java:203:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/SafeActivityOptions.java:217:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/SafeActivityOptions.java:228:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/SafeActivityOptions.java:240:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/UserController.java:581:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/UserController.java:920:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/UserController.java:1117:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/UserController.java:1518:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/UserController.java:1528:                throw new SecurityException("Shell does not have permission to access user "
+pie-security-release/services/core/java/com/android/server/am/UserController.java:1556:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/UserController.java:1706:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/am/UserController.java:1782:                throw new SecurityException("Shell does not have permission to access user "
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:1441:            throw new SecurityException("Geofence usage requires ACCESS_FINE_LOCATION permission");
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:1492:                    throw new SecurityException("\"" + providerName + "\" location provider " +
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:1495:                    throw new SecurityException("\"" + providerName + "\" location provider " +
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:1498:                    throw new SecurityException("Insufficient permission for \"" + providerName +
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:2027:            throw new SecurityException("invalid package name: " + packageName);
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:2032:            throw new SecurityException("invalid UID " + uid);
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:2037:        throw new SecurityException("invalid package name: " + packageName);
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:2502:            throw new SecurityException("Requires ACCESS_LOCATION_EXTRA_COMMANDS permission");
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:2516:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:2770:                throw new SecurityException("Requires INTERACT_ACROSS_USERS permission");
+pie-security-release/services/core/java/com/android/server/LocationManagerService.java:2811:        throw new SecurityException("need INSTALL_LOCATION_PROVIDER permission, " +
+pie-security-release/services/core/java/com/android/server/NetworkScoreService.java:449:            throw new SecurityException("Caller with UID " + getCallingUid() +
+pie-security-release/services/core/java/com/android/server/NetworkScoreService.java:747:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/NetworkScoreService.java:756:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/storage/AppFuseBridge.java:100:            throw new SecurityException("PID does not match");
+pie-security-release/services/core/java/com/android/server/DeviceIdleController.java:1850:                    throw new SecurityException("Calling app " + UserHandle.formatUid(callingUid)
+pie-security-release/services/core/java/com/android/server/NetworkManagementService.java:2302:            throw new SecurityException("Only available to AID_SYSTEM");
+pie-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:920:                throw new SecurityException("uid=" + callingUid
+pie-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:930:                throw new SecurityException("uid=" + callingUid
+pie-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:1998:            throw new SecurityException("Caller must be shell");
+pie-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:2593:                    throw new SecurityException("Escrow token is disabled on the current user");
+pie-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:2644:                throw new SecurityException("Escrow token is disabled on the current user");
+pie-security-release/services/core/java/com/android/server/locksettings/LockSettingsService.java:2694:                throw new SecurityException("Escrow token is disabled on the current user");
+pie-security-release/services/core/java/com/android/server/ConsumerIrService.java:74:            throw new SecurityException("Requires TRANSMIT_IR permission");
+pie-security-release/services/core/java/com/android/server/ConsumerIrService.java:106:            throw new SecurityException("Requires TRANSMIT_IR permission");
+pie-security-release/services/core/java/com/android/server/security/VerityUtils.java:115:            throw new SecurityException("Locally generated verity root hash does not match");
+pie-security-release/services/core/java/com/android/server/security/VerityUtils.java:124:            throw new SecurityException("Failed to set up shared memory correctly");
+pie-security-release/services/core/java/com/android/server/security/VerityUtils.java:194:                    throw new SecurityException("Failed to set protection");
+pie-security-release/services/core/java/com/android/server/security/VerityUtils.java:199:                throw new SecurityException("Failed to set protection", e);
+pie-security-release/services/core/java/com/android/server/security/KeyAttestationApplicationIdProviderService.java:50:            throw new SecurityException("This service can only be used by Keystore");
+pie-security-release/services/core/java/com/android/server/AppOpsService.java:1519:            throw new SecurityException("Could not talk to package manager service");
+pie-security-release/services/core/java/com/android/server/AppOpsService.java:3517:                throw new SecurityException("Need INTERACT_ACROSS_USERS_FULL or"
+pie-security-release/services/core/java/com/android/server/AppOpsService.java:3615:            throw new SecurityException(function + " must by called by the system");
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:531:            throw new SecurityException("Illegal access to the session with token " + sessionToken
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:934:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:954:                throw new SecurityException("The caller: " + getCallingPackageName()
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1143:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1230:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1757:                throw new SecurityException("Requires DVB_DEVICE permission");
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1812:                throw new SecurityException("Requires DVB_DEVICE permission");
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:1965:                throw new SecurityException("Requires CAPTURE_TV_INPUT permission");
+pie-security-release/services/core/java/com/android/server/tv/TvInputManagerService.java:2353:                throw new SecurityException("The caller does not have hardware permission");
+pie-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:1863:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2296:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2337:                        throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2458:            throw new SecurityException("Access denied to process: " + Binder.getCallingPid()
+pie-security-release/services/core/java/com/android/server/wallpaper/WallpaperManagerService.java:2492:            throw new SecurityException("Only the system may call isWallpaperBackupEligible");
+pie-security-release/services/core/java/com/android/server/trust/TrustAgentWrapper.java:322:                throw new SecurityException("Escrow token API is not allowed.");
+pie-security-release/services/core/java/com/android/server/trust/TrustAgentWrapper.java:336:                throw new SecurityException("Escrow token API is not allowed.");
+pie-security-release/services/core/java/com/android/server/trust/TrustAgentWrapper.java:350:                throw new SecurityException("Escrow token API is not allowed.");
+pie-security-release/services/core/java/com/android/server/StorageManagerService.java:1379:            throw new SecurityException("Only admin users can adopt sd cards");
+pie-security-release/services/core/java/com/android/server/StorageManagerService.java:1654:            throw new SecurityException("Mounting " + volId + " restricted by policy");
+pie-security-release/services/core/java/com/android/server/StorageManagerService.java:2328:            throw new SecurityException("no permission to access the crypt keeper");
+pie-security-release/services/core/java/com/android/server/StorageManagerService.java:2718:        throw new SecurityException("Invalid mkdirs path: " + appFile);
+pie-security-release/services/core/java/com/android/server/VibratorService.java:491:                throw new SecurityException("Requires VIBRATE permission");
+pie-security-release/services/core/java/com/android/server/vr/VrManagerService.java:708:        throw new SecurityException("Caller does not hold at least one of the permissions: "
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:474:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:503:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:558:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:607:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:772:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1465:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1546:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1575:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1627:            throw new SecurityException("Calling copyAccountToUser requires "
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1697:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:1978:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2133:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2152:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2217:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2504:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2537:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2563:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2629:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2657:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2741:            throw new SecurityException("can only call from system");
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:2849:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3223:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3509:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3666:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3904:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:3931:            throw new SecurityException("Can be called only by system UID");
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4006:            throw new SecurityException("Can be called only by system UID");
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4073:            throw new SecurityException("Only system can check for accounts across users");
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4301:            throw new SecurityException("User " + UserHandle.getCallingUserId()
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:4454:            throw new SecurityException("getAccountsForPackage() called from unauthorized uid "
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5599:            throw new SecurityException("You need MANAGE_USERS permission to: " + message);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5608:            throw new SecurityException("You need MANAGE_USERS or CREATE_USERS permission to: "
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5684:            throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/accounts/AccountManagerService.java:5732:            throw new SecurityException();
+pie-security-release/services/core/java/com/android/server/broadcastradio/BroadcastRadioService.java:77:                throw new SecurityException("ACCESS_BROADCAST_RADIO permission not granted");
+pie-security-release/services/core/java/com/android/server/dreams/DreamManagerService.java:416:            throw new SecurityException("Access denied to process: " + Binder.getCallingPid()
+pie-security-release/services/core/java/com/android/server/oemlock/VendorLock.java:66:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:155:                    throw new SecurityException("Admin does not allow OEM unlock");
+pie-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:159:                    throw new SecurityException("Carrier does not allow OEM unlock");
+pie-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:251:            throw new SecurityException("Can't access OEM unlock state. Requires "
+pie-security-release/services/core/java/com/android/server/oemlock/OemLockService.java:261:                throw new SecurityException("Must be an admin user");
+pie-security-release/services/core/java/com/android/server/HardwarePropertiesManagerService.java:172:            throw new SecurityException("The caller is not a device owner, bound VrListenerService"
+pie-security-release/services/core/java/com/android/server/InputMethodManagerService.java:3270:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/InputMethodManagerService.java:4955:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/InputMethodManagerService.java:5013:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/ConnectivityService.java:4293:            throw new SecurityException("Insufficient permissions to request a specific SSID");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:515:            throw new SecurityException(cookie + " not allowed after sealing");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:523:            throw new SecurityException(cookie + " not allowed after commit");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:533:            throw new SecurityException(cookie + " not allowed after destruction");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:713:                        throw new SecurityException("Reverse mode only supported from shell");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:792:            throw new SecurityException("Session does not belong to uid " + callingUid);
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:805:            throw new SecurityException("Session does not belong to uid " + callingUid);
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:817:                throw new SecurityException("Files still open");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:822:                throw new SecurityException("Files still open");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:936:            throw new SecurityException("Destination package " + packageName + " does not have "
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:943:            throw new SecurityException("Can only transfer sessions that use public options");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:963:                throw new SecurityException("Can only transfer sessions that update the original "
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerSession.java:1518:            throw new SecurityException("Must be sealed to accept permissions");
+pie-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:276:                throw new SecurityException("Calling package name mismatch");
+pie-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:423:                throw new SecurityException("Caller can't access shortcut information");
+pie-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:590:                    throw new SecurityException("Cannot launch non-exported components "
+pie-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:615:                    throw new SecurityException("Attempt to launch activity without "
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:454:            throw new SecurityException("User restriction prevents installing");
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:482:            throw new SecurityException("You need the "
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:593:                throw new SecurityException("Caller has no access to session " + sessionId);
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:619:                throw new SecurityException("Caller has no access to session " + sessionId);
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:631:                throw new SecurityException("Caller has no access to session " + sessionId);
+pie-security-release/services/core/java/com/android/server/pm/PackageInstallerService.java:650:                throw new SecurityException("Caller has no access to session " + sessionId);
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:873:            throw new SecurityException("MANAGE_USERS permission is required to start intent "
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:892:        throw new SecurityException("Can't modify quiet mode, caller is neither foreground "
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1074:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1090:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1150:            throw new SecurityException("You need INTERACT_ACROSS_USERS or MANAGE_USERS permission "
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1159:            throw new SecurityException("You need MANAGE_USERS permission to query if u=" + userId
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1839:        throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1860:            throw new SecurityException("You need MANAGE_USERS permission to: " + message);
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1876:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1890:                throw new SecurityException("You either need MANAGE_USERS or CREATE_USERS "
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1894:            throw new SecurityException("You need MANAGE_USERS permission to create an user "
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:1933:            throw new SecurityException("Only system may: " + message);
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:3321:            throw new SecurityException("userHandle can only be the calling user or a managed "
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:3963:                        throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:3983:                        throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/UserManagerService.java:4112:            throw new SecurityException("Specified package " + callingPackage
+pie-security-release/services/core/java/com/android/server/pm/CrossProfileAppsServiceImpl.java:89:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/CrossProfileAppsServiceImpl.java:95:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/CrossProfileAppsServiceImpl.java:183:            throw new SecurityException("Attempt to launch activity without "
+pie-security-release/services/core/java/com/android/server/pm/Settings.java:4331:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:679:            throw new SecurityException("Instant apps can't add permissions");
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:682:            throw new SecurityException("Label must be specified in permission");
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:696:                throw new SecurityException("Not allowed to modify non-dynamic permission "
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:713:            throw new SecurityException("Instant applications don't have access to this method");
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:1494:            throw new SecurityException("Cannot grant system fixed permission "
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:1498:            throw new SecurityException("Cannot grant policy fixed permission "
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:1515:            throw new SecurityException("Cannot grant non-ephemeral permission"
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:1615:            throw new SecurityException("Non-System UID cannot revoke system fixed permission "
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:1619:            throw new SecurityException("Cannot revoke policy fixed permission "
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:2015:            throw new SecurityException(message + " requires "
+pie-security-release/services/core/java/com/android/server/pm/permission/PermissionManagerService.java:2068:                throw new SecurityException("Permission tree size cap exceeded");
+pie-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:387:                throw new SecurityException("Calling uid " + callingUid
+pie-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:392:        throw new SecurityException("No permission tree found for " + permName);
+pie-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:398:            throw new SecurityException("Package " + pkg.packageName
+pie-security-release/services/core/java/com/android/server/pm/permission/BasePermission.java:402:            throw new SecurityException("Permission " + name
+pie-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1515:            throw new SecurityException("Caller must be system or shell");
+pie-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1521:            throw new SecurityException("Caller must be shell");
+pie-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1527:            throw new SecurityException("Caller must be system");
+pie-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1568:            throw new SecurityException("Invalid user-ID");
+pie-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1571:            throw new SecurityException("Calling package name mismatch");
+pie-security-release/services/core/java/com/android/server/pm/ShortcutService.java:1583:            throw new SecurityException("Shortcut package name mismatch");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4030:            throw new SecurityException("Instant applications don't have access to this method");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4036:                throw new SecurityException("Package " + packageName + " was not found!");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4040:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4045:                throw new SecurityException("Package " + packageName + " not a system app!");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4049:                throw new SecurityException("Package " + packageName + " is currently frozen!");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4053:                throw new SecurityException("Package " + packageName + " is not encryption aware!");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:4569:            throw new SecurityException("Only system or settings may call deletePreloadsFileCache");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:5588:            throw new SecurityException("Instant applications don't have access to this method");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:5800:            throw new SecurityException("getAllPackages is limited to privileged callers");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:6062:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:8980:            throw new SecurityException(message);
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:9577:            throw new SecurityException("dumpProfiles");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14220:            throw new SecurityException("Calling package " + callingPackage + " in user "
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14281:            throw new SecurityException("Calling package " + packageName
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14913:                    throw new SecurityException("Bad object " + obj + " for uid " + callingUid);
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14916:                throw new SecurityException("Unknown calling UID: " + callingUid);
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14925:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14942:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14955:                    throw new SecurityException("Neither user " + callingUid
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14976:            throw new SecurityException("Instant applications don't have access to this method");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:18222:            throw new SecurityException(android.Manifest.permission.MANAGE_USERS
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:19350:            throw new SecurityException("Cannot clear data for a protected package: "
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20076:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20098:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20183:            throw new SecurityException("Only the system may call getPreferredActivityBackup()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20213:            throw new SecurityException("Only the system may call restorePreferredActivities()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20244:            throw new SecurityException("Only the system may call getDefaultAppsBackup()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20274:            throw new SecurityException("Only the system may call restoreDefaultApps()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20300:            throw new SecurityException("Only the system may call getIntentFilterVerificationBackup()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20330:            throw new SecurityException("Only the system may call restorePreferredActivities()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20357:            throw new SecurityException("Only the system may call getPermissionGrantBackup()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20387:            throw new SecurityException("Only the system may call restorePermissionGrants()");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20613:            throw new SecurityException("Calling uid " + callingUid
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20864:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20880:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20890:                throw new SecurityException("Cannot disable a protected package: " + packageName);
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:20911:                    throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:23560:                throw new SecurityException("May not access signing KeySet of other apps.");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:24536:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:24627:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:24644:                throw new SecurityException("Need to declare " + appOpPermission
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:24769:            throw new SecurityException("Caller must have the "
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:24790:            throw new SecurityException("Caller must have the "
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:24809:            throw new SecurityException("Caller must have the "
+pie-security-release/services/core/java/com/android/server/pm/ShortcutRequestPinProcessor.java:110:                throw new SecurityException("Calling uid mismatch");
+pie-security-release/services/core/java/com/android/server/pm/PackageManagerServiceUtils.java:372:                throw new SecurityException("Shell does not have permission to access user "
+pie-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:577:                throw new SecurityException("The calling process has already "
+pie-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1787:                throw new SecurityException("packageName must match the calling uid");
+pie-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1819:                        throw new SecurityException("Invalid media projection");
+pie-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1823:                    throw new SecurityException("unable to validate media projection or flags");
+pie-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1830:                    throw new SecurityException("Requires CAPTURE_VIDEO_OUTPUT or "
+pie-security-release/services/core/java/com/android/server/display/DisplayManagerService.java:1838:                    throw new SecurityException("Requires CAPTURE_SECURE_VIDEO_OUTPUT "
+pie-security-release/services/core/java/com/android/server/webkit/WebViewUpdateService.java:210:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/webkit/WebViewUpdateService.java:258:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/webkit/WebViewUpdateService.java:284:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/audio/AudioService.java:1974:            throw new SecurityException("Not allowed to change Do Not Disturb state");
+pie-security-release/services/core/java/com/android/server/audio/AudioService.java:2517:            throw new SecurityException("Not allowed to change Do Not Disturb state");
+pie-security-release/services/core/java/com/android/server/audio/AudioService.java:4218:            throw new SecurityException("Not allowed to change Do Not Disturb state");
+pie-security-release/services/core/java/com/android/server/audio/AudioService.java:8043:            throw new SecurityException("Not allowed to monitor audioserver state");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:621:                throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:665:            throw new SecurityException("Requires DISABLE_INPUT_DEVICE permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:675:            throw new SecurityException("Requires DISABLE_INPUT_DEVICE permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:715:                throw new SecurityException("The calling process has already "
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:919:            throw new SecurityException("Requires SET_INPUT_CALIBRATION permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:947:            throw new SecurityException("Requires TABLET_MODE permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:956:            throw new SecurityException("Requires TABLET_MODE_LISTENER permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:1331:            throw new SecurityException("Requires SET_KEYBOARD_LAYOUT permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:1370:            throw new SecurityException("Requires SET_KEYBOARD_LAYOUT permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:1399:            throw new SecurityException("Requires SET_KEYBOARD_LAYOUT permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:1545:            throw new SecurityException("Requires SET_POINTER_SPEED permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:1744:            throw new SecurityException("Requires INJECT_EVENTS permission");
+pie-security-release/services/core/java/com/android/server/input/InputManagerService.java:1755:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/DropBoxManagerService.java:333:            throw new SecurityException("READ_LOGS permission required");
+pie-security-release/services/core/java/com/android/server/job/JobSchedulerShellCommand.java:89:            throw new SecurityException("Uid " + uid
+pie-security-release/services/core/java/com/android/server/job/JobSchedulerService.java:2523:                    throw new SecurityException("Job has invalid flags");
+pie-security-release/services/core/java/com/android/server/job/JobSchedulerService.java:2605:                throw new SecurityException("Caller uid " + callerUid
+pie-security-release/services/core/java/com/android/server/job/JobServiceContext.java:481:            throw new SecurityException(sb.toString());
+pie-security-release/services/core/java/com/android/server/os/DeviceIdentifiersPolicyService.java:64:                throw new SecurityException("getSerial requires READ_PHONE_STATE"
+pie-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:287:            throw new SecurityException("Caller must be system");
+pie-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:312:            throw new SecurityException("Caller must be system");
+pie-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:342:            throw new SecurityException("Caller must own " + uri);
+pie-security-release/services/core/java/com/android/server/slice/SliceManagerService.java:440:                throw new SecurityException("Access to slice " + uri + " is required");
+pie-security-release/services/core/java/com/android/server/connectivity/IpConnectivityMetrics.java:331:                throw new SecurityException(String.format("Uid %d has no permission to listen for"
+pie-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1021:                throw new SecurityException("Restricted users cannot establish VPNs");
+pie-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1027:                throw new SecurityException("Cannot find " + config.user);
+pie-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1030:                throw new SecurityException(config.user + " does not require " + BIND_VPN_SERVICE);
+pie-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1033:            throw new SecurityException("Cannot find " + config.user);
+pie-security-release/services/core/java/com/android/server/connectivity/Vpn.java:1695:            throw new SecurityException("Restricted users cannot establish VPNs");
+pie-security-release/services/core/java/com/android/server/BluetoothManagerService.java:843:            throw new SecurityException("no permission to enable Bluetooth quietly");
+pie-security-release/services/core/java/com/android/server/BluetoothManagerService.java:945:                throw new SecurityException("Package " + packageName
+pie-security-release/services/core/java/com/android/server/content/ContentService.java:340:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/content/ContentService.java:407:                throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/content/ContentService.java:1241:                    throw new SecurityException(TAG + "Neither user " + uid
+pie-security-release/services/core/java/com/android/server/content/ContentService.java:1284:                    throw new SecurityException(msg);
+pie-security-release/services/core/java/com/android/server/content/ContentService.java:1588:            throw new SecurityException("Non-shell user attempted to call " + method);
+pie-security-release/services/core/java/com/android/server/net/watchlist/NetworkWatchlistService.java:247:            throw new SecurityException(String.format("Uid %d has no permission to change watchlist"
+pie-security-release/services/core/java/com/android/server/net/NetworkStatsService.java:659:                    throw new SecurityException("Calling package " + mCallingPackage
+pie-security-release/services/core/java/com/android/server/net/NetworkStatsCollection.java:246:            throw new SecurityException("Network stats history of uid " + uid
+pie-security-release/services/core/java/com/android/server/net/NetworkPolicyManagerService.java:3200:            throw new SecurityException();
+pie-security-release/services/core/java/com/android/server/media/MediaRouterService.java:232:            throw new SecurityException("packageName must match the calling uid");
+pie-security-release/services/core/java/com/android/server/media/MediaSessionService.java:346:            throw new SecurityException("Must hold the MODIFY_PHONE_STATE permission.");
+pie-security-release/services/core/java/com/android/server/media/MediaSessionService.java:621:            throw new SecurityException("Missing permission to control media.");
+pie-security-release/services/core/java/com/android/server/media/MediaSessionService.java:632:            throw new SecurityException("Only system ui may " + action);
+pie-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1181:                    throw new SecurityException("Only Bluetooth service processes can set"
+pie-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1229:                    throw new SecurityException("Must hold the SET_VOLUME_KEY_LONG_PRESS_LISTENER" +
+pie-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1289:                    throw new SecurityException("Must hold the SET_MEDIA_KEY_LISTENER" +
+pie-security-release/services/core/java/com/android/server/media/MediaSessionService.java:1762:                throw new SecurityException("Missing permission to control media.");
+pie-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:227:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to grant "
+pie-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:257:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to add "
+pie-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:272:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to add "
+pie-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:290:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to add "
+pie-security-release/services/core/java/com/android/server/media/projection/MediaProjectionManagerService.java:305:                throw new SecurityException("Requires MANAGE_MEDIA_PROJECTION in order to remove "
+pie-security-release/services/core/java/com/android/server/clipboard/ClipboardService.java:567:                throw new SecurityException("Calling uid " + uid
+pie-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:167:            throw new SecurityException("Can't access OEM unlock state. Requires "
+pie-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:180:            throw new SecurityException("uid " + callingUid + " not allowed to access PST");
+pie-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:188:            throw new SecurityException(
+pie-security-release/services/core/java/com/android/server/PersistentDataBlockService.java:195:            throw new SecurityException(
+pie-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:715:                throw new SecurityException("Calling uid " + pkg + " cannot query events"
+pie-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:931:                    throw new SecurityException(
+pie-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1005:                throw new SecurityException(
+pie-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1118:                throw new SecurityException("Caller doesn't have OBSERVE_APP_USAGE permission");
+pie-security-release/services/usage/java/com/android/server/usage/UsageStatsService.java:1141:                throw new SecurityException("Caller doesn't have OBSERVE_APP_USAGE permission");
+pie-security-release/services/usage/java/com/android/server/usage/StorageStatsService.java:151:                throw new SecurityException("Package " + callingPackage + " from UID " + callingUid
+pie-security-release/services/midi/java/com/android/server/midi/MidiService.java:664:                throw new SecurityException("Attempt to open private device with wrong UID");
+pie-security-release/services/midi/java/com/android/server/midi/MidiService.java:715:            throw new SecurityException("only system can create USB devices");
+pie-security-release/services/midi/java/com/android/server/midi/MidiService.java:717:            throw new SecurityException("only MidiBluetoothService can create Bluetooth devices");
+pie-security-release/services/midi/java/com/android/server/midi/MidiService.java:765:                throw new SecurityException("setDeviceStatus() caller UID " + Binder.getCallingUid()
+pie-security-release/services/usb/java/com/android/server/usb/UsbHostManager.java:450:                throw new SecurityException("USB device is on a restricted bus");
+pie-security-release/services/usb/java/com/android/server/usb/UsbUserSettingsManager.java:194:            throw new SecurityException("User has not given permission to device " + device);
+pie-security-release/services/usb/java/com/android/server/usb/UsbUserSettingsManager.java:200:            throw new SecurityException("User has not given permission to accessory " + accessory);
+pie-security-release/services/companion/java/com/android/server/companion/CompanionDeviceManagerService.java:283:                throw new SecurityException(pkg + " doesn't belong to uid " + callingUid);
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerServiceImpl.java:275:            throw new SecurityException("Calling uid " + callingUid
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerServiceImpl.java:284:            throw new SecurityException("Calling uid " + callingUid
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerServiceImpl.java:293:            throw new SecurityException("Calling uid " + callingUid
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:600:                    throw new SecurityException(
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:617:                    throw new SecurityException(
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:883:                    throw new SecurityException(
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:909:                    throw new SecurityException(
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:930:                    throw new SecurityException(
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:970:                    throw new SecurityException(
+pie-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java:1178:                throw new SecurityException("Caller does not hold the permission " + permission);
+pie-security-release/services/voiceinteraction/java/com/android/server/soundtrigger/SoundTriggerService.java:1245:            throw new SecurityException("Caller does not hold the permission " + permission);
+pie-security-release/services/autofill/java/com/android/server/autofill/AutofillManagerServiceImpl.java:532:            throw new SecurityException("Could not verify UID for " + componentName);
+pie-security-release/services/autofill/java/com/android/server/autofill/AutofillManagerServiceImpl.java:552:            throw new SecurityException("Invalid component: " + componentName);
+pie-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:1287:                throw new SecurityException("The taget service not in the same package"
+pie-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:2916:            throw new SecurityException("Only the system process can call this");
+pie-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:3672:                    throw new SecurityException("Service " + componentName
+pie-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:3676:                    throw new SecurityException("Service " + componentName
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2603:                throw new SecurityException("Admin " + admin.info.getComponent()
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2607:                throw new SecurityException("Admin " + admin.info.getComponent()
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2610:            throw new SecurityException("Admin " + admin.info.getComponent()
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2614:            throw new SecurityException("No active admin owned by uid "
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2639:            throw new SecurityException("No active admin " + who);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2642:            throw new SecurityException("Admin " + who + " is not owned by uid " + uid);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2656:                throw new SecurityException("No active admin " + who);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:2659:                throw new SecurityException("Admin " + who + " is not owned by uid " + uid);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:3771:                throw new SecurityException("No active admin " + adminReceiver);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:3828:                    throw new SecurityException("Attempt to remove non-test admin "
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:3895:            throw new SecurityException("Non-shell user attempted to call " + method);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:3934:            throw new SecurityException("Caller must be system");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:4730:                    throw new SecurityException("resetPassword() is deprecated for DPC targeting O"
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:4746:                        throw new SecurityException("Cannot call with null password");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:4755:                        throw new SecurityException("Admin cannot change current password");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5139:                        throw new SecurityException("Only profile owner admins can set "
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5356:                throw new SecurityException("Not in Device Owner mode.");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5359:                throw new SecurityException("Caller not from device owner user");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5362:                throw new SecurityException("Caller with uid " + mInjector.binderGetCallingUid() +
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5703:                    throw new SecurityException("Caller with uid " + callingUid + " is not "
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5816:            throw new SecurityException("Caller with uid " + mInjector.binderGetCallingUid()
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5993:                throw new SecurityException("Cannot wipe data. " + restriction
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:5999:                    throw new SecurityException(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:6536:            throw new SecurityException(e);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:6758:                throw new SecurityException("Not all users are affiliated.");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7361:                throw new SecurityException("Invalid packageName");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7364:            throw new SecurityException(e);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7372:                throw new SecurityException(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7956:            throw new SecurityException("You can not " + message + " outside a managed profile.");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7962:            throw new SecurityException("You can not " + message + " for a managed profile.");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8030:            throw new SecurityException("User " + userId + " is not allowed to use lock task");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8336:                throw new SecurityException("Only the system can query the permission provider");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8578:            throw new SecurityException(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8752:            throw new SecurityException(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8812:            throw new SecurityException(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:8861:            throw new SecurityException("createAndManageUser was called from non-system user");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9110:                throw new SecurityException("Admin " + who +
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9273:                    throw new SecurityException("Device owner cannot set user restriction " + key);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9277:                    throw new SecurityException("Profile owner cannot set user restriction " + key);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9516:                throw new SecurityException("Admin " + who +
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9915:            throw new SecurityException("notifyLockTaskModeChanged can only be called by system");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9959:                throw new SecurityException(String.format(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:9990:                throw new SecurityException(String.format(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10037:                    throw new SecurityException(String.format(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10041:                throw new SecurityException(String.format(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10132:                throw new SecurityException("Admin " + who +
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10137:            throw new SecurityException("Managed profile cannot disable keyguard");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10162:                throw new SecurityException("Admin " + who +
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:10166:                throw new SecurityException("Managed profile cannot disable status bar");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11250:            throw new SecurityException("Only the system can query support message for user");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11268:            throw new SecurityException("Only the system can query support message for user");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11473:            throw new SecurityException(
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:11728:            throw new SecurityException("Caller has to be in user 0");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12084:            throw new SecurityException("Not allowed to bind to target user id");
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12456:            throw new SecurityException("Only allow to bind service in " + expectedPackageName);
+pie-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:12460:            throw new SecurityException(
+pie-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:868:            throw new SecurityException("Caller does not hold permission "
+pie-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:887:            throw new SecurityException("Caller does not hold permission "
+pie-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:2296:            throw new SecurityException(
+pie-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:2386:                throw new SecurityException("Only SYSTEM can call sendFingerprintGesture");
+pie-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:3522:                throw new SecurityException("Call from user " + callingUserId + " as user "
+pie-security-release/services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java:3602:                throw new SecurityException("You do not have " + permission
+pie-security-release/services/tests/servicestests/src/com/android/server/am/RecentTasksTest.java:978:                        throw new SecurityException();
+pie-security-release/services/tests/servicestests/src/com/android/server/devicepolicy/DpmMockContext.java:237:            throw new SecurityException("Caller doesn't have " + permission + " : " + message);
+pie-security-release/services/tests/servicestests/src/com/android/server/pm/BaseShortcutManagerTest.java:453:                throw new SecurityException("Missing permission: " + permission);
+pie-security-release/services/tests/servicestests/src/com/android/server/pm/BaseShortcutManagerTest.java:840:                    throw new SecurityException(inv.getArguments()[2] + " for unrelated profile "
+pie-security-release/services/tests/servicestests/src/com/android/server/pm/CrossProfileAppsServiceImplTest.java:137:            throw new SecurityException("Not matching");
+pie-security-release/services/restrictions/java/com/android/server/restrictions/RestrictionsManagerService.java:170:                        throw new SecurityException("No restrictions provider registered for user");
+pie-security-release/services/restrictions/java/com/android/server/restrictions/RestrictionsManagerService.java:193:                        throw new SecurityException(message + callingUid);
+pie-security-release/services/print/java/com/android/server/print/PrintManagerService.java:344:                    throw new SecurityException("Only system and print spooler can call this");
+pie-security-release/services/print/java/com/android/server/print/PrintManagerService.java:737:                throw new SecurityException("Can only be called by uid " + SHELL_UID
+pie-security-release/services/print/java/com/android/server/print/PrintManagerService.java:757:                throw new SecurityException("Can only be called by uid " + SHELL_UID
+pie-security-release/services/print/java/com/android/server/print/PrintManagerService.java:1051:                throw new SecurityException("Call from app " + callingAppId + " as app "
+pie-security-release/services/backup/java/com/android/server/backup/BackupManagerService.java:3000:                throw new SecurityException("Only the transport can change its description");
+pie-security-release/services/backup/java/com/android/server/backup/BackupManagerService.java:3003:            throw new SecurityException("Transport package not found", e);
+pie-security-release/services/backup/java/com/android/server/backup/restore/ActiveRestoreSession.java:322:            throw new SecurityException("No permission to restore other packages");
+pie-security-release/services/backup/java/com/android/server/backup/Trampoline.java:151:            throw new SecurityException("No permission to configure backup activity");
+pie-security-release/packages/ExternalStorageProvider/src/com/android/externalstorage/ExternalStorageProvider.java:123:            throw new SecurityException(
+pie-security-release/packages/ExternalStorageProvider/src/com/android/externalstorage/ExternalStorageProvider.java:536:        throw new SecurityException("The app is not given any access to the document under path " +
+pie-security-release/packages/services/PacProcessor/src/com/android/pacprocessor/PacService.java:98:                throw new SecurityException();
+pie-security-release/packages/services/PacProcessor/src/com/android/pacprocessor/PacService.java:107:                throw new SecurityException();
+pie-security-release/packages/services/PacProcessor/src/com/android/pacprocessor/PacService.java:116:                throw new SecurityException();
+pie-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:1779:            throw new SecurityException("Permission denial: writing to settings requires:"
+pie-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:1922:                    throw new SecurityException("Only system, shell/root on a "
+pie-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:1929:                    throw new SecurityException("Only system, shell/root on a "
+pie-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:1936:                    throw new SecurityException("Only system, shell/root on a "
+pie-security-release/packages/SystemUI/src/com/android/systemui/keyguard/KeyguardService.java:69:            throw new SecurityException("Access denied to process: " + Binder.getCallingPid()
+pie-security-release/packages/SystemUI/src/com/android/systemui/qs/external/TileServices.java:149:                throw new SecurityException("Component outside caller's uid");
+pie-security-release/packages/SystemUI/src/com/android/systemui/qs/external/TileServices.java:152:            throw new SecurityException(e);
+pie-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:167:                throw new SecurityException("Async playback only available from system UID.");
+pie-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:179:                throw new SecurityException("Async playback only available from system UID.");
+pie-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:210:                                throw new SecurityException(e);
+pie-security-release/packages/SystemUI/src/com/android/systemui/media/RingtonePlayer.java:216:            throw new SecurityException("Uri is not ringtone, alarm, or notification: " + uri);
+pie-security-release/telephony/java/android/telephony/mbms/MbmsTempFileProvider.java:96:            throw new SecurityException("Provider must not be exported");
+pie-security-release/telephony/java/android/telephony/mbms/MbmsTempFileProvider.java:99:            throw new SecurityException("Provider must grant uri permissions");
+pie-security-release/telephony/java/android/telephony/mbms/MbmsTempFileProvider.java:167:            throw new SecurityException("Resolved path jumped beyond configured root");
+pie-security-release/telephony/java/com/android/internal/telephony/TelephonyPermissions.java:229:        throw new SecurityException(message + ": Neither user " + uid +
+pie-security-release/telephony/java/com/android/internal/telephony/TelephonyPermissions.java:274:            throw new SecurityException(message);
+pie-security-release/tests/testables/src/android/testing/TestablePermissions.java:71:            throw new SecurityException();
+pie-security-release/tests/testables/src/android/testing/TestablePermissions.java:77:            throw new SecurityException();
+pie-security-release/tests/net/java/com/android/server/IpSecServiceParameterizedTest.java:115:            throw new SecurityException("Unavailable permission requested");
+pie-security-release/tests/net/java/com/android/server/ConnectivityServiceTest.java:2710:                throw new SecurityException("failure");
+pie-security-release/media/java/android/media/midi/MidiDeviceServer.java:190:                    throw new SecurityException("Can't access private device from different UID");
+pie-security-release/media/java/android/media/midi/MidiDeviceServer.java:228:                    throw new SecurityException("Can't access private device from different UID");
+pie-security-release/media/java/android/media/midi/MidiDeviceServer.java:325:                throw new SecurityException("setDeviceInfo should only be called by MidiService");

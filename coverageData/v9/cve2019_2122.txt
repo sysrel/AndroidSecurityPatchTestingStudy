@@ -1,0 +1,38 @@
+--------- beginning of system
+--------- beginning of main
+05-16 08:34:35.936 17804 17848 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:34:35.936 17804 17848 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:34:35.936 17804 17848 I CVE-2019-2122: LockTaskController.java 1/2 Entry
+05-16 08:34:35.937 17804 17848 I CVE-2019-2122: LockTaskController.java 1/2 Exit
+05-16 08:34:35.961 17804 17852 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:34:35.961 17804 17852 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:34:35.963 17804 17852 I CVE-2019-2122: LockTaskController.java 2/2 Exit B
+05-16 08:34:36.031 17804 17863 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:34:36.031 17804 17863 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:34:36.044 17804 17865 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:34:36.044 17804 17865 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:34:36.045 17804 17865 I CVE-2019-2122: LockTaskController.java 2/2 Exit B
+05-16 08:34:36.046 17804 17865 I CVE-2019-2122: LockTaskController.java 1/2 Entry
+05-16 08:34:36.047 17804 17865 I CVE-2019-2122: LockTaskController.java 1/2 Exit
+05-16 08:34:36.052 17804 17866 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:34:36.052 17804 17866 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:34:36.052 17804 17866 I CVE-2019-2122: LockTaskController.java 1/2 Entry
+05-16 08:34:36.052 17804 17866 I CVE-2019-2122: LockTaskController.java 1/2 Exit
+05-16 08:35:45.564 18074 18119 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:35:45.564 18074 18119 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:35:45.565 18074 18119 I CVE-2019-2122: LockTaskController.java 1/2 Entry
+05-16 08:35:45.565 18074 18119 I CVE-2019-2122: LockTaskController.java 1/2 Exit
+05-16 08:35:45.594 18074 18123 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:35:45.594 18074 18123 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:35:45.595 18074 18123 I CVE-2019-2122: LockTaskController.java 2/2 Exit B
+05-16 08:35:45.659 18074 18134 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:35:45.659 18074 18134 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:35:45.669 18074 18136 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:35:45.669 18074 18136 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:35:45.669 18074 18136 I CVE-2019-2122: LockTaskController.java 2/2 Exit B
+05-16 08:35:45.669 18074 18136 I CVE-2019-2122: LockTaskController.java 1/2 Entry
+05-16 08:35:45.670 18074 18136 I CVE-2019-2122: LockTaskController.java 1/2 Exit
+05-16 08:35:45.674 18074 18137 I CVE-2019-2122: LockTaskController.java 2/2 Entry
+05-16 08:35:45.674 18074 18137 I CVE-2019-2122: LockTaskController.java 2/2 Exit A
+05-16 08:35:45.674 18074 18137 I CVE-2019-2122: LockTaskController.java 1/2 Entry
+05-16 08:35:45.674 18074 18137 I CVE-2019-2122: LockTaskController.java 1/2 Exit

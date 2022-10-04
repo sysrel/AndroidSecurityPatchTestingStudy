@@ -1,0 +1,14 @@
+CVE-2021-0688            Switch user, ensure lockscreen comes up
+CVE-2021-0521            run iorapd and check it works well.
+CVE-2019-2005            - Revoked all permissions from camera - Set lock screen PIN - Opened camera app -> Camera app asks for permissions - Locked screen - Granted permission from in front of lock screen
+CVE-2018-9491            CTS
+CVE-2019-2174            confirm sensors initialize
+CVE-2021-0438            Existing tests pass
+CVE-2021-0319            ensure attached bug no longer reproduces
+CVE-2021-0309            Existing CTS tests
+CVE-2020-0420            ./gapit validate_gpu_profiling --os android
+CVE-2020-0421            fuzzer test case
+CVE-2020-0246            safe net loNumber of unique CVEs in the generic/nondescript category: 1g
+CVE-2020-0412            verified command still works from shell
+CVE-2019-2217            adb shell dumpsys gpu
+CVE-2019-2090            SafetyNet logging (steps listed above)

@@ -1,0 +1,86 @@
+CVE-2021-39693           atest ForegroundModeAndActiveTest
+CVE-2021-39697           atest HelpersTest
+CVE-2021-39690           atest SurfaceFlinger_test
+CVE-2021-39690           atest libsurfaceflinger_unittest
+CVE-2021-39619           atest UserUsageStatsServiceTest
+CVE-2021-39619           atest UsageStatsTest [all]
+CVE-2021-0799            atest CtsContentTestCases:android.content.cts
+CVE-2021-0921            atest com.android.server.pm.test.parsing.parcelling
+CVE-2020-13871           atest SQLiteSecurityTest
+CVE-2021-0708            atest CtsPermissionTestCases:ShellCommandPermissionTest
+CVE-2020-15358           atest SQLiteSecurityTest
+CVE-2021-0702            atest ApexServiceRevertTest
+CVE-2021-0651            atest PackageManagerTest
+CVE-2021-0687            atest CtsTextTestCases CtsGraphicsTestCases CtsWidgetTestCases
+CVE-2021-0683            atest CtsPermissionTestCases:ShellCommandPermissionTest
+CVE-2021-0684            atest inputflinger_tests (on a hwasan build)
+CVE-2021-0685            atest com.android.server.pm.test.parsing.parcelling
+CVE-2021-0686            atest RoleSecurityTest
+CVE-2021-0645            atest DocumentsTest
+CVE-2021-0486            Atest StorageEscalationTest
+CVE-2021-0472            atest LockTaskControllerTest
+CVE-2021-0485            atest PinnedStackTests#testEnterPipWithTinyMinimalSize
+CVE-2021-0432            atest statsd_test, wrote a repro cl.
+CVE-2021-0398            atest cts/tests/app/src/android/app/cts/ActivityManagerFgsBgStartTest.java#testFgsLocationStartFromBGWithBind
+CVE-2021-0314            atest CtsPackageUninstallTestCases Fixes: 171221302
+CVE-2021-0337            atest DocumentsTest#testAfterMoveDocumentInStorage_revokeUriPermission
+CVE-2021-0340            atest MediaStore_Video_MediaTest
+CVE-2021-0307            atest RemovePermissionTest
+CVE-2021-0310            atest aidl_lazy_test
+CVE-2021-0317            atest PermissionEscalationTest
+CVE-2021-0321            atest CtsSecurityTestCases:ActivityManagerTest
+CVE-2020-0099            atest CtsWindowManagerDeviceTestCases:android.server.wm.PresentationTest CtsDisplayTestCases:android.display.cts.VirtualDisplayTest
+CVE-2020-0440            atest VirtualDisplayTest#testTrustedVirtualDisplay
+CVE-2020-0440            atest frameworks/base/packages/SystemUI/tests/src/com/android/systemui/bubbles
+CVE-2020-0440            atest DisplayTest
+CVE-2020-0440            atest VirtualDisplayTest#testTrustedVirtualDisplay
+CVE-2020-0440            atest VirtualDisplayTest#testUntrustedSysDecorVirtualDisplay
+CVE-2020-0459            atest FrameworksWifiTests
+CVE-2020-0464            atest Because DnsResolver had been moved to another git project in R, use aosp/1302595 as Merged-In tag to avoid conflict.
+CVE-2020-0467            atest FrameworksNetTests
+CVE-2020-0468            (cts) atest TelephonyLocationTests; atest PhoneStateListenerTest
+CVE-2020-0469            atest com.android.server.locksettings
+CVE-2020-0418            Manual + `atest PermissionsHostTest`
+CVE-2020-0439            atest EphemeralTest
+CVE-2020-0454            atest ConnectivityServiceTest (frameworks/base/tests/net)
+CVE-2020-0454            atest frameworks/base/tests/net
+CVE-2020-0454            atest frameworks/opt/net/wifi/tests/wifitests
+CVE-2020-0454            atest frameworks/opt/telephony/tests/telephonytests
+CVE-2020-0454            atest frameworks/opt/net/ethernet/tests
+CVE-2020-0454            atest android.net.cts - some flakiness!
+CVE-2020-0454            atest SingleDeviceTest (cts)
+CVE-2020-0443            atest LocaleListTest
+CVE-2020-0419            atest SessionReferrerUriTest
+CVE-2020-0240            atest proxy_resolver_v8_unittest
+CVE-2020-0257            atest CtsExternalServiceTestCases
+CVE-2020-0115            atest OsHostTests#testIntentFilterHostValidation
+CVE-2020-0121            (on master) atest CtsAppOpsTestCases:android.app.appops.cts.ForegroundModeTest
+CVE-2020-0098            atest ActivityStackTests#testNavigateUpTo
+CVE-2020-0080            atest AppOpsControllerTest
+CVE-2020-0081            atest android.security.cts.AssetManagerTest
+CVE-2020-0082            atest ExternalVibrationTest#testSerialization
+CVE-2020-0031            atest android.autofillservice.cts.augmented
+CVE-2020-0014            atest CtsWindowManagerDeviceTestCases:ToastTest
+CVE-2019-2200            atest android.permission.cts.RemovePermissionTest
+CVE-2020-0017            atest android.view.textclassifier atest android.widget.TextViewActivityTest (manual) See I2fdffd8eb4221782cb1f34d2ddbe41dd3d36595c
+CVE-2020-0020            atest ExifInterfaceTest
+CVE-2019-9464            atest com.android.settingslib.location.RecentLocationAppsTest atest CtsPermissionTestCases added: LocationAccessCheckTest#notificationOnlyForAccessesSinceFeatureWasEnabled added: LocationAccessCheckTest#noNotificationIfFeatureDisabled added: LocationAccessCheckTest#noNotificationIfBlamerNotSystemOrLocationProvider added: LocationAccessCheckTest#testOpeningLocationSettingsDoesNotTriggerAccess
+CVE-2019-2221            atest BackgroundActivityLaunchTest \ RootWindowContainerTests \ WmTests:ActivityStarterTests \ CtsWindowManagerDeviceTestCases:ActivityStarterTests
+CVE-2019-2123            atest CtsOsTestCases:ParcelTest#testObjectDoubleFree
+CVE-2019-2175            atest FrameworksUiServicesTests
+CVE-2019-9254            atest CtsAppTestCases:android.app.cts.ServiceTest
+CVE-2019-2122            atest LockTaskControllerTest
+CVE-2018-20346           atest cts/SQLiteDatabaseTest all passed.
+CVE-2018-20346           atest cts/SQLSecurityTest
+CVE-2019-2003            atest android.view.textclassifier.TextClassificationManagerTest \ android.text.util.cts.LinkifyTest \ android.text.util.LinkifyTest \ android.widget.TextViewActivityTest
+CVE-2018-9582            Existing tests pass: atest GtsPackageInstallTestCases GtsNoPermissionTestCases \ GtsNoPermissionTestCases25
+CVE-2018-9492            atest android.appsecurity.cts.AppSecurityTests
+CVE-2018-9493            atest cts/tests/tests/database/src/android/database/sqlite/cts/SQLiteQueryBuilderTest.java
+CVE-2018-9458            atest DisplayContentTests (cherry picked from commit 3cd5e3d9bbb3255e874b8fa27d7ed506164905dd)
+CVE-2021-0595            atest RootWindowContainerTests
+CVE-2021-0313            atest minikin_test
+CVE-2018-9410            atest minikin_tests
+CVE-2017-13275           atest minikin_tests
+CVE-2018-9339            atest CtsAutoFillServiceTestCases pass
+CVE-2021-0442            atest WindowInputTests
+CVE-2019-2103            atest TransactionTest#SetFlagsSecureEUidSystem

@@ -1,0 +1,1555 @@
+CVE Reference            Updated Files                                     
+CVE-2021-39692           AndroidManifest.xml                               
+CVE-2021-39692           SetupLayoutActivity.java                          
+
+CVE Reference            Testing Information                               
+CVE-2021-39692           manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39693           AppOpsService.java                                
+
+CVE Reference            Testing Information                               
+CVE-2021-39693           atest ForegroundModeAndActiveTest                 
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39695           BasePermission.java                               
+
+CVE Reference            Testing Information                               
+CVE-2021-39695           manually using the PoC on the buganizer to ensure the symptom no longer exists.
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39697           DownloadProvider.java                             
+CVE-2021-39697           Helpers.java                                      
+CVE-2021-39697           HelpersTest.java                                  
+
+CVE Reference            Testing Information                               
+CVE-2021-39697           atest HelpersTest                                 
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39690           BufferQueueLayer.cpp                              
+CVE-2021-39690           SurfaceFlinger.cpp                                
+CVE-2021-39690           SurfaceFlinger.h                                  
+CVE-2021-39690           ScreenCapture_test.cpp                            
+CVE-2021-39690           CompositionTest.cpp                               
+CVE-2021-39690           TestableSurfaceFlinger.h                          
+
+CVE Reference            Testing Information                               
+CVE-2021-39690           The test mentioned in the bug fails instead of crashing SurfaceFlinger.
+CVE-2021-39690           atest SurfaceFlinger_test                         
+CVE-2021-39690           atest libsurfaceflinger_unittest                  
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39619           DevicePolicyManagerInternal.java                  
+CVE-2021-39619           DevicePolicyManagerService.java                   
+CVE-2021-39619           UserUsageStatsServiceTest.java                    
+CVE-2021-39619           UsageStatsService.java                            
+CVE-2021-39619           UserUsageStatsService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2021-39619           atest UserUsageStatsServiceTest                   
+CVE-2021-39619           atest UsageStatsTest [all]                        
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39664           LoadedArsc.cpp                                    
+
+CVE Reference            Testing Information                               
+CVE-2021-39664           manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39630           OverlayManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2021-39630           sts-tradefed run sts-engbuild-no-spl-lock \ -m StsHostTestCases -t android.security.sts.Bug_202768292
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-39632           events.cpp                                        
+
+CVE Reference            Testing Information                               
+CVE-2021-39632           None yet.                                         
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0338            AccountManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0338            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0955            FuseDaemon.cpp                                    
+
+CVE Reference            Testing Information                               
+CVE-2021-0955            Manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0970            GpsNavigationMessage.java                         
+
+CVE Reference            Testing Information                               
+CVE-2021-0970            presubmits passing.                               
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0704            strings.xml                                       
+CVE-2021-0704            symbols.xml                                       
+CVE-2021-0704            AccountManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2021-0704            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0799            ActivityThread.java                               
+
+CVE Reference            Testing Information                               
+CVE-2021-0799            atest CtsContentTestCases:android.content.cts     
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0921            ParsingPackageImpl.java                           
+CVE-2021-0921            ParsingPackageUtils.java                          
+CVE-2021-0921            ParsedComponent.java                              
+
+CVE Reference            Testing Information                               
+CVE-2021-0921            atest com.android.server.pm.test.parsing.parcelling
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0923            Permission.java                                   
+CVE-2021-0923            PermissionManagerService.java                     
+
+CVE Reference            Testing Information                               
+CVE-2021-0923            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0926            AndroidManifest.xml                               
+
+CVE Reference            Testing Information                               
+CVE-2021-0926            build                                             
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0933            CompanionDeviceActivity.java                      
+
+CVE Reference            Testing Information                               
+CVE-2021-0933            Manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-13871           README.version                                    
+CVE-2020-13871           Android.patch                                     
+CVE-2020-13871           sqlite3.c                                         
+CVE-2020-13871           sqlite3.h                                         
+CVE-2020-13871           sqlite3.c                                         
+CVE-2020-13871           sqlite3.h                                         
+
+CVE Reference            Testing Information                               
+CVE-2020-13871           atest SQLiteSecurityTest                          
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0653            NetworkPolicyManagerService.java                  
+
+CVE Reference            Testing Information                               
+CVE-2021-0653            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0922            CrossProfileAppsServiceImpl.java                  
+
+CVE Reference            Testing Information                               
+CVE-2021-0922            manual testing                                    
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0652            VectorDrawable.java                               
+
+CVE Reference            Testing Information                               
+CVE-2021-0652            speculative                                       
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0705            Notification.java                                 
+CVE-2021-0705            NotificationManagerService.java                   
+
+CVE Reference            Testing Information                               
+CVE-2021-0705            Manually tested                                   
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0708            ActivityManagerShellCommand.java                  
+
+CVE Reference            Testing Information                               
+CVE-2021-0708            manual "adb shell cmd activity dumpheap system_server /data/system/last-fstrim"
+CVE-2021-0708            atest CtsPermissionTestCases:ShellCommandPermissionTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-15358           README.version                                    
+CVE-2020-15358           Android.patch                                     
+CVE-2020-15358           sqlite3.c                                         
+CVE-2020-15358           sqlite3.h                                         
+CVE-2020-15358           sqlite3.c                                         
+CVE-2020-15358           sqlite3.h                                         
+
+CVE Reference            Testing Information                               
+CVE-2020-15358           atest SQLiteSecurityTest                          
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0702            apexd.cpp                                         
+CVE-2021-0702            apexservice_test.cpp                              
+
+CVE Reference            Testing Information                               
+CVE-2021-0702            atest ApexServiceRevertTest                       
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0651            PackageItemInfo.java                              
+
+CVE Reference            Testing Information                               
+CVE-2021-0651            atest PackageManagerTest                          
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0687            Layout.java                                       
+
+CVE Reference            Testing Information                               
+CVE-2021-0687            atest CtsTextTestCases CtsGraphicsTestCases CtsWidgetTestCases
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0595            RootWindowContainer.java                          
+CVE-2021-0595            RootWindowContainerTests.java                     
+
+CVE Reference            Testing Information                               
+CVE-2021-0595            RootWindowContainerTests                          
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0683            ActivityManagerShellCommand.java                  
+
+CVE Reference            Testing Information                               
+CVE-2021-0683            manual "adb shell cmd activity dumpheap system_server /data/system/last-fstrim"
+CVE-2021-0683            atest CtsPermissionTestCases:ShellCommandPermissionTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0684            TouchInputMapper.cpp                              
+CVE-2021-0684            TouchInputMapper.h                                
+
+CVE Reference            Testing Information                               
+CVE-2021-0684            atest inputflinger_tests (on a hwasan build)      
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0685            ParsedIntentInfo.java                             
+
+CVE Reference            Testing Information                               
+CVE-2021-0685            atest com.android.server.pm.test.parsing.parcelling
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0688            PhoneWindowManager.java                           
+
+CVE Reference            Testing Information                               
+CVE-2021-0688            Switch user, ensure lockscreen comes up           
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0686            RoleManagerService.java                           
+
+CVE Reference            Testing Information                               
+CVE-2021-0686            atest RoleSecurityTest                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0640            StatsdStats.cpp                                   
+
+CVE Reference            Testing Information                               
+CVE-2021-0640            POC in bug no longer led to the OOB write & crash 
+CVE-2021-0640            checked event log for safetynet logging           
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0645            ExternalStorageProvider.java                      
+
+CVE Reference            Testing Information                               
+CVE-2021-0645            atest DocumentsTest                               
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0646            Android.bp                                        
+
+CVE Reference            Testing Information                               
+CVE-2021-0646            builds                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0441            styles.xml                                        
+CVE-2021-0441            PermissionActivity.java                           
+
+CVE Reference            Testing Information                               
+CVE-2021-0441            manual, screenshot                                
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0486            PackageManagerService.java                        
+CVE-2021-0486            PermissionManagerService.java                     
+CVE-2021-0486            PermissionManagerServiceInternal.java             
+
+CVE Reference            Testing Information                               
+CVE-2021-0486            Atest StorageEscalationTest                       
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0521            Process.java                                      
+CVE-2021-0521            PackageManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2021-0521            run iorapd and check it works well.               
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0472            LockTaskController.java                           
+CVE-2021-0472            LockTaskControllerTest.java                       
+
+CVE Reference            Testing Information                               
+CVE-2021-0472            atest LockTaskControllerTest                      
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0485            dimens.xml                                        
+CVE-2021-0485            symbols.xml                                       
+CVE-2021-0485            PipTaskOrganizer.java                             
+
+CVE Reference            Testing Information                               
+CVE-2021-0485            atest PinnedStackTests#testEnterPipWithTinyMinimalSize
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0487            AndroidManifest.xml                               
+CVE-2021-0487            CalendarDebugActivity.java                        
+
+CVE Reference            Testing Information                               
+CVE-2021-0487            manual test                                       
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0400            GnssLocationProvider.java                         
+
+CVE Reference            Testing Information                               
+CVE-2021-0400            on device                                         
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0426            LogEvent.cpp                                      
+CVE-2021-0426            LogEvent_test.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2021-0426            m                                                 
+CVE-2021-0426            statsd_test                                       
+CVE-2021-0426            TreeHugger                                        
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0427            LogEvent.cpp                                      
+CVE-2021-0427            LogEvent_test.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2021-0427            m                                                 
+CVE-2021-0427            statsd_test                                       
+CVE-2021-0427            TreeHugger                                        
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0432            StatsPullerManager.cpp                            
+
+CVE Reference            Testing Information                               
+CVE-2021-0432            atest statsd_test, wrote a repro cl.              
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0438            InputChannel.java                                 
+CVE-2021-0438            ViewRootImpl.java                                 
+CVE-2021-0438            WindowManagerService.java                         
+
+CVE Reference            Testing Information                               
+CVE-2021-0438            Existing tests pass                               
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0439            com_android_server_power_PowerManagerService.cpp  
+
+CVE Reference            Testing Information                               
+CVE-2021-0439            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0442            InputApplicationHandle.java                       
+CVE-2021-0442            InputWindowHandle.java                            
+CVE-2021-0442            android_hardware_input_InputApplicationHandle.cpp 
+CVE-2021-0442            ActivityRecord.java                               
+CVE-2021-0442            DragState.java                                    
+CVE-2021-0442            InputConsumerImpl.java                            
+CVE-2021-0442            InputMonitor.java                                 
+CVE-2021-0442            TaskPositioner.java                               
+CVE-2021-0442            WindowState.java                                  
+
+CVE Reference            Testing Information                               
+CVE-2021-0442            WindowInputTests                                  
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0443            ScreenshotHelper.java                             
+
+CVE Reference            Testing Information                               
+CVE-2021-0443            manual -- verified bad state occurs if user switches within the timeout period, ensured that screenshots work immediately after switching with this change.
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0444            QuickContactActivity.java                         
+CVE-2021-0444            ImplicitIntentsUtil.java                          
+
+CVE Reference            Testing Information                               
+CVE-2021-0444            Manual test with POC app. Observed crash instead of contacts data read.
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0391            ChooseAccountActivity.java                        
+CVE-2021-0391            ChooseAccountTypeActivity.java                    
+CVE-2021-0391            ChooseTypeAndAccountActivity.java                 
+
+CVE Reference            Testing Information                               
+CVE-2021-0391            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0398            ActiveServices.java                               
+
+CVE Reference            Testing Information                               
+CVE-2021-0398            atest cts/tests/app/src/android/app/cts/ActivityManagerFgsBgStartTest.java#testFgsLocationStartFromBGWithBind
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0302            AndroidManifest.xml                               
+CVE-2021-0302            themes.xml                                        
+
+CVE Reference            Testing Information                               
+CVE-2021-0302            Manual using PoC app from b/154015447#comment1    
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0305            AndroidManifest.xml                               
+CVE-2021-0305            themes.xml                                        
+
+CVE Reference            Testing Information                               
+CVE-2021-0305            Manual using PoC app from b/154015447#comment1    
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0314            UninstallerActivity.java                          
+
+CVE Reference            Testing Information                               
+CVE-2021-0314            atest CtsPackageUninstallTestCases Fixes: 171221302
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0327            ActivityManagerService.java                       
+
+CVE Reference            Testing Information                               
+CVE-2021-0327            PoC in bug                                        
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0330            storaged.h                                        
+CVE-2021-0330            storaged.cpp                                      
+
+CVE Reference            Testing Information                               
+CVE-2021-0330            compile                                           
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0334            ResolverActivity.java                             
+
+CVE Reference            Testing Information                               
+CVE-2021-0334            none, this is not generally testable, see linked bug for context
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0337            FileSystemProvider.java                           
+CVE-2021-0337            ExternalStorageProvider.java                      
+
+CVE Reference            Testing Information                               
+CVE-2021-0337            manual test with DocumentsUI                      
+CVE-2021-0337            atest DocumentsTest#testAfterMoveDocumentInStorage_revokeUriPermission
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0339            AppTransition.java                                
+CVE-2021-0339            WindowManagerService.java                         
+
+CVE Reference            Testing Information                               
+CVE-2021-0339            manual as issue provided test app                 
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0340            IsoInterface.java                                 
+
+CVE Reference            Testing Information                               
+CVE-2021-0340            atest MediaStore_Video_MediaTest                  
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0338            SystemSettingsValidators.java                     
+
+CVE Reference            Testing Information                               
+CVE-2021-0338            builds                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0313            LayoutUtils.cpp                                   
+CVE-2021-0313            LayoutSplitterTest.cpp                            
+
+CVE Reference            Testing Information                               
+CVE-2021-0313            minikin_test                                      
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0303            GrpcGraph.cpp                                     
+CVE-2021-0303            GrpcGraph.h                                       
+CVE-2021-0303            StreamSetObserver.cpp                             
+CVE-2021-0303            StreamSetObserver.h                               
+
+CVE Reference            Testing Information                               
+CVE-2021-0303            build, unit test and fuzz test                    
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0306            PackageManagerService.java                        
+CVE-2021-0306            BasePermission.java                               
+CVE-2021-0306            PermissionManagerService.java                     
+CVE-2021-0306            PermissionManagerServiceInternal.java             
+
+CVE Reference            Testing Information                               
+CVE-2021-0306            Manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0307            AndroidTest.xml                                   
+CVE-2021-0307            RemovePermissionTest.java                         
+CVE-2021-0307            Android.bp                                        
+CVE-2021-0307            AndroidManifest.xml                               
+CVE-2021-0307            Android.bp                                        
+CVE-2021-0307            AndroidManifest.xml                               
+CVE-2021-0307            Android.bp                                        
+CVE-2021-0307            AndroidManifest.xml                               
+CVE-2021-0307            AndroidManifest.xml                               
+CVE-2021-0307            strings.xml                                       
+
+CVE Reference            Testing Information                               
+CVE-2021-0307            atest RemovePermissionTest                        
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0310            LazyServiceRegistrar.cpp                          
+
+CVE Reference            Testing Information                               
+CVE-2021-0310            Manual (Went through reproduction steps in bug on cf_x86_phone-userdebug)
+CVE-2021-0310            atest aidl_lazy_test                              
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0315            GrantCredentialsPermissionActivity.java           
+
+CVE Reference            Testing Information                               
+CVE-2021-0315            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0317            BasePermission.java                               
+
+CVE Reference            Testing Information                               
+CVE-2021-0317            atest PermissionEscalationTest                    
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0318            SensorEventConnection.cpp                         
+CVE-2021-0318            SensorEventConnection.h                           
+
+CVE Reference            Testing Information                               
+CVE-2021-0318            Run test code that attempts to enable a sensor after destroying the SensorEventConnection, and verify no system_server crash occurs.
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0319            CompanionDeviceManagerService.java                
+
+CVE Reference            Testing Information                               
+CVE-2021-0319            ensure attached bug no longer reproduces          
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0304            GlobalScreenshot.java                             
+
+CVE Reference            Testing Information                               
+CVE-2021-0304            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0309            GrantCredentialsPermissionActivity.java           
+
+CVE Reference            Testing Information                               
+CVE-2021-0309            Existing CTS tests                                
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0321            ActivityManagerService.java                       
+
+CVE Reference            Testing Information                               
+CVE-2021-0321            atest CtsSecurityTestCases:ActivityManagerTest    
+
+
+CVE Reference            Updated Files                                     
+CVE-2021-0322            SliceProvider.java                                
+CVE-2021-0322            SlicePermissionActivity.java                      
+
+CVE Reference            Testing Information                               
+CVE-2021-0322            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-9376            Account.java                                      
+
+CVE Reference            Testing Information                               
+CVE-2019-9376            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-15999           pngshim.c                                         
+
+CVE Reference            Testing Information                               
+CVE-2020-15999           m -j                                              
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0099            Presentation.java                                 
+CVE-2020-0099            WindowManagerService.java                         
+
+CVE Reference            Testing Information                               
+CVE-2020-0099            atest CtsWindowManagerDeviceTestCases:android.server.wm.PresentationTest CtsDisplayTestCases:android.display.cts.VirtualDisplayTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0294            WallpaperManagerService.java                      
+
+CVE Reference            Testing Information                               
+CVE-2020-0294            build & flash, change wallpaper manually.         
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0440            ActivityView.java                                 
+CVE-2020-0440            VirtualDisplayTaskEmbedder.java                   
+CVE-2020-0440            AndroidManifest.xml                               
+CVE-2020-0440            VirtualDisplayTest.java                           
+CVE-2020-0440            BubbleExpandedView.java                           
+CVE-2020-0440            DisplayManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0440            atest VirtualDisplayTest#testTrustedVirtualDisplay
+CVE-2020-0440            atest frameworks/base/packages/SystemUI/tests/src/com/android/systemui/bubbles
+CVE-2020-0440            atest DisplayTest                                 
+CVE-2020-0440            atest VirtualDisplayTest#testTrustedVirtualDisplay
+CVE-2020-0440            atest VirtualDisplayTest#testUntrustedSysDecorVirtualDisplay
+CVE-2020-0440            adb logcat -b events                              
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0459            WifiConfigManager.java                            
+CVE-2020-0459            WifiConfigManagerTest.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0459            Add logs locally in Settings to verify broadcast is received.
+CVE-2020-0459            Verify Settings still works correctly.            
+CVE-2020-0459            atest FrameworksWifiTests                         
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0464            libnetd_resolv_test.cpp                           
+CVE-2020-0464            res_cache.cpp                                     
+
+CVE Reference            Testing Information                               
+CVE-2020-0464            atest Because DnsResolver had been moved to another git project in R, use aosp/1302595 as Merged-In tag to avoid conflict.
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0467            Vpn.java                                          
+
+CVE Reference            Testing Information                               
+CVE-2020-0467            atest FrameworksNetTests                          
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0468            TelephonyRegistry.java                            
+
+CVE Reference            Testing Information                               
+CVE-2020-0468            (cts) atest TelephonyLocationTests; atest PhoneStateListenerTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0469            LockSettingsService.java                          
+CVE-2020-0469            SyntheticPasswordTests.java                       
+
+CVE Reference            Testing Information                               
+CVE-2020-0469            atest com.android.server.locksettings             
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0441            Notification.java                                 
+
+CVE Reference            Testing Information                               
+CVE-2020-0441            manual; monitor SystemUI performance when an app tries to post a messaging style notification with messages with long text
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0442            Notification.java                                 
+
+CVE Reference            Testing Information                               
+CVE-2020-0442            manual; monitor SystemUI performance when an app tries to post a messaging style notification with messages with long text
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0418            GrantPermissionsActivity.java                     
+CVE-2020-0418            SafetyNetLogger.java                              
+CVE-2020-0418            Utils.java                                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0418            Manual + `atest PermissionsHostTest`              
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0439            PackageManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0439            atest EphemeralTest                               
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0454            WifiAwareAgentNetworkSpecifier.java               
+
+CVE Reference            Testing Information                               
+CVE-2020-0454            atest ConnectivityServiceTest (frameworks/base/tests/net)
+CVE-2020-0454            atest frameworks/base/tests/net                   
+CVE-2020-0454            atest frameworks/opt/net/wifi/tests/wifitests     
+CVE-2020-0454            atest frameworks/opt/telephony/tests/telephonytests
+CVE-2020-0454            atest frameworks/opt/net/ethernet/tests           
+CVE-2020-0454            atest android.net.cts - some flakiness!           
+CVE-2020-0454            act.py ThroughputTest                             
+CVE-2020-0454            act.py DataPathTest                               
+CVE-2020-0454            atest SingleDeviceTest (cts)                      
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0443            LocaleList.java                                   
+
+CVE Reference            Testing Information                               
+CVE-2020-0443            atest LocaleListTest                              
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0420            GpuService.cpp                                    
+CVE-2020-0420            GpuService.h                                      
+
+CVE Reference            Testing Information                               
+CVE-2020-0420            ./gapit validate_gpu_profiling --os android       
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0421            String8.cpp                                       
+
+CVE Reference            Testing Information                               
+CVE-2020-0421            fuzzer test case                                  
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0246            EuiccController.java                              
+
+CVE Reference            Testing Information                               
+CVE-2020-0246            safe net log                                      
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0412            ActivityManagerService.java                       
+
+CVE Reference            Testing Information                               
+CVE-2020-0412            verified command still works from shell           
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0419            PackageInstaller.java                             
+CVE-2020-0419            PackageInstallerService.java                      
+CVE-2020-0419            PackageInstallerSession.java                      
+CVE-2020-0419            StagingManager.java                               
+
+CVE Reference            Testing Information                               
+CVE-2020-0419            atest SessionReferrerUriTest                      
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0240            factory.cc                                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0240            atest proxy_resolver_v8_unittest                  
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0238            AccountTypePreferenceLoader.java                  
+
+CVE Reference            Testing Information                               
+CVE-2020-0238            make RunSettingsRoboTests -j ROBOTEST_FILTER=com.android.settings.accounts
+CVE-2020-0238            PoC app                                           
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0257            com_android_internal_os_Zygote.cpp                
+
+CVE Reference            Testing Information                               
+CVE-2020-0257            observe /proc/zygote_pid/status, notice groups are empty
+CVE-2020-0257            atest CtsExternalServiceTestCases                 
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0239            DocumentsProvider.java                            
+
+CVE Reference            Testing Information                               
+CVE-2020-0239            manually tested                                   
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0249            InstantAppNotifier.java                           
+
+CVE Reference            Testing Information                               
+CVE-2020-0249            make Fixes: 154719656                             
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0258            AppZygote.java                                    
+
+CVE Reference            Testing Information                               
+CVE-2020-0258            manual inspection, PoC no longer works.           
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0247            ImageGLWallpaper.java                             
+CVE-2020-0247            ImageProcessHelper.java                           
+
+CVE Reference            Testing Information                               
+CVE-2020-0247            Set 1.jpg of #34 in the bug as wallpaper.         
+CVE-2020-0247            The symptom should not happen.                    
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0227            android_manifest.xml                              
+
+CVE Reference            Testing Information                               
+CVE-2020-0227            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0114            KeyguardSliceProvider.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0114            run poc, device didn't reboot                     
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0115            PackageManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0115            atest OsHostTests#testIntentFilterHostValidation  
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0121            AppOpsService.java                                
+
+CVE Reference            Testing Information                               
+CVE-2020-0121            (on master) atest CtsAppOpsTestCases:android.app.appops.cts.ForegroundModeTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0096            ActivityStarter.java                              
+
+CVE Reference            Testing Information                               
+CVE-2020-0096            run cts --test android.server.cts.StartActivityTests \ -m CtsServicesHostTestCases
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0097            PackageManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0097            manually tested ensureSystemPackageName() returns null for non-system app
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0098            ActivityManagerService.java                       
+CVE-2020-0098            ActivityStack.java                                
+CVE-2020-0098            ActivityStarter.java                              
+CVE-2020-0098            ActivityStackTests.java                           
+CVE-2020-0098            ActivityTestsBase.java                            
+
+CVE Reference            Testing Information                               
+CVE-2020-0098            atest ActivityStackTests#testNavigateUpTo         
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0080            AppOpsControllerImpl.java                         
+CVE-2020-0080            AppOpsControllerTest.java                         
+
+CVE Reference            Testing Information                               
+CVE-2020-0080            atest AppOpsControllerTest                        
+CVE-2020-0080            use app from bug report. Observe that notification does not lose the microphone indicator
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0081            AssetManagerTest.java                             
+
+CVE Reference            Testing Information                               
+CVE-2020-0081            that the fix the double destroy issue works as expected.
+CVE-2020-0081            atest android.security.cts.AssetManagerTest       
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0082            ExternalVibration.java                            
+CVE-2020-0082            ExternalVibrationTest.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0082            atest ExternalVibrationTest#testSerialization     
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-5018            SQLiteSecurityTest.java                           
+
+CVE Reference            Testing Information                               
+CVE-2019-5018            cts-tradefed run cts -m CtsDatabaseTestCases -t android.database.sqlite.cts.SQLiteSecurityTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-8457            SQLiteSecurityTest.java                           
+
+CVE Reference            Testing Information                               
+CVE-2019-8457            cts-tradefed run cts -m CtsDatabaseTestCases -t android.database.sqlite.cts.SQLiteSecurityTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-9936            SQLiteSecurityTest.java                           
+
+CVE Reference            Testing Information                               
+CVE-2019-9936            cts-tradefed run cts -m CtsDatabaseTestCases -t android.database.sqlite.cts.SQLiteSecurityTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0031            AugmentedLoginActivityTest.java                   
+
+CVE Reference            Testing Information                               
+CVE-2020-0031            atest android.autofillservice.cts.augmented       
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0014            DisplayPolicy.java                                
+
+CVE Reference            Testing Information                               
+CVE-2020-0014            atest CtsWindowManagerDeviceTestCases:ToastTest   
+CVE-2020-0014            Construct app that uses reflection to remove flag FLAG_NOT_TOUCHABLE and log click events. Then: 1) Observe click events are logged without this CL. 2) Observer click events are not logged with this CL.
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0015            AndroidManifest.xml                               
+CVE-2020-0015            CertInstaller.java                                
+
+CVE Reference            Testing Information                               
+CVE-2020-0015            Manual, with an app that floats a window.         
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2200            PermissionManagerService.java                     
+
+CVE Reference            Testing Information                               
+CVE-2019-2200            atest android.permission.cts.RemovePermissionTest 
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0017            ActionsModelParamsSupplier.java                   
+CVE-2020-0017            ConversationActions.java                          
+CVE-2020-0017            SelectionEvent.java                               
+CVE-2020-0017            SystemTextClassifier.java                         
+CVE-2020-0017            TextClassification.java                           
+CVE-2020-0017            TextClassificationContext.java                    
+CVE-2020-0017            TextClassifierEvent.java                          
+CVE-2020-0017            TextLanguage.java                                 
+CVE-2020-0017            TextLinks.java                                    
+CVE-2020-0017            TextSelection.java                                
+CVE-2020-0017            TextView.java                                     
+CVE-2020-0017            TextClassificationManagerService.java             
+
+CVE Reference            Testing Information                               
+CVE-2020-0017            atest android.view.textclassifier atest android.widget.TextViewActivityTest (manual) See I2fdffd8eb4221782cb1f34d2ddbe41dd3d36595c
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0018            InputDispatcher.cpp                               
+
+CVE Reference            Testing Information                               
+CVE-2020-0018            Tested on a device, the input functions work as expected and input event logs are not leaked to dumpsys on user builds.
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0020            ExifInterface.java                                
+
+CVE Reference            Testing Information                               
+CVE-2020-0020            atest ExifInterfaceTest                           
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0021            PackageManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2020-0021            manual; remove static dependency on eng Q build and reboot
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0001            ProcessList.java                                  
+
+CVE Reference            Testing Information                               
+CVE-2020-0001            Manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0003            InstallStart.java                                 
+CVE-2020-0003            PackageInstallerActivity.java                     
+
+CVE Reference            Testing Information                               
+CVE-2020-0003            No Test Info in Desc.                             
+
+
+CVE Reference            Updated Files                                     
+CVE-2020-0004            GLHelper.java                                     
+CVE-2020-0004            WallpaperManagerService.java                      
+
+CVE Reference            Testing Information                               
+CVE-2020-0004            Write a custom app to set a 8000x800 bitmap as wallpaper.
+CVE-2020-0004            The cropped file will be 29600x2960 and make sysui keep crashing.
+CVE-2020-0004            After applyed this cl, wallpaper will use fallback.
+CVE-2020-0004            Sysui will not keep crashing any more.            
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2232            TextLine.java                                     
+
+CVE Reference            Testing Information                               
+CVE-2019-2232            StaticLayoutTest                                  
+CVE-2019-2232            Manually done                                     
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-9464            PermissionsTest.java                              
+CVE-2019-9464            LocationAccessCheckTest.java                      
+
+CVE Reference            Testing Information                               
+CVE-2019-9464            atest com.android.settingslib.location.RecentLocationAppsTest atest CtsPermissionTestCases added: LocationAccessCheckTest#notificationOnlyForAccessesSinceFeatureWasEnabled added: LocationAccessCheckTest#noNotificationIfFeatureDisabled added: LocationAccessCheckTest#noNotificationIfBlamerNotSystemOrLocationProvider added: LocationAccessCheckTest#testOpeningLocationSettingsDoesNotTriggerAccess
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2217            GraphicsEnv.cpp                                   
+CVE-2019-2217            IGpuService.cpp                                   
+CVE-2019-2217            GraphicsEnv.h                                     
+CVE-2019-2217            IGpuService.h                                     
+CVE-2019-2217            GpuService.cpp                                    
+CVE-2019-2217            GpuService.h                                      
+CVE-2019-2217            GpuStats.cpp                                      
+CVE-2019-2217            GpuStats.h                                        
+CVE-2019-2217            driver.cpp                                        
+
+CVE Reference            Testing Information                               
+CVE-2019-2217            adb shell dumpsys gpu                             
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2218            PackageInstallerService.java                      
+
+CVE Reference            Testing Information                               
+CVE-2019-2218            Manual. App can't be installed as test-only       
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2220            AudioFlinger.cpp                                  
+CVE-2019-2220            RecordTracks.h                                    
+CVE-2019-2220            Threads.cpp                                       
+CVE-2019-2220            Threads.h                                         
+CVE-2019-2220            TrackBase.h                                       
+CVE-2019-2220            Tracks.cpp                                        
+
+CVE Reference            Testing Information                               
+CVE-2019-2220            run app that records audio, then "adb shell appops __pack_name__ 27 2" and verify recording is silent after that.
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2221            WindowProcessController.java                      
+
+CVE Reference            Testing Information                               
+CVE-2019-2221            atest BackgroundActivityLaunchTest \ RootWindowContainerTests \ WmTests:ActivityStarterTests \ CtsWindowManagerDeviceTestCases:ActivityStarterTests
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2192            SliceProvider.java                                
+
+CVE Reference            Testing Information                               
+CVE-2019-2192            Manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2193            Settings.java                                     
+CVE-2019-2193            SettingsBackupTest.java                           
+
+CVE Reference            Testing Information                               
+CVE-2019-2193            Just adding a constant                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2195            sqlite3_android.cpp                               
+
+CVE Reference            Testing Information                               
+CVE-2019-2195            compiles and boots                                
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2199            PackageInstallerService.java                      
+
+CVE Reference            Testing Information                               
+CVE-2019-2199            pushed manual privapp that attempts an install with INSTALL_DISABLE_VERIFICATION flag. Checked that PackageVerifier was called.
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2211            TvProvider.java                                   
+
+CVE Reference            Testing Information                               
+CVE-2019-2211            N/A                                               
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2197            CachedBluetoothDevice.java                        
+
+CVE Reference            Testing Information                               
+CVE-2019-2197            Manual test                                       
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2173            ActivityManagerService.java                       
+CVE-2019-2173            ActivityStartController.java                      
+CVE-2019-2173            ActivityStarter.java                              
+CVE-2019-2173            PendingIntentRecord.java                          
+
+CVE Reference            Testing Information                               
+CVE-2019-2173            manual; we added logging statements to check the value of realCallingUid in startActivitiesMayWait when launching the calendar app from the calendar widget and verified that it was the calendar uid rather than the system uid.
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2123            AndroidManifest.xml                               
+CVE-2019-2123            IParcelExceptionService.aidl                      
+CVE-2019-2123            ParcelTest.java                                   
+
+CVE Reference            Testing Information                               
+CVE-2019-2123            atest CtsOsTestCases:ParcelTest#testObjectDoubleFree
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2174            SensorManager.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2019-2174            confirm sensors initialize                        
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2175            SliceManagerService.java                          
+CVE-2019-2175            UiServiceTestCase.java                            
+CVE-2019-2175            PinnedSliceStateTest.java                         
+CVE-2019-2175            SliceFullAccessListTest.java                      
+CVE-2019-2175            SliceManagerServiceTest.java                      
+
+CVE Reference            Testing Information                               
+CVE-2019-2175            atest FrameworksUiServicesTests                   
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-9254            ServiceTest.java                                  
+
+CVE Reference            Testing Information                               
+CVE-2019-9254            atest CtsAppTestCases:android.app.cts.ServiceTest 
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2103            SurfaceControl.java                               
+CVE-2019-2103            android_view_SurfaceControl.cpp                   
+CVE-2019-2103            ScreenRotationAnimation.java                      
+
+CVE Reference            Testing Information                               
+CVE-2019-2103            TransactionTest.cpp#SetFlagsSecureEUidSystem      
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2121            ActivityManagerService.java                       
+
+CVE Reference            Testing Information                               
+CVE-2019-2121            POC test steps in b/131105245.                    
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2122            LockTaskController.java                           
+CVE-2019-2122            LockTaskControllerTest.java                       
+
+CVE Reference            Testing Information                               
+CVE-2019-2122            atest LockTaskControllerTest                      
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2125            ChangeDefaultDialerDialog.java                    
+
+CVE Reference            Testing Information                               
+CVE-2019-2125            manual. CTS infeasible since it's UI.             
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2104            WGraphicBufferProducer.h                          
+
+CVE Reference            Testing Information                               
+CVE-2019-2104            make cts -j123 && cts-tradefed run cts-dev -m \ CtsMediaTestCases --compatibility:module-arg \ CtsMediaTestCases:include-annotation:\ android.platform.test.annotations.RequiresDevice
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2090            PackageManagerService.java                        
+
+CVE Reference            Testing Information                               
+CVE-2019-2090            SafetyNet logging (steps listed above)            
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2091            DevicePolicyManagerService.java                   
+
+CVE Reference            Testing Information                               
+CVE-2019-2091            com.android.server.devicepolicy.DevicePolicyManagerTest
+CVE-2019-2091            com.google.android.gts.devicepolicy.DeviceOwnerTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2092            DevicePolicyManagerService.java                   
+
+CVE Reference            Testing Information                               
+CVE-2019-2092            build, set up separate challenge                  
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2043            SmsDefaultDialog.java                             
+
+CVE Reference            Testing Information                               
+CVE-2019-2043            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-20346           README.version                                    
+CVE-2018-20346           Android.patch                                     
+CVE-2018-20346           sqlite3.c                                         
+CVE-2018-20346           sqlite3.h                                         
+CVE-2018-20346           sqlite3.c                                         
+CVE-2018-20346           sqlite3.h                                         
+
+CVE Reference            Testing Information                               
+CVE-2018-20346           select sqlite_version() - returns 3.22.0          
+CVE-2018-20346           atest cts/SQLiteDatabaseTest all passed.          
+CVE-2018-20346           atest cts/SQLSecurityTest                         
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2003            Linkify.java                                      
+CVE-2019-2003            TextClassification.java                           
+CVE-2019-2003            TextLinksParams.java                              
+CVE-2019-2003            SelectionActionModeHelper.java                    
+CVE-2019-2003            TextClassificationManagerTest.java                
+CVE-2019-2003            TextViewActivityTest.java                         
+
+CVE Reference            Testing Information                               
+CVE-2019-2003            atest android.view.textclassifier.TextClassificationManagerTest \ android.text.util.cts.LinkifyTest \ android.text.util.LinkifyTest \ android.widget.TextViewActivityTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2004            InputTransport.h                                  
+CVE-2019-2004            InputTransport.cpp                                
+CVE-2019-2004            StructLayout_test.cpp                             
+
+CVE Reference            Testing Information                               
+CVE-2019-2004            cts-tradefed run cts -m CtsSecurityBulletinHostTestCases -t android.security.cts.Poc18_12; adb shell monkey 100000
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-2005            GrantPermissionsActivity.java                     
+
+CVE Reference            Testing Information                               
+CVE-2019-2005            - Revoked all permissions from camera - Set lock screen PIN - Opened camera app -> Camera app asks for permissions - Locked screen - Granted permission from in front of lock screen
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-1986            SkAndroidFrameworkUtils.h                         
+CVE-2019-1986            SkAndroidFrameworkUtils.cpp                       
+
+CVE Reference            Testing Information                               
+CVE-2019-1986            Iae4d7f393c892111b12282c5eae31d79912721f9         
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-1987            SkAndroidFrameworkUtils.h                         
+CVE-2019-1987            SkAndroidFrameworkUtils.cpp                       
+
+CVE Reference            Testing Information                               
+CVE-2019-1987            Iae4d7f393c892111b12282c5eae31d79912721f9         
+
+
+CVE Reference            Updated Files                                     
+CVE-2019-1988            SkBmpStandardCodec.cpp                            
+CVE-2019-1988            SkGifCodec.cpp                                    
+CVE-2019-1988            SkHeifCodec.cpp                                   
+CVE-2019-1988            SkJpegCodec.cpp                                   
+CVE-2019-1988            SkJpegDecoderMgr.cpp                              
+CVE-2019-1988            SkPngCodec.cpp                                    
+CVE-2019-1988            SkRawCodec.cpp                                    
+CVE-2019-1988            SkSwizzler.cpp                                    
+CVE-2019-1988            SkSwizzler.h                                      
+CVE-2019-1988            SkWbmpCodec.cpp                                   
+CVE-2019-1988            SkWbmpCodec.h                                     
+
+CVE Reference            Testing Information                               
+CVE-2019-1988            I6364b836db6bee98572ed0864e3dde6d2ca2d1b2 Remove conflicting changes in infra. Resolved conflicts in: - src/codec/SkHeifCodec.cpp - src/codec/SkJpegCodec.cpp - src/codec/SkSwizzler.cpp Use old version of SkEncodedInfo::Make Remove references to SkEncodedInfo::kXAlpha_Color and ::k565_Color which are unused by Android. Also include SafetyNet logging from https://skia-review.googlesource.com/c/skia/+/171222. Original message follows:
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9582            InstallStart.java                                 
+
+CVE Reference            Testing Information                               
+CVE-2018-9582            Existing tests pass: atest GtsPackageInstallTestCases GtsNoPermissionTestCases \ GtsNoPermissionTestCases25
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9547            GraphicBuffer.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2018-9547            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9548            ContentProvider.java                              
+CVE-2018-9548            ContentProviderOperation.java                     
+
+CVE Reference            Testing Information                               
+CVE-2018-9548            cts-tradefed run cts -m CtsAppSecurityHostTestCases -t android.appsecurity.cts.AppSecurityTests
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9522            StatsLogEventWrapper.java                         
+
+CVE Reference            Testing Information                               
+CVE-2018-9522            Tested with provided POC app by external researcher.
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9524            AndroidManifest.xml                               
+CVE-2018-9524            MediaProjectionPermissionActivity.java            
+CVE-2018-9524            WindowManagerService.java                         
+
+CVE Reference            Testing Information                               
+CVE-2018-9524            manual (see bug for poc)                          
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9525            AndroidManifest.xml                               
+CVE-2018-9525            SettingsSliceProvider.java                        
+CVE-2018-9525            SliceBroadcastReceiver.java                       
+CVE-2018-9525            SliceRelayReceiver.java                           
+CVE-2018-9525            SliceBroadcastReceiverTest.java                   
+CVE-2018-9525            SliceRelayReceiverTest.java                       
+
+CVE Reference            Testing Information                               
+CVE-2018-9525            boot, robolectric, Slicebrowser                   
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9490            Android.mk                                        
+CVE-2018-9490            Android.mk                                        
+CVE-2018-9490            change_element_kind.js                            
+CVE-2018-9490            proxy_resolver_v8_unittest.cc                     
+CVE-2018-9490            proxy_test_script.h                               
+
+CVE Reference            Testing Information                               
+CVE-2018-9490            for error in handling getters changing element kind.
+CVE-2018-9490            m -j proxy_resolver_v8_unittest && adb sync && adb shell \ /data/nativetest64/proxy_resolver_v8_unittest/proxy_resolver_v8_unittest
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9491            NdkMediaCodec.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2018-9491            CTS                                               
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9492            ActivityManagerService.java                       
+
+CVE Reference            Testing Information                               
+CVE-2018-9492            atest android.appsecurity.cts.AppSecurityTests    
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9493            SQLiteQueryBuilder.java                           
+
+CVE Reference            Testing Information                               
+CVE-2018-9493            atest cts/tests/tests/database/src/android/database/sqlite/cts/SQLiteQueryBuilderTest.java
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9452            Layout.java                                       
+
+CVE Reference            Testing Information                               
+CVE-2018-9452            Manually done                                     
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9469            ShortcutService.java                              
+
+CVE Reference            Testing Information                               
+CVE-2018-9469            cts-tradefed run cts -m CtsShortcutManagerTestCases -t android.content.pm.cts.shortcutmanager.ShortcutManagerFakingPublisherTest
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9470            Scanner.c                                         
+
+CVE Reference            Testing Information                               
+CVE-2018-9470            No Test Info in Desc.                             
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9471            NanoAppFilter.java                                
+
+CVE Reference            Testing Information                               
+CVE-2018-9471            Compile only                                      
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9445            blkid.c                                           
+
+CVE Reference            Testing Information                               
+CVE-2018-9445            manual                                            
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9438            DownloadThread.java                               
+CVE-2018-9438            RealSystemFacade.java                             
+CVE-2018-9438            SystemFacade.java                                 
+CVE-2018-9438            FakeSystemFacade.java                             
+
+CVE Reference            Testing Information                               
+CVE-2018-9438            Flashed on Walleye and tested.                    
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9458            WindowManagerPolicy.java                          
+CVE-2018-9458            PhoneWindowManager.java                           
+CVE-2018-9458            KeyguardStateMonitor.java                         
+CVE-2018-9458            RootWindowContainer.java                          
+CVE-2018-9458            WindowManagerService.java                         
+CVE-2018-9458            DisplayContentTests.java                          
+CVE-2018-9458            TestWindowManagerPolicy.java                      
+
+CVE Reference            Testing Information                               
+CVE-2018-9458            atest DisplayContentTests (cherry picked from commit 3cd5e3d9bbb3255e874b8fa27d7ed506164905dd)
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9451            ResourceTypes.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2018-9451            run cts -m CtsAppSecurityHostTestCases \ -t android.appsecurity.cts.CorruptApkTests
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9410            FontUtils.cpp                                     
+CVE-2018-9410            FontUtils.h                                       
+CVE-2018-9410            Android.bp                                        
+CVE-2018-9410            FontUtilsTest.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2018-9410            minikin_tests                                     
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9338            ResourceTypes.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2018-9338            run cts -m CtsAppSecurityHostTestCases \ -t android.appsecurity.cts.CorruptApkTests
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9339            Parcel.java                                       
+CVE-2018-9339            Dataset.java                                      
+CVE-2018-9339            SaveRequest.java                                  
+
+CVE Reference            Testing Information                               
+CVE-2018-9339            CtsAutoFillServiceTestCases pass                  
+
+
+CVE Reference            Updated Files                                     
+CVE-2017-13227           AssistStructure.java                              
+CVE-2017-13227           AutofillManager.java                              
+CVE-2017-13227           IAutoFillManager.aidl                             
+CVE-2017-13227           metrics_constants.proto                           
+CVE-2017-13227           AutofillManagerService.java                       
+CVE-2017-13227           AutofillManagerServiceImpl.java                   
+CVE-2017-13227           Session.java                                      
+
+CVE Reference            Testing Information                               
+CVE-2017-13227           cts-tradefed run commandAndExit cts-dev -m CtsAutoFillServiceTestCases -t android.autofillservice.cts.VirtualContainerActivityTest#testAppCannotFakePackageName
+CVE-2017-13227           cts-tradefed run commandAndExit cts-dev -m CtsAutoFillServiceTestCases
+
+
+CVE Reference            Updated Files                                     
+CVE-2018-9340            ResourceTypes.cpp                                 
+
+CVE Reference            Testing Information                               
+CVE-2018-9340            run cts -m CtsAppSecurityHostTestCases \ -t android.appsecurity.cts.CorruptApkTests
+
+
+CVE Reference            Updated Files                                     
+CVE-2017-13310           ViewPager.java                                    
+
+CVE Reference            Testing Information                               
+CVE-2017-13310           manual (cherry picked from commit 187964aca12115c7ab66f59d1ebb95e4f4130ac6)
+
+
+CVE Reference            Updated Files                                     
+CVE-2017-13311           SparseMappingTable.java                           
+
+CVE Reference            Testing Information                               
+CVE-2017-13311           PoC app in the bug                                
+
+
+CVE Reference            Updated Files                                     
+CVE-2017-13275           CmapCoverage.cpp                                  
+CVE-2017-13275           CmapCoverageTest.cpp                              
+
+CVE Reference            Testing Information                               
+CVE-2017-13275           minikin_tests                                     
+
+

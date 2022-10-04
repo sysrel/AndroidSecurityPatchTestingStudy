@@ -1,0 +1,14 @@
+Test File Info                          Cross Referenced Bug ID  Corresponding CVE   
+AppSecurityTests.java                   111934948                CVE-2018-9492       
+CorruptApkTests.java                    79488511                 CVE-2018-9451       
+CorruptApkTests.java                    71361168                 CVE-2018-9338       
+CorruptApkTests.java                    71360999                 CVE-2018-9338       
+CorruptApkTests.java                    71361168                 CVE-2018-9340       
+CorruptApkTests.java                    71360999                 CVE-2018-9340       
+RoleSecurityTest.java                   177927831                CVE-2021-0686       
+SessionReferrerUriTest.java             142125338                CVE-2020-0419       
+
+
+Test File Info                          Cross Referenced CVE
+AppSecurityTests.java                   CVE-2018-9492       
+RoleSecurityTest.java                   CVE-2021-0686       

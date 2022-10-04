@@ -1,0 +1,8 @@
+--------- beginning of system
+--------- beginning of main
+05-11 02:37:48.529 18144 18144 I CVE-2020-0099: Presentation.java 1/1 Entry
+05-11 02:37:48.529 18144 18144 I CVE-2020-0099: Presentation.java 1/1 Exit
+05-11 02:37:50.365 18144 18144 I CVE-2020-0099: Presentation.java 1/1 Entry
+05-11 02:37:50.365 18144 18144 I CVE-2020-0099: Presentation.java 1/1 Exit
+05-11 02:37:51.217 18144 18144 I CVE-2020-0099: Presentation.java 1/1 Entry
+05-11 02:37:51.217 18144 18144 I CVE-2020-0099: Presentation.java 1/1 Exit

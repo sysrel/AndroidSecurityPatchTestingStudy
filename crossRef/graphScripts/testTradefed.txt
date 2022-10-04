@@ -1,0 +1,14 @@
+CVE-2021-39630           sts-tradefed run sts-engbuild-no-spl-lock \ -m StsHostTestCases -t android.security.sts.Bug_202768292
+CVE-2020-0096            run cts --test android.server.cts.StartActivityTests \ -m CtsServicesHostTestCases
+CVE-2019-5018            cts-tradefed run cts -m CtsDatabaseTestCases -t android.database.sqlite.cts.SQLiteSecurityTest
+CVE-2019-8457            cts-tradefed run cts -m CtsDatabaseTestCases -t android.database.sqlite.cts.SQLiteSecurityTest
+CVE-2019-9936            cts-tradefed run cts -m CtsDatabaseTestCases -t android.database.sqlite.cts.SQLiteSecurityTest
+CVE-2019-2104            make cts -j123 && cts-tradefed run cts-dev -m \ CtsMediaTestCases --compatibility:module-arg \ CtsMediaTestCases:include-annotation:\ android.platform.test.annotations.RequiresDevice
+CVE-2019-2004            cts-tradefed run cts -m CtsSecurityBulletinHostTestCases -t android.security.cts.Poc18_12; adb shell monkey 100000
+CVE-2018-9548            cts-tradefed run cts -m CtsAppSecurityHostTestCases -t android.appsecurity.cts.AppSecurityTests
+CVE-2018-9469            cts-tradefed run cts -m CtsShortcutManagerTestCases -t android.content.pm.cts.shortcutmanager.ShortcutManagerFakingPublisherTest
+CVE-2018-9451            run cts -m CtsAppSecurityHostTestCases \ -t android.appsecurity.cts.CorruptApkTests
+CVE-2018-9338            run cts -m CtsAppSecurityHostTestCases \ -t android.appsecurity.cts.CorruptApkTests
+CVE-2017-13227           cts-tradefed run commandAndExit cts-dev -m CtsAutoFillServiceTestCases -t android.autofillservice.cts.VirtualContainerActivityTest#testAppCannotFakePackageName
+CVE-2017-13227           cts-tradefed run commandAndExit cts-dev -m CtsAutoFillServiceTestCases
+CVE-2018-9340            run cts -m CtsAppSecurityHostTestCases \ -t android.appsecurity.cts.CorruptApkTests

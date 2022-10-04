@@ -1,0 +1,13 @@
+Test File Info                          Cross Referenced Bug ID  Corresponding CVE   
+AmProfileTests.java                     144285917                CVE-2020-0098       
+PinnedStackTests.java                   174302616                CVE-2021-0485       
+PinnedStackTests.java                   174302616                CVE-2021-0485       
+PresentationTest.java                   141745510                CVE-2020-0099       
+StartActivityTests.java                 144285917                CVE-2020-0098       
+StartActivityTests.java                 145669109                CVE-2020-0096       
+ToastWindowTest.java                    128674520                CVE-2020-0014       
+
+
+Test File Info                          Cross Referenced CVE
+PinnedStackTests.java                   CVE-2021-0485       
+PinnedStackTests.java                   CVE-2021-0485       

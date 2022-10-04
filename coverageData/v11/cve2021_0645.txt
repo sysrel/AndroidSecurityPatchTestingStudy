@@ -1,0 +1,15 @@
+--------- beginning of kernel
+--------- beginning of system
+--------- beginning of main
+05-14 02:54:15.205  1807  1825 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Entry
+05-14 02:54:15.205  1807  1825 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Exit
+05-14 02:57:42.073  1807  1825 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Entry
+05-14 02:57:42.073  1807  1825 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Exit
+05-14 02:58:44.407  1807  1824 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Entry
+05-14 02:58:44.407  1807  1824 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Exit
+05-14 03:00:33.293  1807  1824 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Entry
+05-14 03:00:33.293  1807  1824 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Exit
+05-14 03:05:03.956  1807 16478 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Entry
+05-14 03:05:03.956  1807 16478 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Exit
+05-14 03:06:18.243  1807  1826 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Entry
+05-14 03:06:18.243  1807  1826 I CVE-2021-0645: ExternalStorageProvider.java 1/1 Exit

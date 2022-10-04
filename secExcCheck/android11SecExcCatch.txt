@@ -1,0 +1,298 @@
+android11-security-release/wifi/java/android/net/wifi/WifiManager.java:4157:        } catch (SecurityException e) {
+android11-security-release/wifi/java/android/net/wifi/WifiManager.java:4255:        } catch (SecurityException e) {
+android11-security-release/wifi/java/android/net/wifi/WifiManager.java:4292:        } catch (SecurityException e) {
+android11-security-release/wifi/java/android/net/wifi/RttManager.java:1015:        } catch (SecurityException e) {
+android11-security-release/wifi/tests/src/android/net/wifi/WifiManagerTest.java:715:        } catch (SecurityException e) {
+android11-security-release/wifi/tests/src/android/net/wifi/WifiManagerTest.java:1321:        } catch (SecurityException e) { }
+android11-security-release/wifi/tests/src/android/net/wifi/WifiManagerTest.java:1358:        } catch (SecurityException e) { }
+android11-security-release/test-base/src/android/test/InstrumentationTestCase.java:281:                    } catch (SecurityException e) {
+android11-security-release/test-base/src/android/test/InstrumentationTestCase.java:312:            } catch (SecurityException e) {
+android11-security-release/test-base/src/android/test/InstrumentationTestCase.java:344:                } catch (SecurityException e) {
+android11-security-release/test-base/src/android/test/AndroidTestCase.java:108:        } catch (SecurityException expected) {
+android11-security-release/test-base/src/android/test/AndroidTestCase.java:127:        } catch (SecurityException expected) {
+android11-security-release/test-base/src/android/test/AndroidTestCase.java:146:        } catch (SecurityException expected) {
+android11-security-release/core/java/android/bluetooth/BluetoothProfileConnector.java:95:                } catch (SecurityException se) {
+android11-security-release/core/java/android/bluetooth/BluetoothPbap.java:159:            } catch (SecurityException se) {
+android11-security-release/core/java/android/provider/DeviceConfig.java:795:        } catch (SecurityException e) {
+android11-security-release/core/java/android/app/ActivityThread.java:7501:            } catch (SecurityException e) {
+android11-security-release/core/java/android/app/ActivityThread.java:7518:            } catch (SecurityException e) {
+android11-security-release/core/java/android/app/WallpaperManager.java:444:                } catch (SecurityException e) {
+android11-security-release/core/java/android/app/WallpaperManager.java:1082:            } catch (SecurityException e) {
+android11-security-release/core/java/android/app/slice/SliceProvider.java:457:        } catch (SecurityException e) {
+android11-security-release/core/java/android/service/notification/NotificationAssistantService.java:476:                        } catch (SecurityException e) {
+android11-security-release/core/java/android/os/DropBoxManager.java:379:        } catch (SecurityException e) {
+android11-security-release/core/java/android/os/storage/StorageManager.java:1790:            } catch (SecurityException e) {
+android11-security-release/core/java/android/os/SystemClock.java:165:        } catch (SecurityException e) {
+android11-security-release/core/java/android/os/GraphicsEnvironment.java:523:            } catch (SecurityException e) {
+android11-security-release/core/java/android/os/Binder.java:867:            } catch (SecurityException e) {
+android11-security-release/core/java/android/hardware/camera2/marshal/impl/MarshalQueryableEnum.java:125:                    } catch (SecurityException e) {
+android11-security-release/core/java/android/content/ClipData.java:358:                    } catch (SecurityException e) {
+android11-security-release/core/java/android/content/ClipData.java:500:                } catch (SecurityException e) {
+android11-security-release/core/java/android/content/ClipData.java:560:                    } catch (SecurityException e) {
+android11-security-release/core/java/android/content/AbstractThreadedSyncAdapter.java:344:            } catch (SecurityException e) {
+android11-security-release/core/java/android/content/om/OverlayManager.java:144:        } catch (SecurityException e) {
+android11-security-release/core/java/android/content/om/OverlayManager.java:179:        } catch (SecurityException e) {
+android11-security-release/core/java/android/net/ConnectivityManager.java:4534:            } catch (SecurityException e) {
+android11-security-release/core/java/com/android/server/net/NetworkPinner.java:124:                } catch (SecurityException e) {
+android11-security-release/core/java/com/android/server/net/NetworkPinner.java:138:                } catch (SecurityException e) {
+android11-security-release/core/java/com/android/internal/app/ResolverActivity.java:929:        } catch (SecurityException e) {
+android11-security-release/core/java/com/android/internal/app/ChooserActivity.java:1406:        } catch (SecurityException | NullPointerException e) {
+android11-security-release/core/java/com/android/internal/os/RuntimeInit.java:363:        } catch (SecurityException ex) {
+android11-security-release/core/java/com/android/internal/util/MessageUtils.java:61:            } catch (SecurityException e) {
+android11-security-release/core/java/com/android/internal/util/MessageUtils.java:106:                    } catch (SecurityException | IllegalAccessException e) {
+android11-security-release/core/tests/coretests/src/android/provider/DocumentsProviderTest.java:91:        } catch (SecurityException expected) { }
+android11-security-release/core/tests/coretests/src/android/app/DownloadManagerFunctionalTest.java:238:            } catch (SecurityException s) {
+android11-security-release/core/tests/coretests/src/android/app/activity/SetTimeZonePermissionsTest.java:59:            } catch (SecurityException se) {
+android11-security-release/core/tests/coretests/src/android/os/storage/StorageManagerBaseTest.java:172:        } catch (SecurityException e) {
+android11-security-release/core/tests/coretests/src/android/os/AidlTest.java:404:        } catch (SecurityException e) {
+android11-security-release/core/tests/coretests/src/android/os/AidlTest.java:415:        } catch (SecurityException e) {
+android11-security-release/core/tests/coretests/src/android/content/pm/PackageManagerTests.java:2251:        } catch (SecurityException e) {
+android11-security-release/core/tests/coretests/src/android/net/NetworkRecommendationProviderTest.java:102:        } catch (SecurityException e) {
+android11-security-release/core/tests/bugreports/src/android/server/bugreports/BugreportManagerTest.java:184:        } catch (SecurityException expected) {
+android11-security-release/core/tests/bugreports/src/android/server/bugreports/BugreportManagerTest.java:204:        } catch (SecurityException expected) {
+android11-security-release/services/core/java/com/android/server/TelephonyRegistry.java:167:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/TelephonyRegistry.java:2662:            } catch (SecurityException se) {
+android11-security-release/services/core/java/com/android/server/wm/ViewServer.java:132:                } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/wm/ActivityTaskManagerService.java:1501:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationRecord.java:1303:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2477:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:2515:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:3094:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:4531:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:7968:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:8649:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:8658:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/notification/NotificationManagerService.java:8736:        } catch (SecurityException se) {
+android11-security-release/services/core/java/com/android/server/notification/ManagedServices.java:1398:        } catch (SecurityException ex) {
+android11-security-release/services/core/java/com/android/server/notification/ZenModeHelper.java:881:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/am/ProcessList.java:2469:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/am/BroadcastQueue.java:1439:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/am/OomAdjuster.java:2244:                            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/am/ActivityManagerShellCommand.java:3022:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8876:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/am/ActivityManagerService.java:8900:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/UiModeManagerService.java:1127:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/incident/PendingReports.java:460:        } catch (SecurityException ex) {
+android11-security-release/services/core/java/com/android/server/power/ShutdownThread.java:379:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/power/ShutdownThread.java:392:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/MasterClearReceiver.java:85:                } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/adb/AdbService.java:264:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/adb/AdbService.java:418:                } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/adb/AdbDebuggingManager.java:1525:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/tv/TvRemoteProviderProxy.java:120:            } catch (SecurityException ex) {
+android11-security-release/services/core/java/com/android/server/MmsServiceBroker.java:246:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/utils/ManagedApplicationService.java:402:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/dreams/DreamController.java:149:            } catch (SecurityException ex) {
+android11-security-release/services/core/java/com/android/server/ConnectivityService.java:2195:        } catch (SecurityException e) { /* fallback to ConnectivityInternalPermission */ }
+android11-security-release/services/core/java/com/android/server/ConnectivityService.java:5695:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/ConnectivityService.java:8172:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/pm/LauncherAppsService.java:904:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/pm/PackageManagerService.java:14113:                } catch (SecurityException ignore) { }
+android11-security-release/services/core/java/com/android/server/om/OverlayActorEnforcer.java:138:                    } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/om/OverlayActorEnforcer.java:168:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/stats/pull/StatsPullAtomService.java:2630:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/stats/pull/StatsPullAtomService.java:3724:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/inputmethod/InputMethodUtils.java:733:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/appop/AppOpsService.java:2438:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/appop/AppOpsService.java:2866:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/appop/AppOpsService.java:2951:        } catch (SecurityException ignored) {
+android11-security-release/services/core/java/com/android/server/appop/AppOpsService.java:3031:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/appop/AppOpsService.java:3399:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/appop/AppOpsService.java:3479:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/BluetoothManagerService.java:1168:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/net/NetworkStatsObservers.java:414:            } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/net/NetworkPolicyManagerService.java:2802:        } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/media/MediaSessionService.java:421:                } catch (SecurityException e) {
+android11-security-release/services/core/java/com/android/server/media/MediaSessionService.java:2079:                        } catch (SecurityException | IllegalArgumentException e) {
+android11-security-release/services/core/java/com/android/server/media/MediaRoute2ProviderServiceProxy.java:230:            } catch (SecurityException ex) {
+android11-security-release/services/core/java/com/android/server/media/RemoteDisplayProviderProxy.java:199:            } catch (SecurityException ex) {
+android11-security-release/services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionSessionConnection.java:324:        } catch (SecurityException e) {
+android11-security-release/services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java:3842:            } catch (SecurityException se) {
+android11-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:7555:            } catch (SecurityException e) {
+android11-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:13184:            } catch (SecurityException e) {
+android11-security-release/services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java:15031:        } catch (SecurityException se) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationRecordTest.java:791:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/RoleObserverTest.java:162:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:1213:            } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:2551:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:2579:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:2617:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:2652:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:2675:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:2708:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:2728:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:4856:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:4898:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:4927:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:5318:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:5336:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:5833:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java:5849:        } catch (SecurityException e) {
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:159:        } catch (SecurityException e) {/* ignore for permission denial */}
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:203:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:212:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:215:        } catch (SecurityException e) { /*we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:249:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:252:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:260:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:263:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:271:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:274:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:282:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:285:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:293:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/uiservicestests/src/com/android/server/UiModeManagerServiceTest.java:301:        } catch (SecurityException e) { /* we should ignore this update config exception*/ }
+android11-security-release/services/tests/servicestests/src/com/android/server/locksettings/LockSettingsServiceTests.java:446:        } catch (SecurityException e) { }
+android11-security-release/services/tests/servicestests/src/com/android/server/locksettings/SyntheticPasswordTests.java:376:        } catch (SecurityException expected) { }
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:238:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:299:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:362:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:411:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:433:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:455:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:477:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:491:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:563:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:577:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:591:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:848:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/NetworkScoreServiceTest.java:874:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/uri/UriGrantsManagerServiceTest.java:162:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/uri/UriGrantsManagerServiceTest.java:199:            } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/uri/UriGrantsManagerServiceTest.java:209:            } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/uri/UriGrantsManagerServiceTest.java:236:            } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/uri/UriGrantsManagerServiceTest.java:246:            } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/uri/UriGrantsManagerServiceTest.java:301:            } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/uri/UriGrantsManagerServiceTest.java:311:            } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/accounts/AccountManagerServiceTest.java:1375:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/accounts/AccountManagerServiceTest.java:1621:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/accounts/AccountManagerServiceTest.java:2364:        } catch (SecurityException e) {
+android11-security-release/services/tests/servicestests/src/com/android/server/devicepolicy/DevicePolicyManagerTest.java:1636:        } catch (SecurityException unexpected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/devicepolicy/DevicePolicyManagerTest.java:1657:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/accessibility/AccessibilityManagerServiceTest.java:156:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/accessibility/AccessibilityManagerServiceTest.java:177:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/backup/BackupManagerServiceTest.java:303:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/backup/BackupManagerServiceTest.java:335:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/backup/BackupManagerServiceTest.java:348:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/backup/BackupManagerServiceTest.java:362:        } catch (SecurityException expected) {
+android11-security-release/services/tests/servicestests/src/com/android/server/DynamicSystemServiceTest.java:41:        } catch (SecurityException e) {
+android11-security-release/services/tests/wmtests/src/com/android/server/wm/RecentTasksTest.java:1244:        } catch (SecurityException se) {
+android11-security-release/services/robotests/src/com/android/server/pm/CrossProfileAppsServiceImplRoboTest.java:256:        } catch (SecurityException expected) {}
+android11-security-release/services/robotests/src/com/android/server/pm/CrossProfileAppsServiceImplRoboTest.java:269:        } catch (SecurityException expected) {}
+android11-security-release/services/backup/java/com/android/server/backup/KeyValueAdbBackupEngine.java:150:        } catch (SecurityException e) {
+android11-security-release/services/backup/java/com/android/server/backup/keyvalue/KeyValueBackupTask.java:716:        } catch (SecurityException e) {
+android11-security-release/services/contentcapture/java/com/android/server/contentcapture/ContentCaptureManagerService.java:558:        } catch (SecurityException e) {
+android11-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:3499:                        } catch (SecurityException e) {
+android11-security-release/packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java:4589:                        } catch (SecurityException | IllegalStateException | RemoteException e) {
+android11-security-release/packages/PackageInstaller/src/com/android/packageinstaller/wear/PackageInstallerImpl.java:134:                } catch (SecurityException se) {
+android11-security-release/packages/PackageInstaller/src/com/android/packageinstaller/wear/PackageInstallerImpl.java:174:            } catch (SecurityException se) {
+android11-security-release/packages/PackageInstaller/src/com/android/packageinstaller/wear/PackageInstallerImpl.java:187:        } catch (SecurityException se) {
+android11-security-release/packages/PackageInstaller/src/com/android/packageinstaller/wear/PackageInstallerImpl.java:227:        } catch (SecurityException se) {
+android11-security-release/packages/SystemUI/src/com/android/systemui/volume/VolumeDialogControllerImpl.java:203:        } catch (SecurityException e) {
+android11-security-release/packages/SystemUI/src/com/android/systemui/volume/VolumeDialogControllerImpl.java:231:        } catch (SecurityException e) {
+android11-security-release/packages/SystemUI/src/com/android/systemui/theme/ThemeOverlayManager.java:181:            } catch (SecurityException | IllegalStateException e) {
+android11-security-release/packages/SystemUI/src/com/android/systemui/qs/external/TileLifecycleManager.java:193:            } catch (SecurityException e) {
+android11-security-release/packages/SystemUI/src/com/android/systemui/recents/OverviewProxyService.java:735:        } catch (SecurityException e) {
+android11-security-release/packages/SystemUI/src/com/android/systemui/statusbar/phone/NavigationModeController.java:214:        } catch (SecurityException | IllegalStateException | RemoteException e) {
+android11-security-release/packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardBottomAreaView.java:454:                } catch (SecurityException e) {
+android11-security-release/packages/WallpaperCropper/src/com/android/wallpapercropper/WallpaperCropActivity.java:153:                    } catch (SecurityException securityException) {
+android11-security-release/packages/SettingsLib/src/com/android/settingslib/bluetooth/BluetoothUtils.java:194:                } catch (SecurityException e) {
+android11-security-release/packages/SettingsLib/src/com/android/settingslib/bluetooth/BluetoothUtils.java:209:                } catch (SecurityException e) {
+android11-security-release/packages/PrintSpooler/src/com/android/printspooler/renderer/PdfManipulationService.java:96:                } catch (SecurityException e) {
+android11-security-release/location/java/android/location/LocationManager.java:1407:                } catch (SecurityException e) {
+android11-security-release/apex/jobscheduler/service/java/com/android/server/job/JobSchedulerService.java:1858:            } catch (SecurityException e) {
+android11-security-release/apex/jobscheduler/service/java/com/android/server/job/JobSchedulerService.java:1866:            } catch (SecurityException e) {
+android11-security-release/apex/jobscheduler/service/java/com/android/server/job/JobServiceContext.java:257:            } catch (SecurityException e) {
+android11-security-release/apex/statsd/framework/java/android/app/StatsManager.java:154:            } catch (SecurityException e) {
+android11-security-release/apex/statsd/framework/java/android/app/StatsManager.java:193:            } catch (SecurityException e) {
+android11-security-release/apex/statsd/framework/java/android/app/StatsManager.java:264:            } catch (SecurityException e) {
+android11-security-release/apex/statsd/framework/java/android/app/StatsManager.java:316:            } catch (SecurityException e) {
+android11-security-release/apex/statsd/framework/java/android/app/StatsManager.java:354:            } catch (SecurityException e) {
+android11-security-release/apex/statsd/framework/java/android/app/StatsManager.java:392:            } catch (SecurityException e) {
+android11-security-release/apex/statsd/framework/java/android/app/StatsManager.java:432:            } catch (SecurityException e) {
+android11-security-release/telephony/java/android/telephony/PhoneNumberUtils.java:2259:        } catch (SecurityException ex) {
+android11-security-release/telephony/java/android/telephony/TelephonyManager.java:9708:        } catch (SecurityException e) {
+android11-security-release/telephony/java/android/telephony/TelephonyManager.java:9727:        } catch (SecurityException e) {
+android11-security-release/telephony/java/android/telephony/TelephonyManager.java:9750:        } catch (SecurityException e) {
+android11-security-release/telephony/java/android/telephony/TelephonyManager.java:9770:        } catch (SecurityException e) {
+android11-security-release/telephony/java/android/telephony/TelephonyManager.java:9789:        } catch (SecurityException e) {
+android11-security-release/telephony/java/android/telephony/TelephonyManager.java:10079:        } catch (SecurityException e) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:104:        } catch (SecurityException se) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:139:        } catch (SecurityException privilegedPhoneStateException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:143:            } catch (SecurityException phoneStateException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:196:        } catch (SecurityException privilegedPhoneStateException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:200:            } catch (SecurityException phoneStateException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:450:            } catch (SecurityException readPhoneStateException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:459:            } catch (SecurityException readPrivilegedPhoneStateException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:465:                    } catch (SecurityException carrierPrivilegeException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:484:        } catch (SecurityException readSmsSecurityException) {
+android11-security-release/telephony/common/com/android/internal/telephony/TelephonyPermissions.java:494:        } catch (SecurityException readPhoneNumberSecurityException) {
+android11-security-release/telephony/common/com/google/android/mms/util/DrmConvertSession.java:160:                    } catch (SecurityException e) {
+android11-security-release/apct-tests/perftests/core/src/android/os/ParcelPerfTest.java:228:            } catch (SecurityException e) {
+android11-security-release/apct-tests/perftests/core/src/android/os/ParcelPerfTest.java:241:                } catch (SecurityException expected) {
+android11-security-release/tests/RollbackTest/RollbackTest/src/com/android/tests/rollback/RollbackTest.java:679:        } catch (SecurityException se) {
+android11-security-release/tests/RollbackTest/RollbackTest/src/com/android/tests/rollback/RollbackTest.java:756:        } catch (SecurityException e) {
+android11-security-release/tests/RollbackTest/RollbackTest/src/com/android/tests/rollback/RollbackTest.java:763:        } catch (SecurityException e) {
+android11-security-release/tests/RollbackTest/RollbackTest/src/com/android/tests/rollback/RollbackTest.java:772:        } catch (SecurityException e) {
+android11-security-release/tests/RollbackTest/RollbackTest/src/com/android/tests/rollback/RollbackTest.java:779:        } catch (SecurityException e) {
+android11-security-release/tests/RollbackTest/RollbackTest/src/com/android/tests/rollback/RollbackTest.java:786:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:46:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:59:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:72:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:85:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:98:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:111:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:124:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:137:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:150:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:163:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/ActivityManagerPermissionTests.java:173:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/PmPermissionsTests.java:62:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/PmPermissionsTests.java:84:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/PmPermissionsTests.java:99:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/PmPermissionsTests.java:114:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/PmPermissionsTests.java:129:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/SmsManagerPermissionTest.java:50:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/SmsManagerPermissionTest.java:66:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/SmsManagerPermissionTest.java:85:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/SmsManagerPermissionTest.java:100:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/SmsManagerPermissionTest.java:115:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/VibratorServicePermissionTest.java:61:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/VibratorServicePermissionTest.java:76:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:52:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:62:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:72:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:82:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:96:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:106:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:116:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:129:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:139:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:152:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:162:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:172:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:186:        } catch (SecurityException e) {
+android11-security-release/tests/permission/src/com/android/framework/permission/tests/WindowManagerPermissionTests.java:197:        } catch (SecurityException e) {
+android11-security-release/tests/BlobStoreTestUtils/src/com/android/utils/blob/Utils.java:139:        } catch (SecurityException e) {
+android11-security-release/tests/net/java/com/android/server/IpSecServiceParameterizedTest.java:821:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/ConnectivityServiceTest.java:7280:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/ConnectivityServiceTest.java:7292:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/connectivity/VpnTest.java:797:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/connectivity/VpnTest.java:820:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/connectivity/VpnTest.java:873:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/connectivity/VpnTest.java:917:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/connectivity/VpnTest.java:930:        } catch (SecurityException expected) {
+android11-security-release/tests/net/java/com/android/server/net/NetworkStatsCollectionTest.java:258:        } catch (SecurityException e) {
+android11-security-release/tests/net/common/java/android/net/NetworkStackTest.java:79:        } catch (SecurityException e) {
+android11-security-release/test-runner/src/android/test/InstrumentationTestRunner.java:629:        } catch (SecurityException e) {
+android11-security-release/telecomm/java/android/telecom/CallerInfo.java:552:        } catch (SecurityException se) {
+android11-security-release/media/java/android/media/Ringtone.java:262:                } catch (SecurityException e) {
+android11-security-release/media/java/android/media/Ringtone.java:342:        } catch (SecurityException | IOException e) {
+android11-security-release/media/java/android/media/MediaExtractor.java:136:        } catch (SecurityException ex) {
+android11-security-release/media/java/android/media/MediaMetadataRetriever.java:360:        } catch (SecurityException ex) {
+android11-security-release/media/java/android/media/RingtoneManager.java:941:        } catch (SecurityException | IOException e) {
+android11-security-release/media/java/android/media/MediaPlayer.java:923:        } catch (SecurityException ex) {
+android11-security-release/media/java/android/media/MediaPlayer.java:988:        } catch (SecurityException ex) {
+android11-security-release/media/java/android/media/MediaPlayer.java:2904:        } catch (SecurityException ex) {
+android11-security-release/media/tests/MediaFrameworkTest/src/com/android/mediaframeworktest/helpers/CameraTestHelper.java:141:        } catch (SecurityException e) {
+android11-security-release/media/tests/EffectsTest/src/com/android/effectstest/SimplePlayer.java:134:                  } catch (SecurityException ex) {

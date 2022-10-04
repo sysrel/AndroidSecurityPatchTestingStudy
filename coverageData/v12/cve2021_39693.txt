@@ -1,0 +1,3 @@
+--------- beginning of main
+05-17 09:19:51.343   542   982 I CVE-2021-39693: AppOpsService.java 1/1 Entry
+05-17 09:19:51.343   542   982 I CVE-2021-39693: AppOpsService.java 1/1 Exit

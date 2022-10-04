@@ -1,0 +1,22 @@
+--------- beginning of system
+--------- beginning of main
+05-11 02:29:39.565  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:29:39.565  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:29:41.111  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:29:41.111  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:29:41.774  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:29:41.774  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:29:43.462  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:29:43.462  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:29:43.671  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:29:43.671  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:29:43.912  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:29:43.912  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:32:54.434  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:32:54.435  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:32:58.987  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:32:58.987  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:37:47.863  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:37:47.863  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit
+05-11 02:37:51.881  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Entry
+05-11 02:37:51.881  1746  1883 I CVE-2019-2200: PermissionManagerService.java 1/6 Exit

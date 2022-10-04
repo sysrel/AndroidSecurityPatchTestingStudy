@@ -1,0 +1,50 @@
+CVE-2021-39692           manual
+CVE-2021-39695           manually using the PoC on the buganizer to ensure the symptom no longer exists.
+CVE-2021-39664           manual
+CVE-2020-0338            manual
+CVE-2021-0955            Manual
+CVE-2021-0704            manual
+CVE-2021-0923            manual
+CVE-2021-0933            Manual
+CVE-2021-0653            manual
+CVE-2021-0922            manual testing
+CVE-2021-0705            Manually tested
+CVE-2021-0441            manual, screenshot
+CVE-2021-0487            manual test
+CVE-2021-0439            manual
+CVE-2021-0443            manual -- verified bad state occurs if user switches within the timeout period, ensured that screenshots work immediately after switching with this change.
+CVE-2021-0444            Manual test with POC app. Observed crash instead of contacts data read.
+CVE-2021-0391            manual
+CVE-2021-0302            Manual using PoC app from b/154015447#comment1
+CVE-2021-0305            Manual using PoC app from b/154015447#comment1
+CVE-2021-0339            manual as issue provided test app
+CVE-2021-0306            Manual
+CVE-2021-0315            manual
+CVE-2021-0304            manual
+CVE-2021-0322            manual
+CVE-2019-9376            manual
+CVE-2020-0294            build & flash, change wallpaper manually.
+CVE-2020-0441            manual; monitor SystemUI performance when an app tries to post a messaging style notification with messages with long text
+CVE-2020-0442            manual; monitor SystemUI performance when an app tries to post a messaging style notification with messages with long text
+CVE-2020-0239            manually tested
+CVE-2020-0258            manual inspection, PoC no longer works.
+CVE-2020-0227            manual
+CVE-2020-0097            manually tested ensureSystemPackageName() returns null for non-system app
+CVE-2020-0015            Manual, with an app that floats a window.
+CVE-2020-0021            manual; remove static dependency on eng Q build and reboot
+CVE-2020-0001            Manual
+CVE-2019-2232            Manually done
+CVE-2019-2232            StaticLayoutTest
+CVE-2019-2218            Manual. App can't be installed as test-only
+CVE-2019-2192            Manual
+CVE-2019-2199            pushed manual privapp that attempts an install with INSTALL_DISABLE_VERIFICATION flag. Checked that PackageVerifier was called.
+CVE-2019-2197            Manual test
+CVE-2019-2173            manual; we added logging statements to check the value of realCallingUid in startActivitiesMayWait when launching the calendar app from the calendar widget and verified that it was the calendar uid rather than the system uid.
+CVE-2019-2125            manual. CTS infeasible since it's UI.
+CVE-2019-2043            manual
+CVE-2018-9547            manual
+CVE-2018-9524            manual (see bug for poc)
+CVE-2018-9452            Manually done
+CVE-2018-9445            manual
+CVE-2017-13310           manual (cherry picked from commit 187964aca12115c7ab66f59d1ebb95e4f4130ac6)
+CVE-2019-2220            run app that records audio, then "adb shell appops __pack_name__ 27 2" and verify recording is silent after that.

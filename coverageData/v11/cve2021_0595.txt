@@ -1,0 +1,13 @@
+--------- beginning of kernel
+--------- beginning of system
+--------- beginning of main
+05-14 02:29:43.085 14298 14356 I CVE-2021-0595: RootWindowContainer.java 1/2 Entry
+05-14 02:29:43.088 14298 14356 I CVE-2021-0595: RootWindowContainer.java 2/2 Entry
+05-14 02:29:43.089 14298 14356 I CVE-2021-0595: RootWindowContainer.java 2/2 Exit
+05-14 02:29:43.094 14298 14356 I CVE-2021-0595: RootWindowContainer.java 2/2 Entry
+05-14 02:29:43.094 14298 14356 I CVE-2021-0595: RootWindowContainer.java 2/2 Exit
+05-14 02:29:43.095 14298 14356 I CVE-2021-0595: RootWindowContainer.java 1/2 Exit
+05-14 02:29:43.457 14298 14356 I CVE-2021-0595: RootWindowContainer.java 1/2 Entry
+05-14 02:29:43.465 14298 14356 I CVE-2021-0595: RootWindowContainer.java 2/2 Entry
+05-14 02:29:43.465 14298 14356 I CVE-2021-0595: RootWindowContainer.java 2/2 Exit
+05-14 02:29:43.465 14298 14356 I CVE-2021-0595: RootWindowContainer.java 1/2 Exit

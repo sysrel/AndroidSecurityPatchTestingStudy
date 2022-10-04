@@ -1,0 +1,12 @@
+CVE-2021-0646            builds
+CVE-2021-0330            compile
+CVE-2020-15999           m -j
+CVE-2019-2195            compiles and boots
+CVE-2018-9490            m -j proxy_resolver_v8_unittest && adb sync && adb shell \ /data/nativetest64/proxy_resolver_v8_unittest/proxy_resolver_v8_unittest
+CVE-2018-9471            Compile only
+CVE-2021-0926            build
+CVE-2021-0426            m, statsd_test, TreeHugger
+CVE-2021-0427            m, statsd_test, TreeHugger
+CVE-2021-0303            build, unit test and fuzz test
+CVE-2019-2092            build, set up separate challenge
+CVE-2020-0249            make Fixes: 154719656
